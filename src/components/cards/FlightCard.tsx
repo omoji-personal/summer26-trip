@@ -71,6 +71,12 @@ export default function FlightCard({ flight }: { flight: Flight }) {
               <span className="font-medium text-navy">Seat:</span> {flight.seat}
             </span>
           )}
+          {flight.seats && (
+            <span>
+              <span className="font-medium text-navy">Seats:</span>{" "}
+              {Object.entries(flight.seats).map(([name, seat]) => `${name}: ${seat}`).join(", ")}
+            </span>
+          )}
         </div>
 
         {/* Notes */}

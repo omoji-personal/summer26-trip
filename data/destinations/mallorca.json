@@ -29,7 +29,7 @@
   "activities": [],
   "restaurants": [
     {
-      "name": "Ca's Patro March",
+      "name": "Ca's Patró March",
       "location": "Deia cove",
       "vibe": "Iconic cliffside seafood on the rocks. Fresh fish, lemon, olive oil. Cash only, no mobile signal. Simple and perfect.",
       "price": null,
@@ -94,14 +94,14 @@
     {
       "name": "Ca Ses Sauerschell's",
       "location": "Deia",
-      "vibe": "Replaced Es Raco d'Es Teix (closed Jul 2023). Same stunning terrace overlooking the valley, more relaxed concept.",
+      "vibe": "Replaced Es Racó d'Es Teix (closed Jul 2023). Same stunning terrace overlooking the valley, more relaxed concept.",
       "price": null,
       "bookRequired": true,
       "bookHow": "Recommended",
       "tags": ["terrace", "valley-views"]
     },
     {
-      "name": "Bens d'Avall",
+      "name": "Béns d'Avall",
       "location": "Cliff road between Soller & Deia",
       "vibe": "Family-run since 1971. Best sunset dining on the island — cliff terrace above the sea. Summer: dinner only, Tue-Sat.",
       "price": null,
@@ -120,7 +120,7 @@
     },
     {
       "name": "DINS Santi Taura",
-      "location": "Palma (Hotel El Llorenc)",
+      "location": "Palma (Hotel El Llorenç)",
       "vibe": "11-course \"Menu Origens\" reinterpreting traditional Mallorcan recipes. ~$130/pp.",
       "price": "~$130/pp",
       "bookRequired": true,
@@ -170,7 +170,7 @@
     {
       "name": "Cala Deia",
       "driveTime": "20 min",
-      "vibe": "Dramatic rocky cove. Crystal water. Ca's Patro March right on it. Barrier parking — arrive before 10am in July."
+      "vibe": "Dramatic rocky cove. Crystal water. Ca's Patró March right on it. Barrier parking — arrive before 10am in July."
     },
     {
       "name": "Platja de Formentor",
@@ -222,12 +222,12 @@
   ],
   "bookingPriorities": [
     {
-      "restaurant": "Ca's Patro March",
+      "restaurant": "Ca's Patró March",
       "how": "caspatromarch.myrestoo.net — new slots at midnight, 2-3 weeks ahead",
       "why": "Sells out instantly"
     },
     {
-      "restaurant": "Bens d'Avall",
+      "restaurant": "Béns d'Avall",
       "how": "bensdavall.com (online only)",
       "why": "Summer evenings fill fast"
     },

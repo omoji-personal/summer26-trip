@@ -57,7 +57,7 @@ export default function DestinationSection({
   const d = destination;
 
   return (
-    <section id={d.id} className="scroll-mt-14">
+    <section id={d.id} className="scroll-mt-20">
       {/* Hero */}
       <div className="bg-navy text-white py-10 md:py-14 px-4 relative overflow-hidden">
         <div className="absolute inset-0 opacity-[0.03]">
