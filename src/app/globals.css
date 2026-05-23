@@ -1,26 +1,120 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-cream: #FDF6EC;
+  --color-cream-dark: #F5EBDA;
+  --color-sand: #E8D5B5;
+  --color-terracotta: #C4603C;
+  --color-terracotta-light: #D4805F;
+  --color-terracotta-dark: #A04A2A;
+  --color-navy: #1B2838;
+  --color-navy-light: #2A3D52;
+  --color-sea: #2E86AB;
+  --color-sea-light: #4FA8CC;
+  --color-sea-dark: #1E6A8A;
+  --color-olive: #6B7F4E;
+  --color-olive-light: #8FA36A;
+  --color-wine: #722F37;
+  --color-gold: #C9A94E;
+  --color-warm-gray: #8C8279;
+  --color-warm-gray-light: #B5AEA6;
+  --font-serif: "Playfair Display", Georgia, "Times New Roman", serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-cream);
+  color: var(--color-navy);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Subtle card hover lift */
+.card-hover {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(27, 40, 56, 0.08);
+}
+
+/* Tag pill styles */
+.tag-pill {
+  display: inline-block;
+  padding: 0.15rem 0.55rem;
+  border-radius: 9999px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: lowercase;
+}
+
+/* Section divider */
+.section-divider {
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--color-sand), transparent);
+}
+
+/* Route line connector */
+.route-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid var(--color-terracotta);
+  background: var(--color-cream);
+  position: relative;
+  z-index: 2;
+  flex-shrink: 0;
+}
+
+.route-dot.active {
+  background: var(--color-terracotta);
+}
+
+.route-line {
+  height: 2px;
+  background: var(--color-sand);
+  flex: 1;
+  min-width: 12px;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-sand);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-warm-gray-light);
+}
+
+/* Priority badge colors */
+.priority-high {
+  background-color: #FEE2E2;
+  color: #991B1B;
+}
+
+.priority-medium {
+  background-color: #FEF3C7;
+  color: #92400E;
+}
+
+.priority-low {
+  background-color: #DBEAFE;
+  color: #1E40AF;
 }

@@ -1,0 +1,302 @@
+{
+  "id": "crete",
+  "name": "Crete",
+  "country": "Greece",
+  "emoji": "🇬🇷",
+  "region": "Chania",
+  "dates": { "arrive": "2026-07-02", "depart": "2026-07-07" },
+  "nights": 5,
+  "accommodation": {
+    "type": "airbnb",
+    "name": "Alma Natura Villas With Sea View",
+    "details": "Villa with kitchen, sea view. Check-in 4:00 PM, check-out 11:00 AM."
+  },
+  "travelers": ["Omid", "Annika", "Friend"],
+  "vibe": "Omid + Annika + Friend (arriving separately, likes structure). Villa with kitchen, Audi Q2. Mix of beach days and road-tripping. One cooking night.",
+  "highlights": ["Turquoise lagoons", "Mountain gorges", "Villa cooking night", "Cretan wines"],
+  "specialNotes": [],
+  "activities": [
+    {
+      "name": "Chania old town",
+      "description": "Venetian Harbor, lighthouse walk, Topanas quarter, Agora market. Multiple visits.",
+      "tags": ["town", "culture", "market"]
+    },
+    {
+      "name": "Imbros Gorge + Sfakion",
+      "description": "11 km, 2.5-4 hrs, ~$6. Much easier than Samaria, equally scenic. Exit at Komitades, taxi back to car (~$17). Continue to Sfakion and Loutro.",
+      "tags": ["hiking", "gorge", "full-day"]
+    },
+    {
+      "name": "Samaria Gorge",
+      "description": "Europe's longest gorge, 16 km, 4-7 hrs. Open May-Oct. Entry ~$11. Exit at Agia Roumeli, ferry to Sfakion. Start by 7:30am, carry 2+ liters water.",
+      "tags": ["hiking", "strenuous", "full-day"]
+    },
+    {
+      "name": "Manousakis Winery",
+      "description": "Western Crete's standout winery. Rhone varieties in Cretan limestone. Terroir Tasting ~$9/pp, Premium ~$17/pp. Taverna on-site. Closed Sundays. Call +30 2821 078787.",
+      "tags": ["wine", "tasting"]
+    },
+    {
+      "name": "Dounias + Theriso Gorge",
+      "description": "Drive south through the stunning Theriso Gorge to Drakona village (~1 hr). Lunch at Dounias. The gorge road itself is spectacular.",
+      "tags": ["drive", "food", "half-day"]
+    },
+    {
+      "name": "Rethymno",
+      "description": "1 hr east. Most intact Venetian old town in Crete. 16th-century Fortezza fortress. Avli for dinner.",
+      "tags": ["town", "venetian", "day-trip"]
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Dounias",
+      "location": "Drakona village (1 hr south via Theriso Gorge)",
+      "vibe": "Mountain taverna. Wood fire, copper pots, no menu — chef serves whatever's ready from his farm. NYT featured. Plan a half-day around this.",
+      "price": null,
+      "bookRequired": true,
+      "bookHow": "Yes — +30 28210 78922",
+      "tags": ["taverna", "farm-to-table", "nyt-featured"]
+    },
+    {
+      "name": "Tamam",
+      "location": "49 Zampeliou St, Chania old town",
+      "vibe": "In a converted Ottoman hammam (built ~1400). Since 1982. Traditional Greek with Ottoman-Eastern Med inflections.",
+      "price": null,
+      "bookRequired": true,
+      "bookHow": "Recommended",
+      "tags": ["ottoman", "traditional", "historic-building"]
+    },
+    {
+      "name": "Thalassino Ageri",
+      "location": "Tabakaria (old tannery district), Chania",
+      "vibe": "Tables in the sand facing the lighthouse at sunset. Kakavia (fisherman's soup), sea urchin salad. Most romantic dinner in Chania.",
+      "price": null,
+      "bookRequired": true,
+      "bookHow": "Essential — call directly",
+      "tags": ["seafood", "sunset", "romantic"]
+    },
+    {
+      "name": "To Maridaki",
+      "location": "33 Daskalogianni, Splantzia, Chania",
+      "vibe": "Point-at-the-cabinet daily-catch taverna. Simple, perfect fried fish. 4.6/5 from 5,000+ reviews.",
+      "price": null,
+      "bookRequired": true,
+      "bookHow": "Recommended in July",
+      "tags": ["seafood", "casual", "daily-catch"]
+    },
+    {
+      "name": "Glossitses",
+      "location": "Chania",
+      "vibe": "Traditional Cretan home cooking in a garden. Lamb with wild greens, dakos salad.",
+      "price": null,
+      "bookRequired": false,
+      "bookHow": null,
+      "tags": ["cretan", "garden", "traditional"]
+    },
+    {
+      "name": "Papadakis",
+      "location": "Kissamos (near Balos/Falassarna)",
+      "vibe": "Big portions, legendary grilled octopus. Good stop after a beach day.",
+      "price": null,
+      "bookRequired": false,
+      "bookHow": null,
+      "tags": ["octopus", "casual", "beach-day"]
+    },
+    {
+      "name": "Chrisostomos",
+      "location": "Chania harbor",
+      "vibe": "Family-run, wood-fired traditional Cretan. Genuine local atmosphere at fair prices.",
+      "price": null,
+      "bookRequired": false,
+      "bookHow": null,
+      "tags": ["wood-fired", "traditional", "family-run"]
+    },
+    {
+      "name": "Salis",
+      "location": "Chania waterfront",
+      "vibe": "Chania's top modern creative restaurant. Cretan organic produce, award-winning wines, stylish but not stiff.",
+      "price": null,
+      "bookRequired": true,
+      "bookHow": "Recommended",
+      "tags": ["modern", "creative", "waterfront"]
+    },
+    {
+      "name": "Steria",
+      "location": "Splanzia Square, Chania",
+      "vibe": "2025 newcomer. Cretan produce + live fire + zero-waste. Cutting-edge rather than traditional.",
+      "price": null,
+      "bookRequired": true,
+      "bookHow": "Recommended",
+      "tags": ["modern", "zero-waste", "live-fire"]
+    },
+    {
+      "name": "Avli",
+      "location": "Rethymno old town (1 hr east)",
+      "vibe": "15th-century Venetian mansion, bougainvillea courtyard. 460-wine enoteca. Worth the drive for a special dinner.",
+      "price": null,
+      "bookRequired": true,
+      "bookHow": "avli.gr",
+      "tags": ["venetian", "fine-dining", "wine"]
+    },
+    {
+      "name": "Avli Raw Materials",
+      "location": "Rethymno old town",
+      "vibe": "Casual sibling of Avli. Wine bar meets deli. More approachable for daytime.",
+      "price": null,
+      "bookRequired": false,
+      "bookHow": null,
+      "tags": ["wine-bar", "deli", "casual"]
+    }
+  ],
+  "bars": [
+    {
+      "name": "Monastiri",
+      "location": "Akti Tombazi 10-12, Venetian Harbor",
+      "vibe": "Cocktail bar in ruins of a Venetian monastery. Lighthouse-view terrace. Cretan spirits and ingredients.",
+      "tags": ["cocktails", "ruins", "views"]
+    },
+    {
+      "name": "Fagotto Jazz Bar",
+      "location": "Angelou 16, Chania old town",
+      "vibe": "Greece's first jazz bar, since 1977. 15th-century Venetian building. Live jazz/blues every evening from 9pm.",
+      "tags": ["jazz", "live-music", "historic"]
+    },
+    {
+      "name": "Sinagogi",
+      "location": "Parodos Kondylaki, Chania",
+      "vibe": "Open-air summer bar in an old synagogue courtyard. Stone walls, candlelit. Cocktails, occasional DJ. Open Jun-Sep.",
+      "tags": ["outdoor", "cocktails", "atmospheric"]
+    },
+    {
+      "name": "Peacock Tail",
+      "location": "Near Old Harbour, Chania",
+      "vibe": "Chania's best dedicated cocktail bar. Signature originals + classics. Open 6pm-5am summer. Verify on arrival — had 2024 closure reports but 2025 listings show active.",
+      "tags": ["cocktails", "specialist"]
+    },
+    {
+      "name": "Pallas Rooftop",
+      "location": "Venetian Harbour area",
+      "vibe": "Rooftop with harbor views in a Venetian building. Refined sundowners.",
+      "tags": ["rooftop", "views", "sundowner"]
+    }
+  ],
+  "coffee": [],
+  "beaches": [
+    {
+      "name": "Balos Lagoon",
+      "driveTime": "1.5 hrs + 20-min hike down",
+      "vibe": "The famous turquoise lagoon. No shade — bring everything. Go early (fills by 10am). Book the Kissamos ferry online if taking the boat (~$45/pp, capacity-controlled in 2026). The Q2 handles the dirt road."
+    },
+    {
+      "name": "Falassarna",
+      "driveTime": "1 hr 15 min",
+      "vibe": "Wide golden sand, swimmable, beach tavernas. Best combined with Balos (20 min apart). Wilder north end (Pacheia Ammos) has dunes, no sunbeds, ancient harbor ruins."
+    },
+    {
+      "name": "Elafonissi",
+      "driveTime": "1.5-2 hrs",
+      "vibe": "Pink-tinged sand, shallow lagoon. Stunning but arrive before 9am in July or parking is a nightmare."
+    },
+    {
+      "name": "Kedrodasos",
+      "driveTime": "Same drive as Elafonissi + 20-min coastal walk",
+      "vibe": "Hidden beach with ancient cedar trees growing to the waterline. Natural shade, minimal crowds. No facilities. Bring water and food."
+    },
+    {
+      "name": "Seitan Limania",
+      "driveTime": "30-40 min (Akrotiri)",
+      "vibe": "Dramatic fjord-like inlet between limestone cliffs. Turquoise. Parking fills by 9am. Steep rocky access — not for everyone."
+    },
+    {
+      "name": "Stavros",
+      "driveTime": "25-30 min (Akrotiri)",
+      "vibe": "Where they filmed Zorba the Greek. Sheltered bay, dramatic cliff backdrop. Village tavernas. Zero tourist-trap energy. Easy morning beach."
+    },
+    {
+      "name": "Marathi",
+      "driveTime": "15 min",
+      "vibe": "Sheltered double cove, tavernas on the sand. Easy, swimmable, low-key."
+    },
+    {
+      "name": "Loutro",
+      "driveTime": "1.5-hr drive to Sfakion + 15-min ferry",
+      "vibe": "Roadless fishing village — only accessible by boat or foot. White buildings, turquoise bay. Swim off rocks, eat at waterfront tavernas. ANENDYK ferry from Sfakion: ~$11, hourly in summer, first ~9:30am, last ~6:45pm."
+    }
+  ],
+  "dayTrips": [
+    {
+      "name": "Balos + Falassarna",
+      "driveTime": "Full day",
+      "highlights": "Lagoon morning, beach afternoon. Pack water/sunscreen."
+    },
+    {
+      "name": "South coast: Sfakion + Loutro",
+      "driveTime": "Full day",
+      "highlights": "Drive 1.5 hrs south through White Mountains (the descent from Imbros is Crete's most dramatic road). Ferry to roadless Loutro. Swim, eat, do nothing."
+    },
+    {
+      "name": "Dounias + Theriso Gorge",
+      "driveTime": "Half day",
+      "highlights": "Drive south through the stunning Theriso Gorge to Drakona village (~1 hr). Lunch at Dounias. The gorge road itself is spectacular."
+    },
+    {
+      "name": "Rethymno",
+      "driveTime": "1 hr east",
+      "highlights": "Most intact Venetian old town in Crete. 16th-century Fortezza fortress. Avli for dinner."
+    }
+  ],
+  "cookingNight": {
+    "title": "Villa Cooking Night",
+    "market": "Chania Agora (cross-shaped neoclassical market, Minoos Street, Mon-Sat mornings)",
+    "shoppingList": [
+      "Fish from the western portico fishmongers (go 7-9am): sea bream, red mullet, sardines, octopus",
+      "Graviera (aged hard cheese — Crete's best), anthotyro (soft fresh)",
+      "Cretan olive oil — ask to taste at the stalls",
+      "Horta (wild greens) — boil, dress with lemon and olive oil (the real Cretan staple)",
+      "Thyme honey for dessert with yogurt",
+      "Dried rigani (Cretan oregano, stronger than mainland)",
+      "A bottle of Lyrarakis Dafni (white, herbal/bay-leaf character, indigenous grape)",
+      "A bottle of Manousakis Nostos (red, Grenache-dominant)"
+    ],
+    "instructions": "Grill the fish whole with olive oil and rigani, assemble everything, eat on the villa terrace."
+  },
+  "wines": [
+    {
+      "winery": "Lyrarakis",
+      "signature": "Dafni (herbal white), Plyto (mineral white)",
+      "notes": "Founded 1966. Rescued nearly extinct indigenous grapes. Fully organic since 2020. Buy at Chania wine shops."
+    },
+    {
+      "winery": "Douloufakis",
+      "signature": "Vidiano (elegant white), Liatiko (indigenous red)",
+      "notes": "Founded 1930. Clay amphora aging since 2015. Third generation."
+    },
+    {
+      "winery": "Manousakis",
+      "signature": "Roussanne (one of Greece's best), Nostos blend",
+      "notes": "Rhone varieties in Cretan soil. Visitable, 30 min from Chania."
+    },
+    {
+      "winery": "Dourakis",
+      "signature": "Vidiano, Muscat of Spinas",
+      "notes": "Visitable, 30 min from Chania. Organic, solar-powered. Farm-to-table restaurant on-site. Tours at 12/14/17."
+    }
+  ],
+  "bookingPriorities": [
+    {
+      "restaurant": "Dounias",
+      "how": "+30 28210 78922",
+      "why": "Small, remote, call ahead"
+    },
+    {
+      "restaurant": "Thalassino Ageri",
+      "how": "Call directly",
+      "why": "Fills for sunset seatings"
+    },
+    {
+      "restaurant": "Avli",
+      "how": "avli.gr",
+      "why": "Worth the Rethymno drive, book early"
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "flights": [
+    {
+      "leg": 1,
+      "label": "Atlanta to Stockholm",
+      "from": "ATL",
+      "to": "ARN",
+      "date": "2026-06-18",
+      "segments": [
+        {
+          "flight": "DL 1575",
+          "from": "ATL",
+          "to": "JFK",
+          "depart": "1:59 PM",
+          "arrive": "4:28 PM",
+          "class": "Main Cabin (N)"
+        },
+        {
+          "flight": "DL 204",
+          "from": "JFK",
+          "to": "ARN",
+          "depart": "6:10 PM",
+          "arrive": "8:20 AM +1",
+          "class": "Main Cabin (N)"
+        }
+      ],
+      "confirmation": "H6O23U",
+      "passengers": ["Omid"],
+      "airline": "Delta",
+      "price": "100,000 miles + $66.90 taxes",
+      "notes": "SkyMiles Award. Annika has her own Delta SkyMiles award bookings."
+    },
+    {
+      "leg": 2,
+      "label": "Stockholm to Paris",
+      "from": "ARN",
+      "to": "CDG",
+      "date": "2026-06-23",
+      "segments": [
+        {
+          "flight": "DY 2046",
+          "from": "ARN",
+          "to": "CDG",
+          "depart": "9:05 AM",
+          "arrive": "11:45 AM",
+          "class": "Economy FLEX"
+        }
+      ],
+      "confirmation": "BZJR7G",
+      "passengers": ["Omid"],
+      "airline": "Norwegian Air Sweden",
+      "price": "$293.80",
+      "seat": "06F",
+      "includes": "2 Free Bags, Carry On, Changes, Cancellation, Priority Boarding",
+      "notes": "Expedia Itin #73453784149858. Only Omid on this ticket."
+    },
+    {
+      "leg": 3,
+      "label": "Paris to Mallorca",
+      "from": "CDG",
+      "to": "PMI",
+      "date": "2026-06-26",
+      "segments": [
+        {
+          "flight": "EJU 7298",
+          "from": "CDG",
+          "to": "PMI",
+          "depart": "3:25 PM",
+          "arrive": "5:25 PM",
+          "class": "Economy"
+        }
+      ],
+      "confirmation": "KCNWVNK",
+      "passengers": ["Omid", "Annika", "Mom", "Dad"],
+      "airline": "easyJet",
+      "seats": { "Omid": "18F", "Annika": "18E", "Mom": "18D", "Dad": "18C" },
+      "notes": "Expedia Itin #73454039892218. CDG Terminal 2D. Bag drop opens 12:25 PM, closes 2:25 PM. Check-in opens May 27.",
+      "price": null
+    },
+    {
+      "leg": 4,
+      "label": "Mallorca to Crete",
+      "from": "PMI",
+      "to": "CHQ",
+      "date": "2026-07-02",
+      "segments": [
+        {
+          "flight": "SAS",
+          "from": "PMI",
+          "to": "ARN",
+          "depart": "11:40 AM",
+          "arrive": "3:25 PM",
+          "class": "Economy FLEX"
+        },
+        {
+          "flight": "SAS",
+          "from": "ARN",
+          "to": "CHQ",
+          "depart": "4:35 PM",
+          "arrive": "9:30 PM",
+          "class": "Economy FLEX"
+        }
+      ],
+      "confirmation": "APTFF9",
+      "passengers": ["Omid", "Annika"],
+      "airline": "SAS",
+      "price": "~$727 (2 pax)",
+      "includes": "1 Free Bag, Carry On, Changes, Cancellation, Priority Boarding",
+      "notes": "Expedia Itin #73451771088005. 70-min ARN connection. Parents NOT on this flight."
+    },
+    {
+      "leg": 5,
+      "label": "Crete to Athens",
+      "from": "CHQ",
+      "to": "ATH",
+      "date": "2026-07-07",
+      "segments": [
+        {
+          "flight": "GQ 251",
+          "from": "CHQ",
+          "to": "ATH",
+          "depart": "8:20 AM",
+          "arrive": "9:15 AM",
+          "class": "Business (SKY BLISS)"
+        }
+      ],
+      "confirmation": "0V2MHC",
+      "passengers": ["Omid"],
+      "airline": "SKY express",
+      "price": "€149.83",
+      "includes": "Business Seat, Priority Boarding, 2PC Baggage (32kg), Hand Luggage",
+      "notes": "Expedia Itin #73450911831097"
+    },
+    {
+      "leg": 6,
+      "label": "Athens to Atlanta",
+      "from": "ATH",
+      "to": "ATL",
+      "date": "2026-07-07",
+      "segments": [
+        {
+          "flight": "DL 297",
+          "from": "ATH",
+          "to": "ATL",
+          "depart": "12:10 PM",
+          "arrive": "5:42 PM",
+          "class": "Delta Comfort (W)"
+        }
+      ],
+      "confirmation": "GN4KPA",
+      "passengers": ["Omid"],
+      "airline": "Delta",
+      "price": "€1,433.53",
+      "notes": "Same-day connection from Crete: arrive ATH 9:15 AM, depart ATH 12:10 PM (2h 55m connection). Separate tickets — must reclaim bags. Part of round-trip ticket; return coupon (ATL→AMS→ATH) for Nov 2026."
+    }
+  ],
+  "hotels": [
+    {
+      "id": "pure-salt",
+      "destination": "mallorca",
+      "name": "Pure Salt Port de Soller",
+      "stars": 4,
+      "type": "hotel",
+      "adultOnly": true,
+      "adultAge": 14,
+      "bookingCode": "26051254359",
+      "checkIn": "2026-06-26",
+      "checkOut": "2026-07-02",
+      "nights": 6,
+      "rooms": "2x Double Sea View",
+      "breakfast": "Included daily (served morning of departure, not arrival)",
+      "welcome": "Drink on arrival included",
+      "totalPrice": "€4,873.50",
+      "payment": "Auto-charged Jun 24 on VISA ****1101",
+      "cancellation": "Free up to 48h before arrival (by Jun 24)",
+      "address": "Crtra. d'Es Faro, 5, 07108 Soller",
+      "phone": "+34 971 631300",
+      "nightlyBreakdown": [
+        { "date": "Fri Jun 26", "rate": "€426.43" },
+        { "date": "Sat Jun 27", "rate": "€426.43" },
+        { "date": "Sun Jun 28", "rate": "€426.43" },
+        { "date": "Mon Jun 29", "rate": "€393.94" },
+        { "date": "Tue Jun 30", "rate": "€393.94" },
+        { "date": "Wed Jul 1", "rate": "€369.58" }
+      ],
+      "parking": "No private hotel parking. Public paid parking 5-min walk: €7.50/day. Free public parking in surrounding area.",
+      "airportTransfer": "Via hotel: €94 one-way / €180 round-trip (max 3 people). Must provide flight numbers 24h+ in advance.",
+      "rentalCarNote": "Rental car delivery/pickup can be arranged through front desk partner."
+    }
+  ],
+  "airbnbs": [
+    {
+      "id": "alma-natura",
+      "destination": "crete",
+      "name": "Alma Natura Villas With Sea View",
+      "type": "airbnb",
+      "checkIn": "2026-07-02",
+      "checkInTime": "4:00 PM",
+      "checkOut": "2026-07-07",
+      "checkOutTime": "11:00 AM",
+      "nights": 5,
+      "guests": "3 adults",
+      "notes": "Host confirmed reservation."
+    }
+  ],
+  "carRentals": [
+    {
+      "id": "europcar-mallorca",
+      "destination": "mallorca",
+      "company": "Europcar",
+      "vehicle": "Audi Q7 55TFSI EQUATTRO",
+      "vehicleClass": "PremiumElite",
+      "confirmation": "1202683205",
+      "pickUp": {
+        "date": "2026-06-26",
+        "time": "7:00 PM",
+        "location": "Son San Juan Airport (PMI)"
+      },
+      "dropOff": {
+        "date": "2026-07-02",
+        "time": "10:30 AM",
+        "location": "Son San Juan Airport (PMI)"
+      },
+      "duration": "6 days",
+      "capacity": "5 pax",
+      "totalPrice": "$428.16",
+      "priceBreakdown": "$423.94 + $4.22 taxes",
+      "paymentNote": "Due at counter",
+      "notes": "Expedia Itin #73454559629659"
+    },
+    {
+      "id": "avis-crete",
+      "destination": "crete",
+      "company": "Avis",
+      "vehicle": "Audi Q2",
+      "vehicleClass": "Midsize",
+      "confirmation": "15139103US0",
+      "pickUp": {
+        "date": "2026-07-02",
+        "time": "9:00 PM",
+        "location": "Chania International Airport (CHQ)"
+      },
+      "dropOff": {
+        "date": "2026-07-07",
+        "time": "10:30 AM",
+        "location": "Chania International Airport (CHQ)"
+      },
+      "duration": "5 days",
+      "capacity": "5 pax, unlimited mileage",
+      "totalPrice": "$430.87",
+      "priceBreakdown": "$395.29 + $35.58 taxes",
+      "paymentNote": "Due at counter",
+      "notes": "Expedia Itin #73451772513899"
+    }
+  ],
+  "openItems": [
+    {
+      "id": 1,
+      "priority": "high",
+      "title": "Get International Driving Permit (IDP)",
+      "description": "Europcar Spain requires US license holders to present an IDP. Without it, they can refuse the car at the PMI counter. $20 at any AAA branch, 15 min, valid 1 year. Must be obtained in the US before departure. Covers Greece too.",
+      "deadline": "Before Jun 18"
+    },
+    {
+      "id": 2,
+      "priority": "high",
+      "title": "Fix Avis Crete pickup time",
+      "description": "Booked for 9:00 PM but flight doesn't land until 9:30 PM. Contact Avis to push to 10:00-10:30 PM. Confirm CHQ counter hours. Call Avis Greece: +30 28210 83952. Get confirmation in writing.",
+      "deadline": "ASAP"
+    },
+    {
+      "id": 3,
+      "priority": "high",
+      "title": "Fix Avis Crete drop-off vs. flight departure",
+      "description": "Drop-off booked for 10:30 AM Jul 7 but flight departs 8:20 AM. Arrange early-morning key-drop or return car evening of Jul 6 and taxi to airport Jul 7.",
+      "deadline": "ASAP"
+    },
+    {
+      "id": 4,
+      "priority": "medium",
+      "title": "Verify easyJet name for Mom",
+      "description": "\"Malakalsadat Jalalzadeh Kasmaei Nejad\" is 50+ characters. Booking exists (KCNWVNK) so it cleared the system, but verify in easyJet Manage Bookings that the boarding pass name matches passport exactly. If truncated, call easyJet before Jun 26.",
+      "deadline": "Before Jun 26"
+    },
+    {
+      "id": 5,
+      "priority": "medium",
+      "title": "Confirm PMI to CHQ bag tags at check-in",
+      "description": "The ARN connection is 70 min on the same SAS ticket. Bags should through-check PMI to CHQ, but verify at PMI check-in. If tagged to ARN, you'd have to reclaim and re-check in 70 min.",
+      "deadline": "At PMI check-in"
+    },
+    {
+      "id": 6,
+      "priority": "medium",
+      "title": "ATH transit: reclaim bags between separate tickets",
+      "description": "SKY express (CHQ to ATH) and Delta (ATH to ATL) are separate tickets. Bags will NOT auto-transfer. Exit domestic arrivals, reclaim, re-check at Delta international. 2h 55m connection is sufficient but don't linger.",
+      "deadline": "Jul 7"
+    },
+    {
+      "id": 7,
+      "priority": "low",
+      "title": "Annika's return flight from Crete/Athens",
+      "description": "Only Omid on the CHQ to ATH and ATH to ATL legs. Annika's return flights not found.",
+      "deadline": null
+    },
+    {
+      "id": 8,
+      "priority": "low",
+      "title": "Parents' return from Mallorca",
+      "description": "Only Omid + Annika on the Jul 2 PMI to CHQ flight. Parents' departure from Mallorca not found.",
+      "deadline": null
+    },
+    {
+      "id": 9,
+      "priority": "low",
+      "title": "Stockholm to Paris for the group",
+      "description": "Only Omid's solo Norwegian ticket found (Jun 23). Family members' flights for this leg not in the records.",
+      "deadline": null
+    },
+    {
+      "id": 10,
+      "priority": "medium",
+      "title": "\"Anika\" vs \"Annika\" spelling",
+      "description": "easyJet and SAS records show \"Anika\" (one N) while trip header says \"Annika\". Verify ticket name matches passport exactly.",
+      "deadline": "Before Jun 26"
+    },
+    {
+      "id": 11,
+      "priority": "medium",
+      "title": "easyJet check-in",
+      "description": "Opens May 27 (30 days before Jun 26 flight). Set reminder.",
+      "deadline": "May 27"
+    },
+    {
+      "id": 12,
+      "priority": "medium",
+      "title": "Pure Salt payment",
+      "description": "Auto-charges €4,873.50 on Jun 24. Ensure VISA ****1101 has sufficient funds.",
+      "deadline": "Jun 24"
+    }
+  ]
+}

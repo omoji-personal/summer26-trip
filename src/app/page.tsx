@@ -1,65 +1,121 @@
-import Image from "next/image";
+import Header from "@/components/Header";
+import DestinationNav from "@/components/DestinationNav";
+import DestinationSection from "@/components/DestinationSection";
+import OpenItems from "@/components/OpenItems";
+import FlightCard from "@/components/cards/FlightCard";
+
+import tripData from "../../data/trip.json";
+import itineraryData from "../../data/itinerary.json";
+import stockholmData from "../../data/destinations/stockholm.json";
+import parisData from "../../data/destinations/paris.json";
+import mallorcaData from "../../data/destinations/mallorca.json";
+import creteData from "../../data/destinations/crete.json";
+
+import type {
+  Trip,
+  Itinerary,
+  Destination,
+  Flight,
+  Hotel,
+  Airbnb,
+  CarRental,
+} from "@/lib/types";
+
+const trip = tripData as Trip;
+const itinerary = itineraryData as Itinerary;
+const destinations = [
+  stockholmData,
+  parisData,
+  mallorcaData,
+  creteData,
+] as Destination[];
+
+// Map flights arriving at each destination
+function getFlightsForDestination(destId: string): Flight[] {
+  const destToAirport: Record<string, string[]> = {
+    stockholm: ["ARN"],
+    paris: ["CDG"],
+    mallorca: ["PMI"],
+    crete: ["CHQ"],
+  };
+  const airports = destToAirport[destId] || [];
+  return itinerary.flights.filter((f) =>
+    airports.includes(f.segments[f.segments.length - 1].to)
+  );
+}
+
+function getHotelsForDestination(destId: string): Hotel[] {
+  return itinerary.hotels.filter((h) => h.destination === destId);
+}
+
+function getAirbnbsForDestination(destId: string): Airbnb[] {
+  return itinerary.airbnbs.filter((a) => a.destination === destId);
+}
+
+function getCarRentalsForDestination(destId: string): CarRental[] {
+  return itinerary.carRentals.filter((c) => c.destination === destId);
+}
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
+    <main className="flex-1">
+      <Header trip={trip} />
+      <DestinationNav destinations={destinations} />
+
+      {destinations.map((dest) => (
+        <DestinationSection
+          key={dest.id}
+          destination={dest}
+          flights={getFlightsForDestination(dest.id)}
+          hotels={getHotelsForDestination(dest.id)}
+          airbnbs={getAirbnbsForDestination(dest.id)}
+          carRentals={getCarRentalsForDestination(dest.id)}
         />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+      ))}
+
+      {/* Departure flights */}
+      <section className="max-w-4xl mx-auto px-4 py-10 md:py-14">
+        <div className="flex items-center gap-2 mb-5">
+          <span className="text-xl">🏠</span>
+          <h2 className="font-serif text-2xl md:text-3xl font-bold text-navy">
+            Getting Home
+          </h2>
+        </div>
+        <div className="space-y-4">
+          {itinerary.flights
+            .filter((f) => {
+              const lastTo = f.segments[f.segments.length - 1].to;
+              return lastTo === "ATH" || lastTo === "ATL";
+            })
+            .map((f) => (
+              <FlightCard key={f.leg} flight={f} />
+            ))}
+        </div>
+        <p className="mt-4 text-sm text-warm-gray italic">
+          Same-day connection: Crete (CHQ) 8:20 AM &rarr; Athens (ATH) 9:15 AM &rarr; Atlanta (ATL) 5:42 PM.
+          Separate tickets &mdash; reclaim bags at ATH between domestic and international terminals.
+        </p>
+      </section>
+
+      <div className="section-divider mx-4" />
+
+      <OpenItems items={itinerary.openItems} />
+
+      {/* Footer */}
+      <footer className="bg-navy text-warm-gray-light py-8 px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="font-serif text-lg text-white/90 mb-1">
+            Summer 2026 &mdash; Europe
+          </p>
+          <p className="text-xs text-warm-gray">
+            Jun 18 &ndash; Jul 7 &middot; Atlanta &rarr; Stockholm &rarr; Paris
+            &rarr; Mallorca &rarr; Crete &rarr; Athens &rarr; Atlanta
+          </p>
+          <p className="text-xs text-warm-gray/50 mt-4">
+            Last updated {new Date().toLocaleDateString("en-US", { month: "long", year: "numeric" })}
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+      </footer>
+    </main>
   );
 }

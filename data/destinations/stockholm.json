@@ -1,0 +1,212 @@
+{
+  "id": "stockholm",
+  "name": "Stockholm",
+  "country": "Sweden",
+  "emoji": "🇸🇪",
+  "dates": { "arrive": "2026-06-19", "depart": "2026-06-23" },
+  "nights": 4,
+  "accommodation": {
+    "type": "family",
+    "name": "Staying with family",
+    "details": null
+  },
+  "travelers": ["Omid", "Annika"],
+  "vibe": "Just the two of you, staying with Swedish family who celebrate Midsommar. You've done the tourist highlights. 4 nights, some evenings with family. Jun 19-20 is Midsommar — the city shuts down.",
+  "highlights": ["Midsommar Eve arrival", "Archipelago ferry", "World-class cocktail bars", "Nordic cuisine"],
+  "specialNotes": [
+    {
+      "title": "Midsommar (Jun 19-20)",
+      "body": "You arrive on Midsommar Eve — Sweden's biggest holiday. Your family will be celebrating. Everything else is closed. Join the family's Midsommar — maypole dancing, flower crowns, herring feast, snapsvisor (aquavit drinking songs). If you want a public celebration too: Skansen (Djurgarden) holds Stockholm's biggest public Midsommar. Buy tickets in advance."
+    }
+  ],
+  "confirmedOpenMidsommar": [
+    { "venue": "Sturehof", "type": "Restaurant — runs special Midsommar menu" },
+    { "venue": "Skansen", "type": "Cultural experience — open all 3 days" },
+    { "venue": "Fotografiska + bar", "type": "Museum + bar" },
+    { "venue": "Archipelago ferries", "type": "Day trips — with Midsommar celebrations on islands" }
+  ],
+  "activities": [
+    {
+      "name": "Archipelago ferry to Grinda",
+      "description": "Best island for a summer day trip. 1.5-2 hrs by Cinderella boat (Stromma, departs Strandvagen) or Waxholmsbolaget (departs Stromkajen by the Grand Hotel). Nature reserve, quiet beaches, 3-hr walking trail around the island, Grinda Wardshus for lunch. Book ferry tickets in advance (~$22 each way). Islands have their own Midsommar celebrations Jun 19-20.",
+      "tags": ["day-trip", "nature", "island"]
+    },
+    {
+      "name": "Fotografiska",
+      "description": "World-class photography museum, Sodermalm waterfront. Open until 11pm daily, including Midsommar. Top-floor bar has panoramic views. No museum admission required for the bar.",
+      "tags": ["museum", "photography", "open-midsommar"]
+    },
+    {
+      "name": "Monteliusvagen at sunset",
+      "description": "Cliffside walking path in Sodermalm. Best free panoramic view of the city. June light at 9-10pm is extraordinary.",
+      "tags": ["free", "views", "sunset"]
+    },
+    {
+      "name": "SoFo neighborhood",
+      "description": "South of Folkungagatan, Sodermalm. Independent shops, vintage stores, small galleries. Stockholm's creative core. Best on weekdays; some shops close Midsommar weekend.",
+      "tags": ["shopping", "culture"]
+    },
+    {
+      "name": "Moderna Museet",
+      "description": "Modern art museum on Skeppsholmen island. Free permanent collection (Dali, Rauschenberg). Beautiful walk across the bridge.",
+      "tags": ["museum", "art", "free"]
+    },
+    {
+      "name": "Rosendals Tradgard",
+      "description": "Biodynamic garden cafe on Djurgarden. Pastries and salads from what's growing around you. Card only. Combine with a walk along Djurgardsbrunnsviken canal.",
+      "tags": ["garden", "cafe", "nature"]
+    },
+    {
+      "name": "Spritmuseum",
+      "description": "Swedish spirits museum on Djurgarden. History of aquavit, the Absolut Vodka art collection. Irreverent and fun. Check Midsommar hours.",
+      "tags": ["museum", "spirits"]
+    },
+    {
+      "name": "Ostermalms Saluhall",
+      "description": "Grand 1888 food hall, recently renovated. Browse the counters, eat at Lisa Elmqvist (seafood counter since 1926).",
+      "tags": ["food", "market", "historic"]
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Sturehof",
+      "vibe": "Grand seafood brasserie since 1897. Toast Skagen, daily fish, great wine. The place where Stockholm's food world goes for a \"normal\" dinner.",
+      "price": "~$50-85/pp",
+      "bookRequired": true,
+      "bookHow": "Confirmed open every day including Midsommar. Book immediately for Jun 19-20.",
+      "tags": ["seafood", "classic", "open-midsommar"]
+    },
+    {
+      "name": "Pelikan",
+      "vibe": "Historic beer hall since 1904. Traditional Swedish home cooking in a stunning Art Nouveau interior. Meatballs, herring, Jansson's temptation.",
+      "price": "~$30-55/pp",
+      "bookRequired": true,
+      "bookHow": "Recommended. Likely closed Jun 19-20.",
+      "tags": ["traditional", "beer-hall", "art-nouveau"]
+    },
+    {
+      "name": "Cafe Nizza",
+      "vibe": "French-Italian wine bar/bistro in Sodermalm. Perfect for long lunch with natural wine and cheese. Locals are possessive about this one.",
+      "price": "~$30-50/pp",
+      "bookRequired": true,
+      "bookHow": "Book ahead for evenings. Likely closed Midsommar weekend.",
+      "tags": ["wine-bar", "bistro", "natural-wine"]
+    },
+    {
+      "name": "Oaxen Slip",
+      "vibe": "Bib Gourmand casual bistro in a converted boatyard on Djurgarden. Modern Nordic, seasonal, waterfront.",
+      "price": "~$40-65/pp",
+      "bookRequired": true,
+      "bookHow": "oaxen.com",
+      "tags": ["nordic", "bib-gourmand", "waterfront"]
+    },
+    {
+      "name": "Ekstedt",
+      "vibe": "Everything cooked over open flame, smoke, and ash — no electricity in the kitchen. Totally original, totally Swedish. The concept itself is the reason to go.",
+      "price": "~$75-115/pp",
+      "bookRequired": true,
+      "bookHow": "ekstedt.nu — book well ahead. Likely closed Midsommar.",
+      "tags": ["fine-dining", "fire-cooking", "swedish"]
+    },
+    {
+      "name": "Dashi",
+      "vibe": "16-seat Japanese-Nordic tavern. Unpretentious room, serious kitchen. One of Stockholm's most interesting newer restaurants.",
+      "price": "~$75-115/pp",
+      "bookRequired": true,
+      "bookHow": "Essential — 16 seats.",
+      "tags": ["japanese-nordic", "intimate"]
+    },
+    {
+      "name": "Meatballs for the People",
+      "vibe": "Every variety of Swedish meatball — elk, wild boar, classic.",
+      "price": "~$20-40/pp",
+      "bookRequired": false,
+      "bookHow": "No — SoFo, Nytorgsgatan 30. Casual.",
+      "tags": ["casual", "meatballs", "swedish"]
+    },
+    {
+      "name": "Lisa Elmqvist",
+      "vibe": "Seafood counter inside Ostermalms Saluhall. Since 1926. Sit at the counter, eat whatever's fresh.",
+      "price": "~$20-50/pp",
+      "bookRequired": false,
+      "bookHow": null,
+      "tags": ["seafood", "market", "counter"]
+    },
+    {
+      "name": "Rosendals Tradgard",
+      "vibe": "Biodynamic garden cafe on Djurgarden. Wood-fired bread and pastries from what's growing around you. Lunch served 11am-3:30pm. Card only.",
+      "price": "~$8-20/pp",
+      "bookRequired": false,
+      "bookHow": null,
+      "tags": ["cafe", "garden", "organic"]
+    },
+    {
+      "name": "Arla",
+      "vibe": "Bib Gourmand (2025). Nordic cooking that punches well above its price point.",
+      "price": "~$20-40/pp",
+      "bookRequired": true,
+      "bookHow": "Recommended",
+      "tags": ["nordic", "bib-gourmand", "value"]
+    }
+  ],
+  "bars": [
+    {
+      "name": "Tjoget",
+      "vibe": "Hornstull, Sodermalm. On the World's 50 Best Bars list. Five spaces including a wine bodega and beer cafe. Mediterranean/North African flavor profiles. Open until 3am weekends. The real deal.",
+      "tags": ["world-50-best", "cocktails"]
+    },
+    {
+      "name": "Pharmarium",
+      "vibe": "Gamla Stan, Stortorget 7. Inside Sweden's first public pharmacy (1575). Apothecary aesthetic, genuinely inventive cocktails. Intimate, moody. Book ahead.",
+      "tags": ["cocktails", "historic"]
+    },
+    {
+      "name": "Lucy's Flower Shop",
+      "vibe": "Sodermalm. Tiny creative cocktail bar with an on-site lab. Limited seating — reserve.",
+      "tags": ["cocktails", "creative"]
+    },
+    {
+      "name": "Fooli",
+      "vibe": "Eastern Sodermalm. Wine bar run by two award-winning sommeliers. Won Best Bar and Drinking Experience of the Year. Strong French focus, serious cellar.",
+      "tags": ["wine-bar", "award-winning"]
+    },
+    {
+      "name": "Fotografiska bar",
+      "vibe": "Top-floor bar at the museum. Harbor views, good wine list. Open until 11pm. No museum admission required. Likely open Midsommar.",
+      "tags": ["views", "wine", "open-midsommar"]
+    },
+    {
+      "name": "Gemma",
+      "vibe": "Ostermalm. Award-winning bartender Johan Evers. Precision cocktails, elegant, quieter.",
+      "tags": ["cocktails", "elegant"]
+    },
+    {
+      "name": "Cachette",
+      "vibe": "Norrmalm. Hidden wine + cocktails spot. France/Italy/Lebanon list. The kind of place you find and tell nobody about.",
+      "tags": ["hidden", "wine", "cocktails"]
+    }
+  ],
+  "coffee": [
+    {
+      "name": "Drop Coffee",
+      "vibe": "Stockholm's most decorated specialty roaster. Light roasts, SoFo. The standard."
+    },
+    {
+      "name": "Cafe Pascal",
+      "vibe": "Multiple locations. Won Stockholm's best cafe (Gulddraken). Own roasts, own pastries. The kouign-amann and cardamom buns are exceptional. Your fika spot."
+    },
+    {
+      "name": "Vete-Katten",
+      "vibe": "City center, since 1928. Traditional Swedish konditori — princess cake, cinnamon rolls. Old Stockholm in the best way."
+    }
+  ],
+  "beaches": [],
+  "dayTrips": [],
+  "bookingPriorities": [
+    {
+      "restaurant": "Ekstedt",
+      "how": "ekstedt.nu",
+      "why": "Confirm Midsommar availability"
+    }
+  ]
+}

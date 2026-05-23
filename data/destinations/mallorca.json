@@ -1,0 +1,245 @@
+{
+  "id": "mallorca",
+  "name": "Mallorca",
+  "country": "Spain",
+  "emoji": "🇪🇸",
+  "region": "Port de Soller",
+  "dates": { "arrive": "2026-06-26", "depart": "2026-07-02" },
+  "nights": 6,
+  "accommodation": {
+    "type": "hotel",
+    "name": "Pure Salt Port de Soller",
+    "details": "4-star, adults only (14+). 2x Double Sea View. Breakfast included daily. Welcome drink on arrival."
+  },
+  "travelers": ["Omid", "Annika", "Mom", "Dad"],
+  "vibe": "All 4: Omid + Annika + Parents. Pure Salt hotel, Audi Q7, 6 nights. Parents love scenic drives, markets, villages, architecture.",
+  "highlights": ["Tramuntana mountain drives", "Cliffside restaurants", "Island markets", "Mediterranean beaches"],
+  "specialNotes": [
+    {
+      "title": "Cap de Formentor 2026 Restriction",
+      "body": "May 15 - Oct 18, the road to the lighthouse is closed to cars 10am-10pm. Strategy: leave by 6:30am and reach lighthouse before 10am, OR take TIB Line 334 shuttle from Port de Pollenca. Formentor beach (Zone 1): cars allowed if 300-space lot has room — fills by 9-10am."
+    }
+  ],
+  "weeklyMarkets": [
+    { "market": "Port de Soller", "day": "Thursday", "date": "Jun 26 (arrival day)" },
+    { "market": "Soller", "day": "Saturday", "date": "Jun 28" },
+    { "market": "Deia", "day": "Wednesday", "date": "Jul 1" },
+    { "market": "Pollenca", "day": "Sunday", "date": "Jun 29 — one of Mallorca's best" }
+  ],
+  "activities": [],
+  "restaurants": [
+    {
+      "name": "Ca's Patro March",
+      "location": "Deia cove",
+      "vibe": "Iconic cliffside seafood on the rocks. Fresh fish, lemon, olive oil. Cash only, no mobile signal. Simple and perfect.",
+      "price": null,
+      "bookRequired": true,
+      "bookHow": "Slots open midnight online: caspatromarch.myrestoo.net — set an alarm, tables go instantly.",
+      "tags": ["seafood", "cliffside", "iconic", "cash-only"]
+    },
+    {
+      "name": "Es Canyis",
+      "location": "Port de Soller beach",
+      "vibe": "Seafood right on the sand. Walk from Pure Salt. Easy first/last night.",
+      "price": null,
+      "bookRequired": false,
+      "bookHow": null,
+      "tags": ["seafood", "beachfront", "casual"]
+    },
+    {
+      "name": "Agapanto",
+      "location": "Port de Soller harbor",
+      "vibe": "Good cocktails, Mediterranean food, sunset views.",
+      "price": null,
+      "bookRequired": false,
+      "bookHow": null,
+      "tags": ["mediterranean", "cocktails", "sunset"]
+    },
+    {
+      "name": "Randemar",
+      "location": "Port de Soller waterfront",
+      "vibe": "Great fish, solid wine list.",
+      "price": null,
+      "bookRequired": false,
+      "bookHow": null,
+      "tags": ["seafood", "waterfront"]
+    },
+    {
+      "name": "Neni",
+      "location": "Bikini Island hotel, above Port de Soller",
+      "vibe": "Israeli/Middle Eastern rooftop with Tramuntana views. Refreshing departure from Mallorcan staples.",
+      "price": null,
+      "bookRequired": true,
+      "bookHow": "Recommended",
+      "tags": ["middle-eastern", "rooftop", "views"]
+    },
+    {
+      "name": "Ca'n Pintxo",
+      "location": "Soller town square",
+      "vibe": "Excellent tapas and Mallorcan dishes. Casual, lively.",
+      "price": null,
+      "bookRequired": false,
+      "bookHow": null,
+      "tags": ["tapas", "casual", "mallorcan"]
+    },
+    {
+      "name": "Kraken",
+      "location": "Palma (inside Mercat de l'Olivar)",
+      "vibe": "Sources fish from the market stalls that morning. Best casual seafood lunch in Palma.",
+      "price": null,
+      "bookRequired": false,
+      "bookHow": null,
+      "tags": ["seafood", "market", "casual"]
+    },
+    {
+      "name": "Ca Ses Sauerschell's",
+      "location": "Deia",
+      "vibe": "Replaced Es Raco d'Es Teix (closed Jul 2023). Same stunning terrace overlooking the valley, more relaxed concept.",
+      "price": null,
+      "bookRequired": true,
+      "bookHow": "Recommended",
+      "tags": ["terrace", "valley-views"]
+    },
+    {
+      "name": "Bens d'Avall",
+      "location": "Cliff road between Soller & Deia",
+      "vibe": "Family-run since 1971. Best sunset dining on the island — cliff terrace above the sea. Summer: dinner only, Tue-Sat.",
+      "price": null,
+      "bookRequired": true,
+      "bookHow": "bensdavall.com (online only)",
+      "tags": ["sunset", "cliffside", "fine-dining", "family-run"]
+    },
+    {
+      "name": "Marc Fosh",
+      "location": "Palma (Convent de la Missio)",
+      "vibe": "Farm-sourced Mediterranean in a 17th-century converted seminary. Worth it for the setting as much as the food.",
+      "price": null,
+      "bookRequired": true,
+      "bookHow": "marcfosh.com",
+      "tags": ["fine-dining", "mediterranean", "historic-setting"]
+    },
+    {
+      "name": "DINS Santi Taura",
+      "location": "Palma (Hotel El Llorenc)",
+      "vibe": "11-course \"Menu Origens\" reinterpreting traditional Mallorcan recipes. ~$130/pp.",
+      "price": "~$130/pp",
+      "bookRequired": true,
+      "bookHow": "TheFork",
+      "tags": ["tasting-menu", "mallorcan", "fine-dining"]
+    }
+  ],
+  "bars": [
+    {
+      "name": "Bar Abaco",
+      "location": "Palma old town, La Llotja",
+      "vibe": "17th-century mansion, baroque decor, mountains of fruit, opera music. Theatrical. ~$19-20/cocktail. Open from 8pm.",
+      "tags": ["theatrical", "cocktails", "historic"]
+    },
+    {
+      "name": "Brassclub",
+      "location": "Palma",
+      "vibe": "Award-winning mixologist Rafa Martin. Creative cocktails, sophisticated vibe. One of Palma's best.",
+      "tags": ["cocktails", "award-winning"]
+    },
+    {
+      "name": "Chapeau 1987",
+      "location": "Palma",
+      "vibe": "1920s-30s glamour. Classic cocktails, 200+ whiskies.",
+      "tags": ["classic", "whisky"]
+    },
+    {
+      "name": "Agapanto",
+      "location": "Port de Soller harbor",
+      "vibe": "Best cocktails at the port. Sunset.",
+      "tags": ["cocktails", "sunset"]
+    },
+    {
+      "name": "Jumeirah Sunset Lounge",
+      "location": "Port de Soller (Jumeirah hotel)",
+      "vibe": "Clifftop sunset views, Asian-inspired tapas, local cocktails. Best sundowner spot in the port.",
+      "tags": ["sunset", "views", "cocktails"]
+    }
+  ],
+  "coffee": [],
+  "beaches": [
+    {
+      "name": "Platja d'en Repic",
+      "driveTime": "Walk from hotel",
+      "vibe": "Sand, calm water, beach restaurants. Easy everyday beach."
+    },
+    {
+      "name": "Cala Deia",
+      "driveTime": "20 min",
+      "vibe": "Dramatic rocky cove. Crystal water. Ca's Patro March right on it. Barrier parking — arrive before 10am in July."
+    },
+    {
+      "name": "Platja de Formentor",
+      "driveTime": "1.5-2 hrs",
+      "vibe": "White sand, turquoise, pine shade. Subject to Zone 1 car restrictions (see special notes)."
+    },
+    {
+      "name": "Cala Tuent",
+      "driveTime": "45 min (steep winding road)",
+      "vibe": "Quiet pebble cove, mountain walls, one restaurant. Uncrowded even in July."
+    },
+    {
+      "name": "Cala de Sant Vicenc",
+      "driveTime": "~1 hr 10 min",
+      "vibe": "Four linked coves near Pollenca. 30m visibility, great for snorkeling. Pair with Formentor day."
+    }
+  ],
+  "dayTrips": [
+    {
+      "name": "Deia + Valldemossa",
+      "driveTime": "Deia 20 min, Valldemossa 30 min",
+      "highlights": "Ma-10 coast road (Europe's most beautiful drives). Deia: artists' village, Cala Deia cove. Valldemossa: La Cartuja monastery (Chopin, closes 2:30pm — go morning), postcard-perfect streets."
+    },
+    {
+      "name": "Cap de Formentor + Pollenca",
+      "driveTime": "1.5-2 hrs (full day)",
+      "highlights": "Mallorca's dramatic northern tip. 2026 restriction: road to lighthouse closed to cars 10am-10pm. Strategy: leave by 6:30am OR take TIB 334 shuttle. Pine Walk in Puerto Pollenca, medieval walled Alcudia."
+    },
+    {
+      "name": "Palma",
+      "driveTime": "45-55 min (Soller tunnel toll ~$7)",
+      "highlights": "La Seu cathedral (Gaudi interior, book tickets online), Bellver Castle (circular Gothic, free Sun mornings), old town courtyards, Mercat de l'Olivar (eat at the counters), Santa Catalina neighborhood. Bar Abaco for evening drinks."
+    },
+    {
+      "name": "Fornalutx",
+      "driveTime": "15 min",
+      "highlights": "One of Spain's most beautiful villages. Stone streets, citrus groves, mountain backdrop. Coffee and a stroll. Easy half-day."
+    },
+    {
+      "name": "Sa Calobra + Cala Tuent",
+      "driveTime": "Sa Calobra 50 min, Cala Tuent 45 min",
+      "highlights": "\"Road of 1,000 bends\" to Sa Calobra (800m altitude change). Walk to Torrent de Pareis gorge beach. Cala Tuent: quiet mountain cove, one restaurant. Or take the boat from Port de Soller (avoids the road, adds sea drama)."
+    },
+    {
+      "name": "Soller town",
+      "driveTime": "Vintage tram ride (10 min)",
+      "highlights": "Modernista architecture, covered market, Sa Fabrica de Gelats (island's best ice cream)."
+    }
+  ],
+  "bookingPriorities": [
+    {
+      "restaurant": "Ca's Patro March",
+      "how": "caspatromarch.myrestoo.net — new slots at midnight, 2-3 weeks ahead",
+      "why": "Sells out instantly"
+    },
+    {
+      "restaurant": "Bens d'Avall",
+      "how": "bensdavall.com (online only)",
+      "why": "Summer evenings fill fast"
+    },
+    {
+      "restaurant": "DINS Santi Taura",
+      "how": "TheFork",
+      "why": "Popular in summer"
+    },
+    {
+      "restaurant": "Marc Fosh",
+      "how": "marcfosh.com",
+      "why": "Popular but more availability"
+    }
+  ]
+}

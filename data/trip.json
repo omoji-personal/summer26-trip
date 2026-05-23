@@ -1,0 +1,13 @@
+{
+  "title": "Summer 2026 — Europe",
+  "route": ["Atlanta", "Stockholm", "Paris", "Mallorca", "Crete", "Athens", "Atlanta"],
+  "dates": { "start": "2026-06-18", "end": "2026-07-07" },
+  "totalDays": 19,
+  "travelers": [
+    { "name": "Omid", "legs": ["stockholm", "paris", "mallorca", "crete"] },
+    { "name": "Annika", "legs": ["stockholm", "paris", "mallorca", "crete"] },
+    { "name": "Mom", "legs": ["paris", "mallorca"] },
+    { "name": "Dad", "legs": ["paris", "mallorca"] },
+    { "name": "Friend", "legs": ["crete"] }
+  ]
+}
