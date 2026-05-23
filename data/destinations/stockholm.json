@@ -320,8 +320,8 @@
   "bookingPriorities": [
     {
       "restaurant": "Sturehof",
-      "howToBook": "Call or walk in. Confirmed open every day including Midsommar — book immediately for Jun 19-20.",
-      "urgency": "Book now for Midsommar weekend"
+      "how": "Call or walk in. Confirmed open every day including Midsommar — book immediately for Jun 19-20.",
+      "why": "Book now for Midsommar weekend"
     },
     {
       "restaurant": "Ekstedt",

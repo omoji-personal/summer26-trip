@@ -17,20 +17,20 @@
   "specialNotes": [
     {
       "title": "Cap de Formentor 2026 Restriction",
-      "body": "May 15 - Oct 18, the road to the lighthouse is closed to cars 10am-10pm. Strategy: leave by 6:30am and reach lighthouse before 10am, OR take TIB Line 334 shuttle from Port de Pollenca. Formentor beach (Zone 1): cars allowed if 300-space lot has room — fills by 9-10am."
+      "body": "May 15 - Oct 18, the road to the lighthouse is closed to cars 10am-10pm. Strategy: leave by 6:30am and reach lighthouse before 10am, OR take TIB Line 334 shuttle from Port de Pollença. Formentor beach (Zone 1): cars allowed if 300-space lot has room — fills by 9-10am."
     }
   ],
   "weeklyMarkets": [
     { "market": "Port de Soller", "day": "Thursday", "date": "Jun 26 (arrival day)" },
-    { "market": "Soller", "day": "Saturday", "date": "Jun 28" },
-    { "market": "Deia", "day": "Wednesday", "date": "Jul 1" },
-    { "market": "Pollenca", "day": "Sunday", "date": "Jun 29 — one of Mallorca's best" }
+    { "market": "Sóller", "day": "Saturday", "date": "Jun 28" },
+    { "market": "Deià", "day": "Wednesday", "date": "Jul 1" },
+    { "market": "Pollença", "day": "Sunday", "date": "Jun 29 — one of Mallorca's best" }
   ],
   "activities": [],
   "restaurants": [
     {
       "name": "Ca's Patró March",
-      "location": "Deia cove",
+      "location": "Deià cove",
       "vibe": "Iconic cliffside seafood on the rocks. Fresh fish, lemon, olive oil. Cash only, no mobile signal. Simple and perfect.",
       "price": null,
       "bookRequired": true,
@@ -75,7 +75,7 @@
     },
     {
       "name": "Ca'n Pintxo",
-      "location": "Soller town square",
+      "location": "Sóller town square",
       "vibe": "Excellent tapas and Mallorcan dishes. Casual, lively.",
       "price": null,
       "bookRequired": false,
@@ -93,7 +93,7 @@
     },
     {
       "name": "Ca Ses Sauerschell's",
-      "location": "Deia",
+      "location": "Deià",
       "vibe": "Replaced Es Racó d'Es Teix (closed Jul 2023). Same stunning terrace overlooking the valley, more relaxed concept.",
       "price": null,
       "bookRequired": true,
@@ -102,7 +102,7 @@
     },
     {
       "name": "Béns d'Avall",
-      "location": "Cliff road between Soller & Deia",
+      "location": "Cliff road between Sóller & Deià",
       "vibe": "Family-run since 1971. Best sunset dining on the island — cliff terrace above the sea. Summer: dinner only, Tue-Sat.",
       "price": null,
       "bookRequired": true,
@@ -111,7 +111,7 @@
     },
     {
       "name": "Marc Fosh",
-      "location": "Palma (Convent de la Missio)",
+      "location": "Palma (Convent de la Missió)",
       "vibe": "Farm-sourced Mediterranean in a 17th-century converted seminary. Worth it for the setting as much as the food.",
       "price": null,
       "bookRequired": true,
@@ -121,7 +121,7 @@
     {
       "name": "DINS Santi Taura",
       "location": "Palma (Hotel El Llorenç)",
-      "vibe": "11-course \"Menu Origens\" reinterpreting traditional Mallorcan recipes. ~$130/pp.",
+      "vibe": "11-course \"Menú Origens\" reinterpreting traditional Mallorcan recipes. ~$130/pp.",
       "price": "~$130/pp",
       "bookRequired": true,
       "bookHow": "TheFork",
@@ -168,7 +168,7 @@
       "vibe": "Sand, calm water, beach restaurants. Easy everyday beach."
     },
     {
-      "name": "Cala Deia",
+      "name": "Cala Deià",
       "driveTime": "20 min",
       "vibe": "Dramatic rocky cove. Crystal water. Ca's Patró March right on it. Barrier parking — arrive before 10am in July."
     },
@@ -183,26 +183,26 @@
       "vibe": "Quiet pebble cove, mountain walls, one restaurant. Uncrowded even in July."
     },
     {
-      "name": "Cala de Sant Vicenc",
+      "name": "Cala de Sant Vicenç",
       "driveTime": "~1 hr 10 min",
-      "vibe": "Four linked coves near Pollenca. 30m visibility, great for snorkeling. Pair with Formentor day."
+      "vibe": "Four linked coves near Pollença. 30m visibility, great for snorkeling. Pair with Formentor day."
     }
   ],
   "dayTrips": [
     {
-      "name": "Deia + Valldemossa",
-      "driveTime": "Deia 20 min, Valldemossa 30 min",
-      "highlights": "Ma-10 coast road (Europe's most beautiful drives). Deia: artists' village, Cala Deia cove. Valldemossa: La Cartuja monastery (Chopin, closes 2:30pm — go morning), postcard-perfect streets."
+      "name": "Deià + Valldemossa",
+      "driveTime": "Deià 20 min, Valldemossa 30 min",
+      "highlights": "Ma-10 coast road (Europe's most beautiful drives). Deià: artists' village, Cala Deià cove. Valldemossa: La Cartuja monastery (Chopin, closes 2:30pm — go morning), postcard-perfect streets."
     },
     {
-      "name": "Cap de Formentor + Pollenca",
+      "name": "Cap de Formentor + Pollença",
       "driveTime": "1.5-2 hrs (full day)",
-      "highlights": "Mallorca's dramatic northern tip. 2026 restriction: road to lighthouse closed to cars 10am-10pm. Strategy: leave by 6:30am OR take TIB 334 shuttle. Pine Walk in Puerto Pollenca, medieval walled Alcudia."
+      "highlights": "Mallorca's dramatic northern tip. 2026 restriction: road to lighthouse closed to cars 10am-10pm. Strategy: leave by 6:30am OR take TIB 334 shuttle. Pine Walk in Puerto Pollença, medieval walled Alcúdia."
     },
     {
       "name": "Palma",
-      "driveTime": "45-55 min (Soller tunnel toll ~$7)",
-      "highlights": "La Seu cathedral (Gaudi interior, book tickets online), Bellver Castle (circular Gothic, free Sun mornings), old town courtyards, Mercat de l'Olivar (eat at the counters), Santa Catalina neighborhood. Bar Abaco for evening drinks."
+      "driveTime": "45-55 min (Sóller tunnel toll ~$7)",
+      "highlights": "La Seu cathedral (Gaudí interior, book tickets online), Bellver Castle (circular Gothic, free Sun mornings), old town courtyards, Mercat de l'Olivar (eat at the counters), Santa Catalina neighborhood. Bar Abaco for evening drinks."
     },
     {
       "name": "Fornalutx",
@@ -215,9 +215,9 @@
       "highlights": "\"Road of 1,000 bends\" to Sa Calobra (800m altitude change). Walk to Torrent de Pareis gorge beach. Cala Tuent: quiet mountain cove, one restaurant. Or take the boat from Port de Soller (avoids the road, adds sea drama)."
     },
     {
-      "name": "Soller town",
+      "name": "Sóller town",
       "driveTime": "Vintage tram ride (10 min)",
-      "highlights": "Modernista architecture, covered market, Sa Fabrica de Gelats (island's best ice cream)."
+      "highlights": "Modernista architecture, covered market, Sa Fàbrica de Gelats (island's best ice cream)."
     }
   ],
   "bookingPriorities": [
