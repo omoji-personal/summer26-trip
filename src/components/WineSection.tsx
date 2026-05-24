@@ -13,7 +13,7 @@ export default function WineSection({ wines }: { wines: CretanWine[] }) {
         {wines.map((w, i) => (
           <div
             key={i}
-            className="bg-white rounded-xl border border-sand/40 shadow-sm p-5 card-hover"
+            className="bg-white rounded-xl border border-sand/60 shadow-sm p-5 card-hover"
           >
             <h4 className="font-serif text-base font-semibold text-wine mb-1">
               {w.winery}

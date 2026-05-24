@@ -36,7 +36,7 @@ export default function OpenItems({ items }: { items: OpenItem[] }) {
           return (
             <div
               key={item.id}
-              className="bg-white rounded-xl border border-sand/40 shadow-sm p-5 card-hover"
+              className="bg-white rounded-xl border border-sand/60 shadow-sm p-5 card-hover"
             >
               <div className="flex items-start gap-3">
                 <span
@@ -46,9 +46,9 @@ export default function OpenItems({ items }: { items: OpenItem[] }) {
                 </span>
                 <div className="flex-1 min-w-0">
                   <div className="flex items-start justify-between gap-2">
-                    <h4 className="font-semibold text-navy text-sm">
+                    <h3 className="font-semibold text-navy text-sm">
                       {item.title}
-                    </h4>
+                    </h3>
                     {item.deadline && (
                       <span className="text-xs text-warm-gray bg-cream-dark rounded px-2 py-0.5 whitespace-nowrap flex-shrink-0">
                         {item.deadline}

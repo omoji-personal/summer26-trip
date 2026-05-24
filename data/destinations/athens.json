@@ -1,0 +1,22 @@
+{
+  "id": "athens",
+  "name": "Athens",
+  "country": "Greece",
+  "dates": { "arrive": "2026-07-07", "depart": "2026-07-07" },
+  "nights": 0,
+  "accommodation": { "type": "transit", "name": "Airport transit only" },
+  "travelers": ["Omid"],
+  "vibe": "~3 hours in the airport. Arrive 9:15 AM domestic, depart 12:10 PM international. Must reclaim checked bags between separate tickets (SKY express → Delta).",
+  "activities": [
+    { "name": "Greek coffee (elliniko)", "description": "Get a proper Greek coffee at any terminal café. Your last taste of Greece.", "tags": ["food"] },
+    { "name": "Bougatsa or tyropita", "description": "Custard pastry (bougatsa) or cheese pie (tyropita) — essential airport food.", "tags": ["food"] },
+    { "name": "Goldair Handling lounge", "description": "If you have access via AMEX or Delta status. Solid lounge.", "tags": ["lounge"] }
+  ],
+  "specialNotes": [
+    { "title": "Bag Reclaim Required", "body": "SKY express and Delta are separate tickets. Bags will NOT auto-transfer. Exit domestic arrivals, reclaim bags, re-check at Delta international departures. Allow 30 min." }
+  ],
+  "restaurants": [],
+  "bars": [],
+  "beaches": [],
+  "dayTrips": []
+}

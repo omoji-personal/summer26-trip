@@ -2,7 +2,7 @@ import type { CarRental } from "@/lib/types";
 
 export default function CarRentalCard({ rental }: { rental: CarRental }) {
   return (
-    <div className="bg-white rounded-xl border border-sand/40 shadow-sm overflow-hidden card-hover">
+    <div className="bg-white rounded-xl border border-sand/60 shadow-sm overflow-hidden card-hover">
       <div className="bg-sea/10 px-5 py-3 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <span className="text-lg">🚗</span>

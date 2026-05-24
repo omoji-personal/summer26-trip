@@ -16,12 +16,12 @@
   "specialNotes": [],
   "activities": [
     {
-      "name": "Musee Carnavalet",
+      "name": "Musée Carnavalet",
       "description": "Le Marais, 23 Rue Madame de Sevigne. Museum of Paris history in two Renaissance mansions. Proust's cork-lined bedroom is here. Free, no reservation needed. Open Tue-Sun 10am-6pm. Parents will love this.",
       "tags": ["museum", "free", "history"]
     },
     {
-      "name": "Musee de l'Orangerie",
+      "name": "Musée de l'Orangerie",
       "description": "Tuileries. Monet's Water Lilies in purpose-built oval rooms. Intimate, ~1 hour.",
       "tags": ["museum", "art", "monet"]
     },
@@ -36,17 +36,17 @@
       "tags": ["garden", "architecture", "free"]
     },
     {
-      "name": "Marche d'Aligre",
+      "name": "Marché d'Aligre",
       "description": "Place d'Aligre, 12th. Paris's most authentic food market. Outdoor produce stalls + covered Beauvau hall for cheese, charcuterie, specialty foods. Tue-Sun mornings. Parents will love this.",
       "tags": ["market", "food", "authentic"]
     },
     {
-      "name": "Coulee Verte / Promenade Plantee",
-      "description": "12th, starts at Bastille. The elevated park on a former railway viaduct that inspired NYC's High Line. 4.7km walk, rose gardens, rooftop views. Below: artisan workshops (ceramicists, luthiers). Pairs naturally with Marche d'Aligre.",
+      "name": "Coulée Verte / Promenade Plantée",
+      "description": "12th, starts at Bastille. The elevated park on a former railway viaduct that inspired NYC's High Line. 4.7km walk, rose gardens, rooftop views. Below: artisan workshops (ceramicists, luthiers). Pairs naturally with Marché d'Aligre.",
       "tags": ["walk", "park", "architecture"]
     },
     {
-      "name": "Marche des Enfants Rouges",
+      "name": "Marché des Enfants Rouges",
       "description": "Marais, 39 Rue de Bretagne. Paris's oldest covered market (1615). The food stalls at lunch are the draw: Moroccan tagines, Japanese bento, Lebanese plates. Communal tables. Closed Mondays.",
       "tags": ["market", "food", "historic"]
     },
@@ -82,7 +82,7 @@
       "tags": ["french-asian", "creative"]
     },
     {
-      "name": "Le Cafe de l'Usine",
+      "name": "Le Café de l'Usine",
       "vibe": "Time Out Best Bistro 2025. Worker-priced lunch, precise rustic cooking. A real locals' room.",
       "price": "~$28-45/pp",
       "bookRequired": false,
@@ -90,7 +90,7 @@
       "tags": ["bistro", "locals", "value"]
     },
     {
-      "name": "Frenchie Bar a Vins",
+      "name": "Frenchie Bar à Vins",
       "vibe": "Same kitchen as starred Frenchie next door, but walk-in. Small plates, great natural wine.",
       "price": "~$45-65/pp",
       "bookRequired": false,
@@ -122,7 +122,7 @@
       "tags": ["falafel", "casual", "cash-only"]
     },
     {
-      "name": "Marche des Enfants Rouges",
+      "name": "Marché des Enfants Rouges",
       "vibe": "Paris's oldest covered market (1615). Moroccan tagines, Japanese bento, Lebanese plates at communal tables. Lunch only.",
       "price": "~$10-20/pp",
       "bookRequired": false,
@@ -169,7 +169,7 @@
     },
     {
       "name": "Bar Hemingway (Ritz)",
-      "vibe": "15 Place Vendome. 25 plush seats. Hemingway \"liberated\" this bar in 1944. $28-40/cocktail. Go for one drink. Parents will love the history.",
+      "vibe": "15 Place Vendôme. 25 plush seats. Hemingway \"liberated\" this bar in 1944. $28-40/cocktail. Go for one drink. Parents will love the history.",
       "tags": ["cocktails", "historic", "luxury"]
     },
     {

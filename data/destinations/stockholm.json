@@ -27,7 +27,7 @@
   "specialNotes": [
     {
       "title": "Midsommar (Jun 19-20)",
-      "body": "You arrive on Midsommar Eve — Sweden's biggest holiday. Your family will be celebrating. Everything else is closed. Join the family's Midsommar — maypole dancing, flower crowns, herring feast, snapsvisor (aquavit drinking songs). If you want a public celebration too: Skansen (Djurgarden) holds Stockholm's biggest public Midsommar. Buy tickets in advance."
+      "body": "You arrive on Midsommar Eve — Sweden's biggest holiday. Your family will be celebrating. Everything else is closed. Join the family's Midsommar — maypole dancing, flower crowns, herring feast, snapsvisor (aquavit drinking songs). If you want a public celebration too: Skansen (Djurgården) holds Stockholm's biggest public Midsommar. Buy tickets in advance."
     }
   ],
   "confirmedOpenMidsommar": [
@@ -60,7 +60,7 @@
     },
     {
       "name": "Fotografiska",
-      "description": "World-class photography museum, Sodermalm waterfront. Open until 11pm daily, including Midsommar. Top-floor bar has panoramic views. No museum admission required for the bar.",
+      "description": "World-class photography museum, Södermalm waterfront. Open until 11pm daily, including Midsommar. Top-floor bar has panoramic views. No museum admission required for the bar.",
       "tags": [
         "museum",
         "photography",
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "name": "Monteliusvagen at sunset",
-      "description": "Cliffside walking path in Sodermalm. Best free panoramic view of the city. June light at 9-10pm is extraordinary.",
+      "name": "Monteliusvägen at sunset",
+      "description": "Cliffside walking path in Södermalm. Best free panoramic view of the city. June light at 9-10pm is extraordinary.",
       "tags": [
         "free",
         "views",
@@ -78,7 +78,7 @@
     },
     {
       "name": "SoFo neighborhood",
-      "description": "South of Folkungagatan, Sodermalm. Independent shops, vintage stores, small galleries. Stockholm's creative core. Best on weekdays; some shops close Midsommar weekend.",
+      "description": "South of Folkungagatan, Södermalm. Independent shops, vintage stores, small galleries. Stockholm's creative core. Best on weekdays; some shops close Midsommar weekend.",
       "tags": [
         "shopping",
         "culture"
@@ -94,8 +94,8 @@
       ]
     },
     {
-      "name": "Rosendals Tradgard",
-      "description": "Biodynamic garden cafe on Djurgarden. Pastries and salads from what's growing around you. Card only. Combine with a walk along Djurgardsbrunnsviken canal.",
+      "name": "Rosendals Trädgård",
+      "description": "Biodynamic garden cafe on Djurgården. Pastries and salads from what's growing around you. Card only. Combine with a walk along Djurgårdsbrunnsviken canal.",
       "tags": [
         "garden",
         "cafe",
@@ -104,14 +104,14 @@
     },
     {
       "name": "Spritmuseum",
-      "description": "Swedish spirits museum on Djurgarden. History of aquavit, the Absolut Vodka art collection. Irreverent and fun. Check Midsommar hours.",
+      "description": "Swedish spirits museum on Djurgården. History of aquavit, the Absolut Vodka art collection. Irreverent and fun. Check Midsommar hours.",
       "tags": [
         "museum",
         "spirits"
       ]
     },
     {
-      "name": "Ostermalms Saluhall",
+      "name": "Östermalms Saluhall",
       "description": "Grand 1888 food hall, recently renovated. Browse the counters, eat at Lisa Elmqvist (seafood counter since 1926).",
       "tags": [
         "food",
@@ -146,8 +146,8 @@
       ]
     },
     {
-      "name": "Cafe Nizza",
-      "vibe": "French-Italian wine bar/bistro in Sodermalm. Perfect for long lunch with natural wine and cheese. Locals are possessive about this one.",
+      "name": "Café Nizza",
+      "vibe": "French-Italian wine bar/bistro in Södermalm. Perfect for long lunch with natural wine and cheese. Locals are possessive about this one.",
       "price": "~$30-50/pp",
       "bookRequired": true,
       "bookHow": "Book ahead for evenings. Likely closed Midsommar weekend.",
@@ -159,7 +159,7 @@
     },
     {
       "name": "Oaxen Slip",
-      "vibe": "Bib Gourmand casual bistro in a converted boatyard on Djurgarden. Modern Nordic, seasonal, waterfront.",
+      "vibe": "Bib Gourmand casual bistro in a converted boatyard on Djurgården. Modern Nordic, seasonal, waterfront.",
       "price": "~$40-65/pp",
       "bookRequired": true,
       "bookHow": "oaxen.com",
@@ -206,7 +206,7 @@
     },
     {
       "name": "Lisa Elmqvist",
-      "vibe": "Seafood counter inside Ostermalms Saluhall. Since 1926. Sit at the counter, eat whatever's fresh.",
+      "vibe": "Seafood counter inside Östermalms Saluhall. Since 1926. Sit at the counter, eat whatever's fresh.",
       "price": "~$20-50/pp",
       "bookRequired": false,
       "bookHow": null,
@@ -217,8 +217,8 @@
       ]
     },
     {
-      "name": "Rosendals Tradgard",
-      "vibe": "Biodynamic garden cafe on Djurgarden. Wood-fired bread and pastries from what's growing around you. Lunch served 11am-3:30pm. Card only.",
+      "name": "Rosendals Trädgård",
+      "vibe": "Biodynamic garden cafe on Djurgården. Wood-fired bread and pastries from what's growing around you. Lunch served 11am-3:30pm. Card only.",
       "price": "~$8-20/pp",
       "bookRequired": false,
       "bookHow": null,
@@ -244,7 +244,7 @@
   "bars": [
     {
       "name": "Tjoget",
-      "vibe": "Hornstull, Sodermalm. On the World's 50 Best Bars list. Five spaces including a wine bodega and beer cafe. Mediterranean/North African flavor profiles. Open until 3am weekends. The real deal.",
+      "vibe": "Hornstull, Södermalm. On the World's 50 Best Bars list. Five spaces including a wine bodega and beer cafe. Mediterranean/North African flavor profiles. Open until 3am weekends. The real deal.",
       "tags": [
         "world-50-best",
         "cocktails"
@@ -260,7 +260,7 @@
     },
     {
       "name": "Lucy's Flower Shop",
-      "vibe": "Sodermalm. Tiny creative cocktail bar with an on-site lab. Limited seating — reserve.",
+      "vibe": "Södermalm. Tiny creative cocktail bar with an on-site lab. Limited seating — reserve.",
       "tags": [
         "cocktails",
         "creative"
@@ -268,7 +268,7 @@
     },
     {
       "name": "Fooli",
-      "vibe": "Eastern Sodermalm. Wine bar run by two award-winning sommeliers. Won Best Bar and Drinking Experience of the Year. Strong French focus, serious cellar.",
+      "vibe": "Eastern Södermalm. Wine bar run by two award-winning sommeliers. Won Best Bar and Drinking Experience of the Year. Strong French focus, serious cellar.",
       "tags": [
         "wine-bar",
         "award-winning"
@@ -307,7 +307,7 @@
       "vibe": "Stockholm's most decorated specialty roaster. Light roasts, SoFo. The standard."
     },
     {
-      "name": "Cafe Pascal",
+      "name": "Café Pascal",
       "vibe": "Multiple locations. Won Stockholm's best cafe (Gulddraken). Own roasts, own pastries. The kouign-amann and cardamom buns are exceptional. Your fika spot."
     },
     {

@@ -3,6 +3,7 @@ import DestinationNav from "@/components/DestinationNav";
 import DestinationSection from "@/components/DestinationSection";
 import OpenItems from "@/components/OpenItems";
 import FlightCard from "@/components/cards/FlightCard";
+import SpecialNote from "@/components/SpecialNote";
 
 import tripData from "../../data/trip.json";
 import itineraryData from "../../data/itinerary.json";
@@ -10,6 +11,7 @@ import stockholmData from "../../data/destinations/stockholm.json";
 import parisData from "../../data/destinations/paris.json";
 import mallorcaData from "../../data/destinations/mallorca.json";
 import creteData from "../../data/destinations/crete.json";
+import athensData from "../../data/destinations/athens.json";
 
 import type {
   Trip,
@@ -95,6 +97,35 @@ export default function Home() {
           Same-day connection: Crete (CHQ) 8:20 AM &rarr; Athens (ATH) 9:15 AM &rarr; Atlanta (ATL) 5:42 PM.
           Separate tickets &mdash; reclaim bags at ATH between domestic and international terminals.
         </p>
+      </section>
+
+      {/* Athens transit callout */}
+      <section className="max-w-4xl mx-auto px-4 py-8 md:py-10">
+        <div className="bg-cream-dark/50 rounded-xl border border-sand/60 p-5 md:p-6">
+          <div className="flex items-center gap-2 mb-3">
+            <span className="text-lg">🇬🇷</span>
+            <h3 className="font-serif text-lg md:text-xl font-semibold text-navy">
+              Athens &mdash; Airport Transit
+            </h3>
+            <span className="text-xs text-warm-gray bg-sand/40 rounded-full px-2 py-0.5 font-medium">
+              ~3 hrs
+            </span>
+          </div>
+          <p className="text-sm text-navy/70 leading-relaxed mb-4 italic">
+            {athensData.vibe}
+          </p>
+          {athensData.specialNotes.map((note, i) => (
+            <SpecialNote key={i} note={note} />
+          ))}
+          <div className="mt-4 grid grid-cols-1 sm:grid-cols-3 gap-3">
+            {athensData.activities.map((a, i) => (
+              <div key={i} className="bg-white/60 rounded-lg p-3 border border-sand/60">
+                <p className="font-semibold text-sm text-navy">{a.name}</p>
+                <p className="text-xs text-navy/70 mt-1 leading-relaxed">{a.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
       </section>
 
       <div className="section-divider mx-4" />

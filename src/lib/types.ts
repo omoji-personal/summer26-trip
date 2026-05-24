@@ -205,7 +205,7 @@ export interface BookingPriority {
 }
 
 export interface Accommodation {
-  type: "hotel" | "airbnb" | "family";
+  type: "hotel" | "airbnb" | "family" | "transit";
   name: string;
   details: string | null;
 }

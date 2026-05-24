@@ -33,19 +33,29 @@ interface Props {
 
 function SectionHeading({ emoji, title, count }: { emoji: string; title: string; count?: number }) {
   return (
-    <div className="flex items-center gap-2 mb-5">
-      <span className="text-xl">{emoji}</span>
-      <h3 className="font-serif text-xl md:text-2xl font-semibold text-navy">
-        {title}
-      </h3>
-      {count !== undefined && count > 0 && (
-        <span className="text-xs text-warm-gray bg-sand/40 rounded-full px-2 py-0.5 font-medium">
-          {count}
-        </span>
-      )}
-    </div>
+    <>
+      <div className="flex items-center gap-2 mb-1">
+        <span className="text-xl">{emoji}</span>
+        <h3 className="font-serif text-xl md:text-2xl font-semibold text-navy">
+          {title}
+        </h3>
+        {count !== undefined && count > 0 && (
+          <span className="text-xs text-warm-gray bg-sand/40 rounded-full px-2 py-0.5 font-medium">
+            {count}
+          </span>
+        )}
+      </div>
+      <div className="mt-2 mb-6 h-px bg-gradient-to-r from-sand/80 to-transparent" />
+    </>
   );
 }
+
+const heroTopBorder: Record<string, string> = {
+  stockholm: "border-t-4 border-t-sea",
+  paris: "border-t-4 border-t-terracotta",
+  mallorca: "border-t-4 border-t-olive",
+  crete: "border-t-4 border-t-wine",
+};
 
 export default function DestinationSection({
   destination,
@@ -59,7 +69,7 @@ export default function DestinationSection({
   return (
     <section id={d.id} className="scroll-mt-20">
       {/* Hero */}
-      <div className="bg-navy text-white py-10 md:py-14 px-4 relative overflow-hidden">
+      <div className={`bg-navy text-white py-10 md:py-14 px-4 relative overflow-hidden ${heroTopBorder[d.id] || ""}`}>
         <div className="absolute inset-0 opacity-[0.03]">
           <div
             className="absolute inset-0"
@@ -140,7 +150,7 @@ export default function DestinationSection({
           <div>
             <SectionHeading emoji="🏨" title="Where You're Staying" />
             {d.accommodation.type === "family" && (
-              <div className="bg-white rounded-xl p-5 md:p-6 border border-sand/40 shadow-sm">
+              <div className="bg-white rounded-xl p-5 md:p-6 border border-sand/60 shadow-sm">
                 <div className="flex items-center gap-3">
                   <span className="text-2xl">🏠</span>
                   <div>

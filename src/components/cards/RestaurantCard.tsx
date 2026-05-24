@@ -3,7 +3,7 @@ import type { Restaurant } from "@/lib/types";
 export default function RestaurantCard({ restaurant }: { restaurant: Restaurant }) {
   const r = restaurant;
   return (
-    <div className="bg-white rounded-xl border border-sand/40 shadow-sm p-5 md:p-6 card-hover">
+    <div className="bg-white rounded-xl border border-sand/60 border-l-4 border-l-terracotta/30 shadow-sm p-5 md:p-6 card-hover">
       <div className="flex items-start justify-between gap-3 mb-2">
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 flex-wrap">

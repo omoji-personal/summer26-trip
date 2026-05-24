@@ -2,7 +2,7 @@ import type { Bar } from "@/lib/types";
 
 export default function BarCard({ bar }: { bar: Bar }) {
   return (
-    <div className="bg-white rounded-xl border border-sand/40 shadow-sm p-5 card-hover">
+    <div className="bg-white rounded-xl border border-sand/60 shadow-sm p-5 card-hover">
       <div className="flex items-center gap-2 mb-1.5">
         <h4 className="font-serif text-base font-semibold text-navy">{bar.name}</h4>
       </div>

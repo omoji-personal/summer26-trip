@@ -50,6 +50,7 @@ export default function DestinationNav({
               className={`
                 flex items-center gap-1.5 px-4 md:px-6 py-3.5 text-sm font-medium whitespace-nowrap
                 transition-colors duration-200 border-b-2 flex-shrink-0
+                focus-visible:outline focus-visible:outline-2 focus-visible:outline-terracotta focus-visible:outline-offset-2 rounded-sm
                 ${
                   active === d.id
                     ? "border-terracotta text-terracotta"

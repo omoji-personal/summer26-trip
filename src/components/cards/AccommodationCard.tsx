@@ -2,7 +2,7 @@ import type { Hotel, Airbnb } from "@/lib/types";
 
 function HotelCard({ hotel }: { hotel: Hotel }) {
   return (
-    <div className="bg-white rounded-xl border border-sand/40 shadow-sm overflow-hidden card-hover">
+    <div className="bg-white rounded-xl border border-sand/60 shadow-sm overflow-hidden card-hover">
       <div className="bg-terracotta/10 px-5 py-3 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <span className="text-lg">🏨</span>
@@ -96,7 +96,7 @@ function HotelCard({ hotel }: { hotel: Hotel }) {
 
 function AirbnbCard({ airbnb }: { airbnb: Airbnb }) {
   return (
-    <div className="bg-white rounded-xl border border-sand/40 shadow-sm overflow-hidden card-hover">
+    <div className="bg-white rounded-xl border border-sand/60 shadow-sm overflow-hidden card-hover">
       <div className="bg-terracotta/10 px-5 py-3 flex items-center gap-2">
         <span className="text-lg">🏡</span>
         <span className="font-serif font-semibold text-navy">{airbnb.name}</span>

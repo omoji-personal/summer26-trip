@@ -2,7 +2,7 @@ import type { Flight } from "@/lib/types";
 
 export default function FlightCard({ flight }: { flight: Flight }) {
   return (
-    <div className="bg-white rounded-xl border border-sand/40 shadow-sm overflow-hidden card-hover">
+    <div className="bg-white rounded-xl border border-sand/60 shadow-sm overflow-hidden card-hover">
       {/* Header bar */}
       <div className="bg-navy-light px-5 py-3 flex items-center justify-between">
         <div className="flex items-center gap-2">
