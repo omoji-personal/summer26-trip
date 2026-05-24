@@ -22,7 +22,7 @@
       "tags": [
         "food"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": null
     },
     {
       "name": "Bougatsa or tyropita",
@@ -30,7 +30,7 @@
       "tags": [
         "food"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1515443961218-a51367888e4b?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": null
     },
     {
       "name": "Goldair Handling lounge",
@@ -38,7 +38,7 @@
       "tags": [
         "lounge"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1564399580075-5dfe19c205f0?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": null
     }
   ],
   "specialNotes": [

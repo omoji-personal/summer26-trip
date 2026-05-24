@@ -62,7 +62,7 @@
         "nature",
         "island"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1572883454114-efbecab10b4a?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": null
     },
     {
       "name": "Fotografiska",
@@ -90,7 +90,7 @@
         "shopping",
         "culture"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1565008576549-57569a49371d?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": null
     },
     {
       "name": "Moderna Museet",
@@ -100,7 +100,7 @@
         "art",
         "free"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1544967082-d9d25d867d66?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": null
     },
     {
       "name": "Rosendals Trädgård",
@@ -119,7 +119,7 @@
         "museum",
         "spirits"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": null
     },
     {
       "name": "Östermalms Saluhall",
@@ -145,7 +145,7 @@
         "open-midsommar",
         "locals-favorite"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": null
     },
     {
       "name": "Pelikan",
@@ -159,7 +159,7 @@
         "art-nouveau",
         "locals-favorite"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": null
     },
     {
       "name": "Café Nizza",
@@ -173,7 +173,7 @@
         "natural-wine",
         "locals-favorite"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": null
     },
     {
       "name": "Oaxen Slip",
@@ -187,7 +187,7 @@
         "waterfront",
         "special-dinner"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1550966871-3ed3cdb51f3a?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": null
     },
     {
       "name": "Ekstedt",
@@ -201,7 +201,7 @@
         "swedish",
         "special-dinner"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": null
     },
     {
       "name": "Dashi",
@@ -240,7 +240,7 @@
         "market",
         "counter"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1534604973900-c43ab4c2e0ab?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": null
     },
     {
       "name": "Rosendals Trädgård",
@@ -253,7 +253,7 @@
         "garden",
         "organic"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": null
     },
     {
       "name": "Ärla",
@@ -267,7 +267,7 @@
         "value",
         "locals-favorite"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": null
     }
   ],
   "bars": [
@@ -278,7 +278,7 @@
         "world-50-best",
         "cocktails"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": null
     },
     {
       "name": "Pharmarium",
@@ -287,7 +287,7 @@
         "cocktails",
         "historic"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1525268323446-0505b6fe7778?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": null
     },
     {
       "name": "Lucy's Flower Shop",
@@ -296,7 +296,7 @@
         "cocktails",
         "creative"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": null
     },
     {
       "name": "Cachette",
@@ -306,7 +306,7 @@
         "cocktails",
         "wine"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1536935338788-846bb9981813?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": null
     },
     {
       "name": "Fooli",
@@ -315,7 +315,7 @@
         "wine-bar",
         "award-winning"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": null
     },
     {
       "name": "Fotografiska bar",
@@ -325,7 +325,7 @@
         "wine",
         "open-midsommar"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": null
     }
   ],
   "coffee": [
