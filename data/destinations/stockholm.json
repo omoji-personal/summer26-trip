@@ -61,7 +61,8 @@
         "day-trip",
         "nature",
         "island"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1530841377377-3ff06c0ca713?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Fotografiska",
@@ -69,7 +70,8 @@
       "tags": [
         "museum",
         "photography"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Monteliusvägen at sunset",
@@ -78,7 +80,8 @@
         "free",
         "views",
         "sunset"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1509356843151-3e7d96241e11?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "SoFo neighborhood",
@@ -86,7 +89,8 @@
       "tags": [
         "shopping",
         "culture"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1565008576549-57569a49371d?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Moderna Museet",
@@ -95,7 +99,8 @@
         "museum",
         "art",
         "free"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1544967082-d9d25d867d66?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Rosendals Trädgård",
@@ -104,7 +109,8 @@
         "garden",
         "cafe",
         "nature"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Spritmuseum",
@@ -112,7 +118,8 @@
       "tags": [
         "museum",
         "spirits"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Östermalms Saluhall",
@@ -121,7 +128,8 @@
         "food",
         "market",
         "historic"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?auto=format&fit=crop&w=800&h=500&q=80"
     }
   ],
   "restaurants": [
@@ -136,7 +144,8 @@
         "classic",
         "open-midsommar",
         "locals-favorite"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Pelikan",
@@ -149,7 +158,8 @@
         "beer-hall",
         "art-nouveau",
         "locals-favorite"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Café Nizza",
@@ -162,7 +172,8 @@
         "bistro",
         "natural-wine",
         "locals-favorite"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Oaxen Slip",
@@ -175,7 +186,8 @@
         "bib-gourmand",
         "waterfront",
         "special-dinner"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1550966871-3ed3cdb51f3a?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Ekstedt",
@@ -188,7 +200,8 @@
         "fire-cooking",
         "swedish",
         "special-dinner"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Dashi",
@@ -199,7 +212,8 @@
       "tags": [
         "japanese-nordic",
         "intimate"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1579027989536-b7b1f875659b?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Meatballs for the People",
@@ -212,7 +226,8 @@
         "meatballs",
         "swedish",
         "locals-favorite"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Lisa Elmqvist",
@@ -224,7 +239,8 @@
         "seafood",
         "market",
         "counter"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1534604973900-c43ab4c2e0ab?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Rosendals Trädgård",
@@ -236,7 +252,8 @@
         "cafe",
         "garden",
         "organic"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Ärla",
@@ -249,7 +266,8 @@
         "bib-gourmand",
         "value",
         "locals-favorite"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&h=500&q=80"
     }
   ],
   "bars": [
@@ -259,7 +277,8 @@
       "tags": [
         "world-50-best",
         "cocktails"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Pharmarium",
@@ -267,7 +286,8 @@
       "tags": [
         "cocktails",
         "historic"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1525268323446-0505b6fe7778?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Lucy's Flower Shop",
@@ -275,7 +295,8 @@
       "tags": [
         "cocktails",
         "creative"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Cachette",
@@ -284,7 +305,8 @@
         "hidden",
         "cocktails",
         "wine"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1536935338788-846bb9981813?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Fooli",
@@ -292,7 +314,8 @@
       "tags": [
         "wine-bar",
         "award-winning"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Fotografiska bar",
@@ -301,21 +324,25 @@
         "views",
         "wine",
         "open-midsommar"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=800&h=500&q=80"
     }
   ],
   "coffee": [
     {
       "name": "Drop Coffee",
-      "vibe": "Stockholm's most decorated specialty roaster. Light roasts, SoFo. The standard."
+      "vibe": "Stockholm's most decorated specialty roaster. Light roasts, SoFo. The standard.",
+      "imageUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Café Pascal",
-      "vibe": "Multiple locations. Won Stockholm's best cafe (Gulddraken). Own roasts, own pastries. The kouign-amann and cardamom buns are exceptional. Your fika spot. Great for a breakfast-out morning — kouign-amann + coffee is a meal."
+      "vibe": "Multiple locations. Won Stockholm's best cafe (Gulddraken). Own roasts, own pastries. The kouign-amann and cardamom buns are exceptional. Your fika spot. Great for a breakfast-out morning — kouign-amann + coffee is a meal.",
+      "imageUrl": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Vete-Katten",
-      "vibe": "City center, since 1928. Traditional Swedish konditori — princess cake, cinnamon rolls. Old Stockholm in the best way. Open early — a proper Swedish breakfast of cardamom buns, open-face sandwiches, and strong coffee."
+      "vibe": "City center, since 1928. Traditional Swedish konditori — princess cake, cinnamon rolls. Old Stockholm in the best way. Open early — a proper Swedish breakfast of cardamom buns, open-face sandwiches, and strong coffee.",
+      "imageUrl": "https://images.unsplash.com/photo-1483695028939-5bb13f8648b0?auto=format&fit=crop&w=800&h=500&q=80"
     }
   ],
   "beaches": [],
@@ -331,5 +358,6 @@
       "how": "ekstedt.nu",
       "why": "Confirm Midsommar availability"
     }
-  ]
+  ],
+  "heroImage": "https://images.unsplash.com/photo-1509356843151-3e7d96241e11?auto=format&fit=crop&w=1600&h=900&q=80"
 }

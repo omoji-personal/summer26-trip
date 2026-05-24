@@ -70,7 +70,8 @@
       "description": "The hotel spa offers Mediterranean-inspired treatments. Book one afternoon session for a pool-and-spa day. Good rainy-day backup too.",
       "tags": [
         "wellness"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1540555700478-4be289fbec6d?auto=format&fit=crop&w=800&h=500&q=80"
     }
   ],
   "restaurants": [
@@ -88,7 +89,8 @@
         "cash-only",
         "locals-favorite",
         "special-dinner"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Es Canyis",
@@ -101,7 +103,8 @@
         "seafood",
         "beachfront",
         "casual"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Agapanto",
@@ -114,7 +117,8 @@
         "mediterranean",
         "cocktails",
         "sunset"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Randemar",
@@ -126,7 +130,8 @@
       "tags": [
         "seafood",
         "waterfront"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Neni",
@@ -139,7 +144,8 @@
         "middle-eastern",
         "rooftop",
         "views"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Ca'n Pintxo",
@@ -153,7 +159,8 @@
         "casual",
         "mallorcan",
         "locals-favorite"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1515443961218-a51367888e4b?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Kraken",
@@ -167,7 +174,8 @@
         "market",
         "casual",
         "locals-favorite"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1534604973900-c43ab4c2e0ab?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Ca Ses Sauerschell's",
@@ -179,7 +187,8 @@
       "tags": [
         "terrace",
         "valley-views"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1550966871-3ed3cdb51f3a?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Béns d'Avall",
@@ -195,7 +204,8 @@
         "family-run",
         "locals-favorite",
         "special-dinner"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Marc Fosh",
@@ -208,7 +218,8 @@
         "fine-dining",
         "mediterranean",
         "historic-setting"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1560053608-13721e0d69e5?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "DINS Santi Taura",
@@ -221,7 +232,8 @@
         "tasting-menu",
         "mallorcan",
         "fine-dining"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&h=500&q=80"
     }
   ],
   "bars": [
@@ -233,7 +245,8 @@
         "theatrical",
         "cocktails",
         "historic"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1525268323446-0505b6fe7778?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Brassclub",
@@ -242,7 +255,8 @@
       "tags": [
         "cocktails",
         "award-winning"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Chapeau 1987",
@@ -251,7 +265,8 @@
       "tags": [
         "classic",
         "whisky"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Agapanto",
@@ -260,7 +275,8 @@
       "tags": [
         "cocktails",
         "sunset"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1536935338788-846bb9981813?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Jumeirah Sunset Lounge",
@@ -270,7 +286,8 @@
         "sunset",
         "views",
         "cocktails"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=800&h=500&q=80"
     }
   ],
   "coffee": [],
@@ -278,59 +295,70 @@
     {
       "name": "Platja d'en Repic",
       "driveTime": "Walk from hotel",
-      "vibe": "Sand, calm water, beach restaurants. Easy everyday beach."
+      "vibe": "Sand, calm water, beach restaurants. Easy everyday beach.",
+      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Cala Deià",
       "driveTime": "15 min",
-      "vibe": "Dramatic rocky cove. Crystal water. Ca's Patró March right on it. Barrier parking — arrive before 10am in July."
+      "vibe": "Dramatic rocky cove. Crystal water. Ca's Patró March right on it. Barrier parking — arrive before 10am in July.",
+      "imageUrl": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Platja de Formentor",
       "driveTime": "1.5-2 hrs",
-      "vibe": "White sand, turquoise, pine shade. Subject to Zone 1 car restrictions (see special notes)."
+      "vibe": "White sand, turquoise, pine shade. Subject to Zone 1 car restrictions (see special notes).",
+      "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Cala Tuent",
       "driveTime": "45 min (steep winding road)",
-      "vibe": "Quiet pebble cove, mountain walls, one restaurant. Uncrowded even in July."
+      "vibe": "Quiet pebble cove, mountain walls, one restaurant. Uncrowded even in July.",
+      "imageUrl": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Cala de Sant Vicenç",
       "driveTime": "~1 hr 10 min",
-      "vibe": "Four linked coves near Pollença. 30m visibility, great for snorkeling. Pair with Formentor day."
+      "vibe": "Four linked coves near Pollença. 30m visibility, great for snorkeling. Pair with Formentor day.",
+      "imageUrl": "https://images.unsplash.com/photo-1520454974749-611b7248ffdb?auto=format&fit=crop&w=800&h=500&q=80"
     }
   ],
   "dayTrips": [
     {
       "name": "Deià + Valldemossa",
       "driveTime": "Deià 15 min, Valldemossa 30 min",
-      "highlights": "Ma-10 coast road (Europe's most beautiful drives). Deià: artists' village, Cala Deià cove. Valldemossa: La Cartuja monastery (Chopin, closes 2:30pm — go morning), postcard-perfect streets."
+      "highlights": "Ma-10 coast road (Europe's most beautiful drives). Deià: artists' village, Cala Deià cove. Valldemossa: La Cartuja monastery (Chopin, closes 2:30pm — go morning), postcard-perfect streets.",
+      "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Cap de Formentor + Pollença",
       "driveTime": "1.5-2 hrs (full day)",
-      "highlights": "Mallorca's dramatic northern tip. 2026 restriction: road to lighthouse closed to cars 10am-10pm. Strategy: leave by 6:30am (requires an early start) OR take TIB 334 shuttle from Pollença (~9:30am start, sleep-in-friendly). Pine Walk in Puerto Pollença, medieval walled Alcúdia."
+      "highlights": "Mallorca's dramatic northern tip. 2026 restriction: road to lighthouse closed to cars 10am-10pm. Strategy: leave by 6:30am (requires an early start) OR take TIB 334 shuttle from Pollença (~9:30am start, sleep-in-friendly). Pine Walk in Puerto Pollença, medieval walled Alcúdia.",
+      "imageUrl": "https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Palma",
       "driveTime": "45-55 min (Sóller tunnel toll ~$7)",
-      "highlights": "La Seu cathedral (Gaudí interior, book tickets online), Bellver Castle (circular Gothic, free Sun mornings), old town courtyards, Mercat de l'Olivar (eat at the counters), Santa Catalina neighborhood. Bar Abaco for evening drinks."
+      "highlights": "La Seu cathedral (Gaudí interior, book tickets online), Bellver Castle (circular Gothic, free Sun mornings), old town courtyards, Mercat de l'Olivar (eat at the counters), Santa Catalina neighborhood. Bar Abaco for evening drinks.",
+      "imageUrl": "https://images.unsplash.com/photo-1564399580075-5dfe19c205f0?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Fornalutx",
       "driveTime": "15 min",
-      "highlights": "One of Spain's most beautiful villages. Stone streets, citrus groves, mountain backdrop. Coffee and a stroll. Easy half-day."
+      "highlights": "One of Spain's most beautiful villages. Stone streets, citrus groves, mountain backdrop. Coffee and a stroll. Easy half-day.",
+      "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Sa Calobra + Cala Tuent",
       "driveTime": "Sa Calobra 50 min, Cala Tuent 45 min",
-      "highlights": "\"Road of 1,000 bends\" to Sa Calobra (800m altitude change). Walk to Torrent de Pareis gorge beach. Cala Tuent: quiet mountain cove, one restaurant. Or take the boat from Port de Soller (avoids the road, adds sea drama)."
+      "highlights": "\"Road of 1,000 bends\" to Sa Calobra (800m altitude change). Walk to Torrent de Pareis gorge beach. Cala Tuent: quiet mountain cove, one restaurant. Or take the boat from Port de Soller (avoids the road, adds sea drama).",
+      "imageUrl": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Sóller town",
       "driveTime": "Vintage tram ride (10 min)",
-      "highlights": "Modernista architecture, covered market, Sa Fàbrica de Gelats (island's best ice cream)."
+      "highlights": "Modernista architecture, covered market, Sa Fàbrica de Gelats (island's best ice cream).",
+      "imageUrl": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&h=500&q=80"
     }
   ],
   "bookingPriorities": [
@@ -354,5 +382,6 @@
       "how": "marcfosh.com",
       "why": "Popular but more availability"
     }
-  ]
+  ],
+  "heroImage": "https://images.unsplash.com/photo-1566438480900-0609be27a4be?auto=format&fit=crop&w=1600&h=900&q=80"
 }

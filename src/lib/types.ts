@@ -11,6 +11,7 @@ export interface Trip {
   totalDays: number;
   pacing?: string;
   travelers: Traveler[];
+  heroImage?: string;
 }
 
 // Flight / Transport
@@ -139,6 +140,7 @@ export interface Activity {
   name: string;
   description: string;
   tags: string[];
+  imageUrl?: string;
 }
 
 export interface Restaurant {
@@ -149,6 +151,7 @@ export interface Restaurant {
   bookRequired: boolean;
   bookHow: string | null;
   tags: string[];
+  imageUrl?: string;
 }
 
 export interface Bar {
@@ -156,23 +159,27 @@ export interface Bar {
   location?: string;
   vibe: string;
   tags: string[];
+  imageUrl?: string;
 }
 
 export interface Coffee {
   name: string;
   vibe: string;
+  imageUrl?: string;
 }
 
 export interface Beach {
   name: string;
   driveTime: string;
   vibe: string;
+  imageUrl?: string;
 }
 
 export interface DayTrip {
   name: string;
   driveTime: string;
   highlights: string;
+  imageUrl?: string;
 }
 
 export interface WeeklyMarket {
@@ -191,12 +198,14 @@ export interface CookingNight {
   market: string;
   shoppingList: string[];
   instructions: string;
+  imageUrl?: string;
 }
 
 export interface CretanWine {
   winery: string;
   signature: string;
   notes: string;
+  imageUrl?: string;
 }
 
 export interface BookingPriority {
@@ -217,6 +226,7 @@ export interface Destination {
   country: string;
   emoji: string;
   region?: string;
+  heroImage?: string;
   dates: { arrive: string; depart: string };
   nights: number;
   accommodation: Accommodation;

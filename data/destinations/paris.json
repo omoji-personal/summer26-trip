@@ -48,7 +48,8 @@
         "museum",
         "free",
         "history"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1564399580075-5dfe19c205f0?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Musée de l'Orangerie",
@@ -57,7 +58,8 @@
         "museum",
         "art",
         "monet"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Musee de la Chasse et de la Nature",
@@ -65,7 +67,8 @@
       "tags": [
         "museum",
         "hidden-gem"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Palais Royal garden",
@@ -74,7 +77,8 @@
         "garden",
         "architecture",
         "free"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1541849546-216549ae216d?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Marché d'Aligre",
@@ -83,7 +87,8 @@
         "market",
         "food",
         "authentic"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Coulée Verte / Promenade Plantée",
@@ -92,7 +97,8 @@
         "walk",
         "park",
         "architecture"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Marché des Enfants Rouges",
@@ -101,7 +107,8 @@
         "market",
         "food",
         "historic"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Canal Saint-Martin to Belleville",
@@ -110,7 +117,8 @@
         "walk",
         "street-art",
         "culture"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=800&h=500&q=80"
     }
   ],
   "restaurants": [
@@ -124,7 +132,8 @@
         "art-nouveau",
         "classic-french",
         "value"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Bistrot Paul Bert",
@@ -136,7 +145,8 @@
         "bistro",
         "classic",
         "locals-favorite"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1550966871-3ed3cdb51f3a?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Le Servan",
@@ -149,7 +159,8 @@
         "creative",
         "locals-favorite",
         "special-dinner"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Le Café de l'Usine",
@@ -162,7 +173,8 @@
         "locals",
         "value",
         "locals-favorite"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Frenchie Bar à Vins",
@@ -175,7 +187,8 @@
         "small-plates",
         "natural-wine",
         "locals-favorite"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Verjus Wine Bar",
@@ -186,7 +199,8 @@
       "tags": [
         "wine-bar",
         "farm-to-table"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Bistrot des Tournelles",
@@ -199,7 +213,8 @@
         "marais",
         "natural-wine",
         "locals-favorite"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "L'As du Fallafel",
@@ -212,7 +227,8 @@
         "casual",
         "cash-only",
         "locals-favorite"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Marché des Enfants Rouges",
@@ -224,7 +240,8 @@
         "market",
         "multicultural",
         "lunch"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Septime",
@@ -237,7 +254,8 @@
         "seasonal",
         "fine-dining",
         "special-dinner"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Frenchie",
@@ -248,7 +266,8 @@
       "tags": [
         "fine-dining",
         "prix-fixe"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1560053608-13721e0d69e5?auto=format&fit=crop&w=800&h=500&q=80"
     }
   ],
   "bars": [
@@ -259,7 +278,8 @@
         "speakeasy",
         "cocktails",
         "world-50-best"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Bar Hemingway (Ritz)",
@@ -268,7 +288,8 @@
         "cocktails",
         "historic",
         "luxury"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1525268323446-0505b6fe7778?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Harry's New York Bar",
@@ -277,7 +298,8 @@
         "cocktails",
         "historic",
         "classic"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "La Buvette",
@@ -285,7 +307,8 @@
       "tags": [
         "natural-wine",
         "iconic"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1536935338788-846bb9981813?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Clown Bar",
@@ -294,7 +317,8 @@
         "natural-wine",
         "art-nouveau",
         "historic"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Aux Deux Amis",
@@ -303,7 +327,8 @@
         "wine-bar",
         "classic",
         "lively"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=800&h=500&q=80"
     }
   ],
   "coffee": [],
@@ -320,5 +345,6 @@
       "how": "frenchie-restaurant.com",
       "why": "Mon-Fri dinner only"
     }
-  ]
+  ],
+  "heroImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1600&h=900&q=80"
 }

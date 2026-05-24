@@ -49,7 +49,8 @@
         "town",
         "culture",
         "market"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Samaria Gorge",
@@ -58,14 +59,16 @@
         "hiking",
         "strenuous",
         "full-day"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Hammam in Chania",
       "description": "Several traditional hammams in the old town offer Turkish bath experiences in original Ottoman buildings. A good midday heat escape.",
       "tags": [
         "wellness"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1540555700478-4be289fbec6d?auto=format&fit=crop&w=800&h=500&q=80"
     }
   ],
   "restaurants": [
@@ -81,7 +84,8 @@
         "farm-to-table",
         "nyt-featured",
         "locals-favorite"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Tamam",
@@ -95,7 +99,8 @@
         "traditional",
         "historic-building",
         "locals-favorite"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Thalassino Ageri",
@@ -109,7 +114,8 @@
         "sunset",
         "romantic",
         "special-dinner"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "To Maridaki",
@@ -123,7 +129,8 @@
         "casual",
         "daily-catch",
         "locals-favorite"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1534604973900-c43ab4c2e0ab?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Glossitses",
@@ -137,7 +144,8 @@
         "garden",
         "traditional",
         "locals-favorite"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Papadakis",
@@ -151,7 +159,8 @@
         "casual",
         "beach-day",
         "locals-favorite"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1515443961218-a51367888e4b?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Chrisostomos",
@@ -165,7 +174,8 @@
         "traditional",
         "family-run",
         "locals-favorite"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1550966871-3ed3cdb51f3a?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Salis",
@@ -178,7 +188,8 @@
         "modern",
         "creative",
         "waterfront"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Steria",
@@ -191,7 +202,8 @@
         "modern",
         "zero-waste",
         "live-fire"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Avli",
@@ -205,7 +217,8 @@
         "fine-dining",
         "wine",
         "special-dinner"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Avli Raw Materials",
@@ -218,7 +231,8 @@
         "wine-bar",
         "deli",
         "casual"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=800&h=500&q=80"
     }
   ],
   "bars": [
@@ -230,7 +244,8 @@
         "cocktails",
         "ruins",
         "views"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Fagotto Jazz Bar",
@@ -240,7 +255,8 @@
         "jazz",
         "live-music",
         "historic"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1511192336575-5a79af67a629?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Sinagogi",
@@ -250,7 +266,8 @@
         "outdoor",
         "cocktails",
         "atmospheric"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1536935338788-846bb9981813?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Pallas Rooftop",
@@ -260,7 +277,8 @@
         "rooftop",
         "views",
         "sundowner"
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=800&h=500&q=80"
     }
   ],
   "coffee": [],
@@ -268,74 +286,88 @@
     {
       "name": "Balos Lagoon",
       "driveTime": "1.5 hrs + 20-min hike down",
-      "vibe": "The famous turquoise lagoon. No shade — bring everything. Go early (fills by 10am). Best before 10am but fills by then — going late afternoon (after 4pm) is a viable alternative when it clears out. Book the Kissamos ferry online if taking the boat (~$45/pp, capacity-controlled in 2026). The Q2 handles the dirt road."
+      "vibe": "The famous turquoise lagoon. No shade — bring everything. Go early (fills by 10am). Best before 10am but fills by then — going late afternoon (after 4pm) is a viable alternative when it clears out. Book the Kissamos ferry online if taking the boat (~$45/pp, capacity-controlled in 2026). The Q2 handles the dirt road.",
+      "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Falassarna",
       "driveTime": "1 hr 15 min",
-      "vibe": "Wide golden sand, swimmable, beach tavernas. Best combined with Balos (20 min apart). Wilder north end (Pacheia Ammos) has dunes, no sunbeds, ancient harbor ruins."
+      "vibe": "Wide golden sand, swimmable, beach tavernas. Best combined with Balos (20 min apart). Wilder north end (Pacheia Ammos) has dunes, no sunbeds, ancient harbor ruins.",
+      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Elafonissi",
       "driveTime": "1.5-2 hrs",
-      "vibe": "Pink-tinged sand, shallow lagoon. Stunning but arrive before 9am in July or parking is a nightmare. Late afternoon (after 4-5pm) also works as crowds thin and light turns golden."
+      "vibe": "Pink-tinged sand, shallow lagoon. Stunning but arrive before 9am in July or parking is a nightmare. Late afternoon (after 4-5pm) also works as crowds thin and light turns golden.",
+      "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Kedrodasos",
       "driveTime": "Same drive as Elafonissi + 20-min coastal walk",
-      "vibe": "Hidden beach with ancient cedar trees growing to the waterline. Natural shade, minimal crowds. No facilities. Bring water and food."
+      "vibe": "Hidden beach with ancient cedar trees growing to the waterline. Natural shade, minimal crowds. No facilities. Bring water and food.",
+      "imageUrl": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Seitan Limania",
       "driveTime": "30-40 min (Akrotiri)",
-      "vibe": "Dramatic fjord-like inlet between limestone cliffs. Turquoise. Parking fills by 9am. Steep rocky access — not for everyone. The steep descent is significantly harder in midday heat — go early morning or late afternoon."
+      "vibe": "Dramatic fjord-like inlet between limestone cliffs. Turquoise. Parking fills by 9am. Steep rocky access — not for everyone. The steep descent is significantly harder in midday heat — go early morning or late afternoon.",
+      "imageUrl": "https://images.unsplash.com/photo-1520454974749-611b7248ffdb?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Stavros",
       "driveTime": "25-30 min (Akrotiri)",
-      "vibe": "Where they filmed Zorba the Greek. Sheltered bay, dramatic cliff backdrop. Village tavernas. Zero tourist-trap energy. Easy morning beach."
+      "vibe": "Where they filmed Zorba the Greek. Sheltered bay, dramatic cliff backdrop. Village tavernas. Zero tourist-trap energy. Easy morning beach.",
+      "imageUrl": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Marathi",
       "driveTime": "15 min",
-      "vibe": "Sheltered double cove, tavernas on the sand. Easy, swimmable, low-key."
+      "vibe": "Sheltered double cove, tavernas on the sand. Easy, swimmable, low-key.",
+      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Loutro",
       "driveTime": "1.5-hr drive to Sfakion + 15-min ferry",
-      "vibe": "Roadless fishing village — only accessible by boat or foot. White buildings, turquoise bay. Swim off rocks, eat at waterfront tavernas. ANENDYK ferry from Sfakion: ~$11, hourly in summer, first ~9:30am, last ~6:45pm."
+      "vibe": "Roadless fishing village — only accessible by boat or foot. White buildings, turquoise bay. Swim off rocks, eat at waterfront tavernas. ANENDYK ferry from Sfakion: ~$11, hourly in summer, first ~9:30am, last ~6:45pm.",
+      "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=800&h=500&q=80"
     }
   ],
   "dayTrips": [
     {
       "name": "Balos + Falassarna",
       "driveTime": "Full day",
-      "highlights": "Lagoon morning, beach afternoon. Pack water/sunscreen."
+      "highlights": "Lagoon morning, beach afternoon. Pack water/sunscreen.",
+      "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "South coast: Sfakion + Loutro",
       "driveTime": "Full day",
-      "highlights": "Drive 1.5 hrs south through White Mountains (the descent from Imbros is Crete's most dramatic road). Ferry to roadless Loutro. Swim, eat, do nothing."
+      "highlights": "Drive 1.5 hrs south through White Mountains (the descent from Imbros is Crete's most dramatic road). Ferry to roadless Loutro. Swim, eat, do nothing.",
+      "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Dounias + Theriso Gorge",
       "driveTime": "Half day",
-      "highlights": "Drive south through the stunning Theriso Gorge to Drakona village (~1 hr). Lunch at Dounias. The gorge road itself is spectacular."
+      "highlights": "Drive south through the stunning Theriso Gorge to Drakona village (~1 hr). Lunch at Dounias. The gorge road itself is spectacular.",
+      "imageUrl": "https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Rethymno",
       "driveTime": "1 hr east",
-      "highlights": "Most intact Venetian old town in Crete. 16th-century Fortezza fortress. Avli for dinner."
+      "highlights": "Most intact Venetian old town in Crete. 16th-century Fortezza fortress. Avli for dinner.",
+      "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Imbros Gorge + Sfakion",
       "driveTime": "Full day",
-      "highlights": "11 km, 2.5-4 hrs, ~$6 entry. Much easier than Samaria, equally scenic. Exit at Komitades, taxi back to car (~$17). Continue to Sfakion for Loutro ferry."
+      "highlights": "11 km, 2.5-4 hrs, ~$6 entry. Much easier than Samaria, equally scenic. Exit at Komitades, taxi back to car (~$17). Continue to Sfakion for Loutro ferry.",
+      "imageUrl": "https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Manousakis Winery",
       "driveTime": "30 min from Chania",
-      "highlights": "Western Crete's standout winery. Rhone varieties in Cretan limestone. Terroir Tasting ~$9/pp, Premium ~$17/pp. Taverna on-site. Closed Sundays. More of a detour than a destination — casual drinkers might prefer just buying bottles at a Chania wine shop."
+      "highlights": "Western Crete's standout winery. Rhone varieties in Cretan limestone. Terroir Tasting ~$9/pp, Premium ~$17/pp. Taverna on-site. Closed Sundays. More of a detour than a destination — casual drinkers might prefer just buying bottles at a Chania wine shop.",
+      "imageUrl": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&w=800&h=500&q=80"
     }
   ],
   "cookingNight": {
@@ -391,5 +423,6 @@
       "how": "avli.gr",
       "why": "Worth the Rethymno drive, book early"
     }
-  ]
+  ],
+  "heroImage": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1600&h=900&q=80"
 }

@@ -23,17 +23,24 @@ export default function Header({
 }) {
   return (
     <header className="relative overflow-hidden bg-navy text-cream pt-12 pb-14 md:pt-16 md:pb-20 px-4">
-      {/* Decorative background pattern */}
-      <div className="absolute inset-0 opacity-[0.04]">
-        <div
-          className="absolute inset-0"
-          style={{
-            backgroundImage:
-              "radial-gradient(circle at 1px 1px, white 1px, transparent 0)",
-            backgroundSize: "40px 40px",
-          }}
-        />
-      </div>
+      {/* Background: hero image or decorative dot pattern */}
+      {trip.heroImage ? (
+        <>
+          <img src={trip.heroImage} alt={trip.title} className="absolute inset-0 w-full h-full object-cover" loading="lazy" />
+          <div className="absolute inset-0 bg-gradient-to-b from-navy/80 via-navy/60 to-navy/80" />
+        </>
+      ) : (
+        <div className="absolute inset-0 opacity-[0.04]">
+          <div
+            className="absolute inset-0"
+            style={{
+              backgroundImage:
+                "radial-gradient(circle at 1px 1px, white 1px, transparent 0)",
+              backgroundSize: "40px 40px",
+            }}
+          />
+        </div>
+      )}
 
       <div className="relative max-w-4xl mx-auto">
         {/* Title */}

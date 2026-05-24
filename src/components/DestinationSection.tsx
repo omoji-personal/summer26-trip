@@ -69,17 +69,24 @@ export default function DestinationSection({
   return (
     <section id={d.id} className="scroll-mt-20">
       {/* Hero */}
-      <div className={`bg-navy text-white py-10 md:py-14 px-4 relative overflow-hidden ${heroTopBorder[d.id] || ""}`}>
-        <div className="absolute inset-0 opacity-[0.03]">
-          <div
-            className="absolute inset-0"
-            style={{
-              backgroundImage:
-                "radial-gradient(circle at 1px 1px, white 1px, transparent 0)",
-              backgroundSize: "32px 32px",
-            }}
-          />
-        </div>
+      <div className={`relative text-white py-10 md:py-14 px-4 overflow-hidden ${heroTopBorder[d.id] || ""} ${d.heroImage ? 'min-h-[280px] md:min-h-[360px]' : 'bg-navy'}`}>
+        {d.heroImage ? (
+          <>
+            <img src={d.heroImage} alt={d.name} className="absolute inset-0 w-full h-full object-cover" loading="lazy" />
+            <div className="absolute inset-0 bg-gradient-to-b from-navy/70 via-navy/50 to-navy/70" />
+          </>
+        ) : (
+          <div className="absolute inset-0 opacity-[0.03]">
+            <div
+              className="absolute inset-0"
+              style={{
+                backgroundImage:
+                  "radial-gradient(circle at 1px 1px, white 1px, transparent 0)",
+                backgroundSize: "32px 32px",
+              }}
+            />
+          </div>
+        )}
         <div className="relative max-w-4xl mx-auto">
           <div className="flex items-start justify-between flex-wrap gap-3">
             <div>
