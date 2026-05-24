@@ -41,10 +41,12 @@ export default function RestaurantCard({ restaurant }: { restaurant: Restaurant 
               className={
                 tag === "locals-favorite"
                   ? "tag-pill bg-olive/15 text-olive border border-olive/25"
+                  : tag === "special-dinner"
+                  ? "tag-pill bg-gold/15 text-gold border border-gold/25"
                   : "tag-pill bg-cream-dark/60 text-warm-gray"
               }
             >
-              {tag === "locals-favorite" ? "locals' favorite" : tag}
+              {tag === "locals-favorite" ? "locals' favorite" : tag === "special-dinner" ? "✨ the special dinner" : tag}
             </span>
           ))}
         </div>

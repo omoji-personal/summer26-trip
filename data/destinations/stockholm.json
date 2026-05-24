@@ -164,7 +164,8 @@
       "tags": [
         "nordic",
         "bib-gourmand",
-        "waterfront"
+        "waterfront",
+        "special-dinner"
       ]
     },
     {
@@ -176,7 +177,8 @@
       "tags": [
         "fine-dining",
         "fire-cooking",
-        "swedish"
+        "swedish",
+        "special-dinner"
       ]
     },
     {
@@ -300,11 +302,11 @@
     },
     {
       "name": "Café Pascal",
-      "vibe": "Multiple locations. Won Stockholm's best cafe (Gulddraken). Own roasts, own pastries. The kouign-amann and cardamom buns are exceptional. Your fika spot."
+      "vibe": "Multiple locations. Won Stockholm's best cafe (Gulddraken). Own roasts, own pastries. The kouign-amann and cardamom buns are exceptional. Your fika spot. Great for a breakfast-out morning — kouign-amann + coffee is a meal."
     },
     {
       "name": "Vete-Katten",
-      "vibe": "City center, since 1928. Traditional Swedish konditori — princess cake, cinnamon rolls. Old Stockholm in the best way."
+      "vibe": "City center, since 1928. Traditional Swedish konditori — princess cake, cinnamon rolls. Old Stockholm in the best way. Open early — a proper Swedish breakfast of cardamom buns, open-face sandwiches, and strong coffee."
     }
   ],
   "beaches": [],

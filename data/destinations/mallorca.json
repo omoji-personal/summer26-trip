@@ -59,7 +59,9 @@
     {
       "name": "Pure Salt Spa",
       "description": "The hotel spa offers Mediterranean-inspired treatments. Book one afternoon session for a pool-and-spa day. Good rainy-day backup too.",
-      "tags": ["wellness"]
+      "tags": [
+        "wellness"
+      ]
     }
   ],
   "restaurants": [
@@ -75,7 +77,8 @@
         "cliffside",
         "iconic",
         "cash-only",
-        "locals-favorite"
+        "locals-favorite",
+        "special-dinner"
       ]
     },
     {
@@ -181,7 +184,8 @@
         "cliffside",
         "fine-dining",
         "family-run",
-        "locals-favorite"
+        "locals-favorite",
+        "special-dinner"
       ]
     },
     {

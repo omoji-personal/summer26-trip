@@ -26,7 +26,12 @@
     "Elevated parks",
     "Natural wine bars"
   ],
-  "specialNotes": [],
+  "specialNotes": [
+    {
+      "title": "Breakfast Spots",
+      "body": "Some mornings with family, some mornings out. Any neighborhood boulangerie will have excellent croissants and pain au chocolat. For a proper sit-down: Café de Flore (already on the list — order a croque monsieur and café crème), or Ob-La-Di in the Marais (specialty coffee + avocado toast + pastries, locals' favorite morning spot)."
+    }
+  ],
   "activities": [
     {
       "name": "Musée Carnavalet",
@@ -134,7 +139,8 @@
       "tags": [
         "french-asian",
         "creative",
-        "locals-favorite"
+        "locals-favorite",
+        "special-dinner"
       ]
     },
     {
@@ -221,7 +227,8 @@
       "tags": [
         "modern-french",
         "seasonal",
-        "fine-dining"
+        "fine-dining",
+        "special-dinner"
       ]
     },
     {
