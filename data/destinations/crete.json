@@ -20,6 +20,15 @@
     "Friend"
   ],
   "vibe": "Omid + Annika + Friend (arriving separately, likes structure). Villa with kitchen, Audi Q2. Mix of beach days and road-tripping. One cooking night.",
+  "weather": {
+    "highF": 90,
+    "highC": 32,
+    "lowF": 72,
+    "lowC": 22,
+    "conditions": "Hot and dry, strong sun, possible meltemi wind in afternoons",
+    "sunset": "~8:45 PM",
+    "note": "Heat-sensitive travelers should plan outdoor activities for morning or evening"
+  },
   "highlights": [
     "Turquoise lagoons",
     "Mountain gorges",

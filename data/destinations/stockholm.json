@@ -18,6 +18,15 @@
     "Annika"
   ],
   "vibe": "Just the two of you, staying with Swedish family who celebrate Midsommar. You've done the tourist highlights. 4 nights, some evenings with family. Jun 19-20 is Midsommar — the city shuts down.",
+  "weather": {
+    "highF": 70,
+    "highC": 21,
+    "lowF": 52,
+    "lowC": 11,
+    "conditions": "Long daylight (18+ hrs), mostly sunny with occasional rain showers",
+    "sunset": "~10:00 PM",
+    "note": "Midsommar weekend — nearly 24hrs of daylight"
+  },
   "highlights": [
     "Midsommar Eve arrival",
     "Archipelago ferry",

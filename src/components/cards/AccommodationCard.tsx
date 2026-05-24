@@ -44,10 +44,12 @@ function HotelCard({ hotel }: { hotel: Hotel }) {
             <p className="text-xs text-warm-gray uppercase tracking-wide mb-0.5">Rooms</p>
             <p className="font-medium">{hotel.rooms}</p>
           </div>
-          <div>
-            <p className="text-xs text-warm-gray uppercase tracking-wide mb-0.5">Total</p>
-            <p className="font-medium text-terracotta">{hotel.totalPrice}</p>
-          </div>
+          {hotel.totalPrice && (
+            <div>
+              <p className="text-xs text-warm-gray uppercase tracking-wide mb-0.5">Total</p>
+              <p className="font-medium text-terracotta">{hotel.totalPrice}</p>
+            </div>
+          )}
         </div>
 
         <div className="mt-4 space-y-2 text-sm">
@@ -66,19 +68,23 @@ function HotelCard({ hotel }: { hotel: Hotel }) {
         </div>
 
         <div className="mt-4 pt-4 border-t border-sand/30 space-y-2 text-xs text-warm-gray">
-          <p>
-            <span className="font-medium text-navy">Booking code:</span>{" "}
-            <span className="font-mono">{hotel.bookingCode}</span>
-          </p>
+          {hotel.bookingCode && (
+            <p>
+              <span className="font-medium text-navy">Booking code:</span>{" "}
+              <span className="font-mono">{hotel.bookingCode}</span>
+            </p>
+          )}
           <p>
             <span className="font-medium text-navy">Address:</span> {hotel.address}
           </p>
           <p>
             <span className="font-medium text-navy">Phone:</span> {hotel.phone}
           </p>
-          <p>
-            <span className="font-medium text-navy">Payment:</span> {hotel.payment}
-          </p>
+          {hotel.payment && (
+            <p>
+              <span className="font-medium text-navy">Payment:</span> {hotel.payment}
+            </p>
+          )}
           <p>
             <span className="font-medium text-navy">Cancellation:</span>{" "}
             {hotel.cancellation}

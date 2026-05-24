@@ -14,7 +14,13 @@ const cityEmojis: Record<string, string> = {
   Athens: "🇬🇷",
 };
 
-export default function Header({ trip }: { trip: Trip }) {
+export default function Header({
+  trip,
+  subtitle,
+}: {
+  trip: Trip;
+  subtitle?: string;
+}) {
   return (
     <header className="relative overflow-hidden bg-navy text-cream pt-12 pb-14 md:pt-16 md:pb-20 px-4">
       {/* Decorative background pattern */}
@@ -33,8 +39,9 @@ export default function Header({ trip }: { trip: Trip }) {
         {/* Title */}
         <div className="text-center mb-10 md:mb-14">
           <p className="text-terracotta-light text-sm font-medium tracking-[0.2em] uppercase mb-3">
-            {formatDate(trip.dates.start)} &mdash; {formatDate(trip.dates.end)}{" "}
-            &middot; {trip.totalDays} days
+            {subtitle
+              ? subtitle
+              : `${formatDate(trip.dates.start)} — ${formatDate(trip.dates.end)} · ${trip.totalDays} days`}
           </p>
           <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white mb-3">
             {trip.title}

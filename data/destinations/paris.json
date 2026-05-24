@@ -20,6 +20,14 @@
     "Dad"
   ],
   "vibe": "Omid + Annika + Parents. Staying with family, some commitments. You've done the big sights. ~2.5 usable days. Parents love scenic beauty, markets, architecture, and food culture.",
+  "weather": {
+    "highF": 77,
+    "highC": 25,
+    "lowF": 59,
+    "lowC": 15,
+    "conditions": "Warm and mostly sunny, occasional afternoon thunderstorms",
+    "sunset": "~9:55 PM"
+  },
   "highlights": [
     "Art Nouveau dining rooms",
     "Hidden markets",

@@ -234,5 +234,20 @@ export interface Destination {
   dayTrips: DayTrip[];
   cookingNight?: CookingNight;
   wines?: CretanWine[];
+  weather?: Weather;
   bookingPriorities: BookingPriority[];
 }
+
+// Weather data for destination hero
+export interface Weather {
+  highF: number;
+  highC: number;
+  lowF: number;
+  lowC: number;
+  conditions: string;
+  sunset: string;
+  note?: string;
+}
+
+// Re-export PageConfig
+export type { PageConfig } from "./page-config";

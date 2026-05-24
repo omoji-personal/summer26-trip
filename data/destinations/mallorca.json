@@ -21,6 +21,15 @@
     "Dad"
   ],
   "vibe": "All 4: Omid + Annika + Parents. Pure Salt hotel, Audi Q7, 6 nights. Parents love scenic drives, markets, villages, architecture.",
+  "weather": {
+    "highF": 86,
+    "highC": 30,
+    "lowF": 68,
+    "lowC": 20,
+    "conditions": "Hot and sunny, very low chance of rain",
+    "sunset": "~9:25 PM",
+    "note": "Peak UV — sunscreen essential, midday shade recommended"
+  },
   "highlights": [
     "Tramuntana mountain drives",
     "Cliffside restaurants",

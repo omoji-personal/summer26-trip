@@ -10,7 +10,9 @@ export default function CarRentalCard({ rental }: { rental: CarRental }) {
             {rental.company} &mdash; {rental.vehicle}
           </span>
         </div>
-        <span className="text-sea font-semibold text-sm">{rental.totalPrice}</span>
+        {rental.totalPrice && (
+          <span className="text-sea font-semibold text-sm">{rental.totalPrice}</span>
+        )}
       </div>
 
       <div className="p-5 md:p-6">
@@ -57,15 +59,21 @@ export default function CarRentalCard({ rental }: { rental: CarRental }) {
           <span>
             <span className="font-medium text-navy">Capacity:</span> {rental.capacity}
           </span>
-          <span>
-            <span className="font-medium text-navy">Confirmation:</span>{" "}
-            <span className="font-mono">{rental.confirmation}</span>
-          </span>
+          {rental.confirmation && (
+            <span>
+              <span className="font-medium text-navy">Confirmation:</span>{" "}
+              <span className="font-mono">{rental.confirmation}</span>
+            </span>
+          )}
         </div>
 
-        <p className="mt-2 text-xs text-warm-gray">
-          {rental.priceBreakdown} &mdash; {rental.paymentNote}
-        </p>
+        {(rental.priceBreakdown || rental.paymentNote) && (
+          <p className="mt-2 text-xs text-warm-gray">
+            {rental.priceBreakdown}
+            {rental.priceBreakdown && rental.paymentNote && " — "}
+            {rental.paymentNote}
+          </p>
+        )}
       </div>
     </div>
   );

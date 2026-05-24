@@ -9,9 +9,11 @@ export default function FlightCard({ flight }: { flight: Flight }) {
           <span className="text-lg">✈️</span>
           <span className="text-white font-medium text-sm">{flight.airline}</span>
         </div>
-        <span className="text-terracotta-light text-xs font-mono tracking-wide">
-          {flight.confirmation}
-        </span>
+        {flight.confirmation && (
+          <span className="text-terracotta-light text-xs font-mono tracking-wide">
+            {flight.confirmation}
+          </span>
+        )}
       </div>
 
       <div className="p-5 md:p-6">
@@ -57,10 +59,12 @@ export default function FlightCard({ flight }: { flight: Flight }) {
 
         {/* Meta row */}
         <div className="mt-4 flex flex-wrap gap-x-5 gap-y-1 text-xs text-warm-gray">
-          <span>
-            <span className="font-medium text-navy">Passengers:</span>{" "}
-            {flight.passengers.join(", ")}
-          </span>
+          {flight.passengers.length > 0 && (
+            <span>
+              <span className="font-medium text-navy">Passengers:</span>{" "}
+              {flight.passengers.join(", ")}
+            </span>
+          )}
           {flight.price && (
             <span>
               <span className="font-medium text-navy">Price:</span> {flight.price}

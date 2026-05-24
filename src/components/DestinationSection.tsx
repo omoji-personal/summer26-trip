@@ -97,6 +97,27 @@ export default function DestinationSection({
               <p className="text-warm-gray-light text-sm md:text-base">
                 {formatDateRange(d.dates.arrive, d.dates.depart)}
               </p>
+              {d.weather && (
+                <div className="mt-2 space-y-1">
+                  <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-warm-gray-light/80 text-xs md:text-sm">
+                    <span>
+                      ☀️ {d.weather.highF}°F / {d.weather.highC}°C highs
+                    </span>
+                    <span className="text-warm-gray-light/40">·</span>
+                    <span>
+                      {d.weather.lowF}°F / {d.weather.lowC}°C lows
+                    </span>
+                    <span className="text-warm-gray-light/40">·</span>
+                    <span>Sunset {d.weather.sunset}</span>
+                  </div>
+                  <p className="text-warm-gray-light/60 text-xs">
+                    {d.weather.conditions}
+                    {d.weather.note && (
+                      <span className="ml-1">— {d.weather.note}</span>
+                    )}
+                  </p>
+                </div>
+              )}
             </div>
             <div className="flex items-center gap-2 mt-1">
               {d.travelers.map((name) => (
