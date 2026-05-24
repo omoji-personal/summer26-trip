@@ -3,57 +3,101 @@
   "name": "Paris",
   "country": "France",
   "emoji": "🇫🇷",
-  "dates": { "arrive": "2026-06-23", "depart": "2026-06-26" },
+  "dates": {
+    "arrive": "2026-06-23",
+    "depart": "2026-06-26"
+  },
   "nights": 3,
   "accommodation": {
     "type": "family",
     "name": "Staying with family",
     "details": null
   },
-  "travelers": ["Omid", "Annika", "Mom", "Dad"],
+  "travelers": [
+    "Omid",
+    "Annika",
+    "Mom",
+    "Dad"
+  ],
   "vibe": "Omid + Annika + Parents. Staying with family, some commitments. You've done the big sights. ~2.5 usable days. Parents love scenic beauty, markets, architecture, and food culture.",
-  "highlights": ["Art Nouveau dining rooms", "Hidden markets", "Elevated parks", "Natural wine bars"],
+  "highlights": [
+    "Art Nouveau dining rooms",
+    "Hidden markets",
+    "Elevated parks",
+    "Natural wine bars"
+  ],
   "specialNotes": [],
   "activities": [
     {
       "name": "Musée Carnavalet",
       "description": "Le Marais, 23 Rue Madame de Sevigne. Museum of Paris history in two Renaissance mansions. Proust's cork-lined bedroom is here. Free, no reservation needed. Open Tue-Sun 10am-6pm. Parents will love this.",
-      "tags": ["museum", "free", "history"]
+      "tags": [
+        "museum",
+        "free",
+        "history"
+      ]
     },
     {
       "name": "Musée de l'Orangerie",
       "description": "Tuileries. Monet's Water Lilies in purpose-built oval rooms. Intimate, ~1 hour.",
-      "tags": ["museum", "art", "monet"]
+      "tags": [
+        "museum",
+        "art",
+        "monet"
+      ]
     },
     {
       "name": "Musee de la Chasse et de la Nature",
       "description": "Marais, 62 Rue des Archives. One of Paris's most unexpected museums. 17th-century mansions mixing historical art with contemporary interventions. Carved paneling, tapestries, witty curation. Completely off the tourist circuit. ~$15. Open Tue-Sun.",
-      "tags": ["museum", "hidden-gem"]
+      "tags": [
+        "museum",
+        "hidden-gem"
+      ]
     },
     {
       "name": "Palais Royal garden",
       "description": "Hidden in plain sight north of the Louvre. 17th-century enclosed arcaded square, Buren striped columns, chestnut trees. Most tourists walk past it.",
-      "tags": ["garden", "architecture", "free"]
+      "tags": [
+        "garden",
+        "architecture",
+        "free"
+      ]
     },
     {
       "name": "Marché d'Aligre",
       "description": "Place d'Aligre, 12th. Paris's most authentic food market. Outdoor produce stalls + covered Beauvau hall for cheese, charcuterie, specialty foods. Tue-Sun mornings. Parents will love this.",
-      "tags": ["market", "food", "authentic"]
+      "tags": [
+        "market",
+        "food",
+        "authentic"
+      ]
     },
     {
       "name": "Coulée Verte / Promenade Plantée",
       "description": "12th, starts at Bastille. The elevated park on a former railway viaduct that inspired NYC's High Line. 4.7km walk, rose gardens, rooftop views. Below: artisan workshops (ceramicists, luthiers). Pairs naturally with Marché d'Aligre.",
-      "tags": ["walk", "park", "architecture"]
+      "tags": [
+        "walk",
+        "park",
+        "architecture"
+      ]
     },
     {
       "name": "Marché des Enfants Rouges",
       "description": "Marais, 39 Rue de Bretagne. Paris's oldest covered market (1615). The food stalls at lunch are the draw: Moroccan tagines, Japanese bento, Lebanese plates. Communal tables. Closed Mondays.",
-      "tags": ["market", "food", "historic"]
+      "tags": [
+        "market",
+        "food",
+        "historic"
+      ]
     },
     {
       "name": "Canal Saint-Martin to Belleville",
       "description": "Iron footbridges, tree-lined quays, locks, then into Belleville's street art and multicultural food scene. Édith Piaf's neighborhood.",
-      "tags": ["walk", "street-art", "culture"]
+      "tags": [
+        "walk",
+        "street-art",
+        "culture"
+      ]
     }
   ],
   "restaurants": [
@@ -63,31 +107,45 @@
       "price": "~$22-40/pp",
       "bookRequired": false,
       "bookHow": "No reservations. Arrive by 7pm.",
-      "tags": ["art-nouveau", "classic-french", "value"]
+      "tags": [
+        "art-nouveau",
+        "classic-french",
+        "value"
+      ]
     },
     {
       "name": "Bistrot Paul Bert",
-      "vibe": "Platonic ideal of a Paris bistro. Steak frites, souffle, tarte Tatin. Great wine list. Bib Gourmand.",
+      "vibe": "Platonic ideal of a Paris bistro. Steak frites, souffle, tarte Tatin. Great wine list. Michelin listed.",
       "price": "Lunch ~$38 three courses",
       "bookRequired": true,
       "bookHow": "+33 1 43 72 24 01 (hard to reach). Walk-in: arrive 7:30pm for patio.",
-      "tags": ["bistro", "bib-gourmand", "classic"]
+      "tags": [
+        "bistro",
+        "classic"
+      ]
     },
     {
       "name": "Le Servan",
       "vibe": "Sisters Tatiana & Katia Levha. French bistro technique with Filipino-Asian soul. Period frescoes. One of Paris's most talked-about rooms.",
       "price": "~$55-80/pp",
       "bookRequired": true,
-      "bookHow": "Essential. Closed weekends.",
-      "tags": ["french-asian", "creative"]
+      "bookHow": "Essential. Closed Sundays. Saturday dinner available.",
+      "tags": [
+        "french-asian",
+        "creative"
+      ]
     },
     {
       "name": "Le Café de l'Usine",
-      "vibe": "Time Out Best Bistro 2025. Worker-priced lunch, precise rustic cooking. A real locals' room.",
+      "vibe": "Time Out Paris recommended. Worker-priced lunch, precise rustic cooking. A real locals' room.",
       "price": "~$28-45/pp",
       "bookRequired": false,
       "bookHow": null,
-      "tags": ["bistro", "locals", "value"]
+      "tags": [
+        "bistro",
+        "locals",
+        "value"
+      ]
     },
     {
       "name": "Frenchie Bar à Vins",
@@ -95,7 +153,11 @@
       "price": "~$45-65/pp",
       "bookRequired": false,
       "bookHow": "No reservation — arrive at opening.",
-      "tags": ["wine-bar", "small-plates", "natural-wine"]
+      "tags": [
+        "wine-bar",
+        "small-plates",
+        "natural-wine"
+      ]
     },
     {
       "name": "Verjus Wine Bar",
@@ -103,7 +165,10 @@
       "price": "Bar ~$35-55/pp",
       "bookRequired": false,
       "bookHow": "Bar: walk-in.",
-      "tags": ["wine-bar", "farm-to-table"]
+      "tags": [
+        "wine-bar",
+        "farm-to-table"
+      ]
     },
     {
       "name": "Bistrot des Tournelles",
@@ -111,7 +176,11 @@
       "price": "~$45-65/pp",
       "bookRequired": true,
       "bookHow": "Recommended",
-      "tags": ["bistro", "marais", "natural-wine"]
+      "tags": [
+        "bistro",
+        "marais",
+        "natural-wine"
+      ]
     },
     {
       "name": "L'As du Fallafel",
@@ -119,7 +188,11 @@
       "price": "~$10-15/pp",
       "bookRequired": false,
       "bookHow": "No — just queue.",
-      "tags": ["falafel", "casual", "cash-only"]
+      "tags": [
+        "falafel",
+        "casual",
+        "cash-only"
+      ]
     },
     {
       "name": "Marché des Enfants Rouges",
@@ -127,7 +200,11 @@
       "price": "~$10-20/pp",
       "bookRequired": false,
       "bookHow": "No — Closed Mondays.",
-      "tags": ["market", "multicultural", "lunch"]
+      "tags": [
+        "market",
+        "multicultural",
+        "lunch"
+      ]
     },
     {
       "name": "Septime",
@@ -135,7 +212,11 @@
       "price": "~$95-135/pp",
       "bookRequired": true,
       "bookHow": "septime-charonne.fr — 3 weeks ahead.",
-      "tags": ["modern-french", "seasonal", "fine-dining"]
+      "tags": [
+        "modern-french",
+        "seasonal",
+        "fine-dining"
+      ]
     },
     {
       "name": "Frenchie",
@@ -143,39 +224,65 @@
       "price": "~$110/pp",
       "bookRequired": true,
       "bookHow": "frenchie-restaurant.com — Mon-Fri dinner only.",
-      "tags": ["fine-dining", "prix-fixe"]
+      "tags": [
+        "fine-dining",
+        "prix-fixe"
+      ]
     }
   ],
   "bars": [
     {
       "name": "La Buvette",
       "vibe": "67 Rue Saint-Maur, 11th. Iconic tiny natural wine bar in a former crémerie. Candlelit, cult vignerons, charcuterie on a mirror. Arrive early for a seat.",
-      "tags": ["natural-wine", "iconic"]
+      "tags": [
+        "natural-wine",
+        "iconic"
+      ]
     },
     {
       "name": "Clown Bar",
       "vibe": "114 Rue Amelot, 11th. Next to Cirque d'Hiver. 1920s Art Nouveau tiles (listed historical monument). One of France's largest natural wine selections. Serious food too.",
-      "tags": ["natural-wine", "art-nouveau", "historic"]
+      "tags": [
+        "natural-wine",
+        "art-nouveau",
+        "historic"
+      ]
     },
     {
       "name": "Candelaria",
-      "vibe": "52 Rue de Saintonge, 3rd. Taqueria at front, unmarked door to one of Paris's best cocktail bars in back. World's 50 Best Bars list.",
-      "tags": ["speakeasy", "cocktails", "world-50-best"]
+      "vibe": "52 Rue de Saintonge, 3rd. Taqueria at front, unmarked door to one of Paris's best cocktail bars in back. World's Best Bars extended list.",
+      "tags": [
+        "speakeasy",
+        "cocktails",
+        "world-50-best"
+      ]
     },
     {
       "name": "Aux Deux Amis",
       "vibe": "45 Rue Oberkampf, 11th. Classic zinc bar, Art Deco, natural small-producer wines. Loud, busy, completely Paris.",
-      "tags": ["wine-bar", "classic", "lively"]
+      "tags": [
+        "wine-bar",
+        "classic",
+        "lively"
+      ]
     },
     {
       "name": "Bar Hemingway (Ritz)",
       "vibe": "15 Place Vendôme. 25 plush seats. Hemingway \"liberated\" this bar in 1944. $28-40/cocktail. Go for one drink. Parents will love the history.",
-      "tags": ["cocktails", "historic", "luxury"]
+      "tags": [
+        "cocktails",
+        "historic",
+        "luxury"
+      ]
     },
     {
       "name": "Harry's New York Bar",
       "vibe": "5 Rue Daunou, 2nd. Since 1911. Claimed birthplace of the Bloody Mary and French 75. 115 years of patina.",
-      "tags": ["cocktails", "historic", "classic"]
+      "tags": [
+        "cocktails",
+        "historic",
+        "classic"
+      ]
     }
   ],
   "coffee": [],

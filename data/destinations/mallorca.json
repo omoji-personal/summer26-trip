@@ -4,16 +4,29 @@
   "country": "Spain",
   "emoji": "🇪🇸",
   "region": "Port de Soller",
-  "dates": { "arrive": "2026-06-26", "depart": "2026-07-02" },
+  "dates": {
+    "arrive": "2026-06-26",
+    "depart": "2026-07-02"
+  },
   "nights": 6,
   "accommodation": {
     "type": "hotel",
     "name": "Pure Salt Port de Soller",
     "details": "4-star, adults only (14+). 2x Double Sea View. Breakfast included daily. Welcome drink on arrival."
   },
-  "travelers": ["Omid", "Annika", "Mom", "Dad"],
+  "travelers": [
+    "Omid",
+    "Annika",
+    "Mom",
+    "Dad"
+  ],
   "vibe": "All 4: Omid + Annika + Parents. Pure Salt hotel, Audi Q7, 6 nights. Parents love scenic drives, markets, villages, architecture.",
-  "highlights": ["Tramuntana mountain drives", "Cliffside restaurants", "Island markets", "Mediterranean beaches"],
+  "highlights": [
+    "Tramuntana mountain drives",
+    "Cliffside restaurants",
+    "Island markets",
+    "Mediterranean beaches"
+  ],
   "specialNotes": [
     {
       "title": "Cap de Formentor 2026 Restriction",
@@ -21,10 +34,26 @@
     }
   ],
   "weeklyMarkets": [
-    { "market": "Port de Soller", "day": "Thursday", "date": "Jun 26 (arrival day)" },
-    { "market": "Sóller", "day": "Saturday", "date": "Jun 28" },
-    { "market": "Deià", "day": "Wednesday", "date": "Jul 1" },
-    { "market": "Pollença", "day": "Sunday", "date": "Jun 29 — one of Mallorca's best" }
+    {
+      "market": "Port de Soller",
+      "day": "Thursday",
+      "date": "Jun 26 (arrival day)"
+    },
+    {
+      "market": "Sóller",
+      "day": "Saturday",
+      "date": "Jun 28"
+    },
+    {
+      "market": "Deià",
+      "day": "Wednesday",
+      "date": "Jul 1"
+    },
+    {
+      "market": "Pollença",
+      "day": "Sunday",
+      "date": "Jun 29 — one of Mallorca's best"
+    }
   ],
   "activities": [],
   "restaurants": [
@@ -35,7 +64,12 @@
       "price": null,
       "bookRequired": true,
       "bookHow": "Slots open midnight online: caspatromarch.myrestoo.net — set an alarm, tables go instantly.",
-      "tags": ["seafood", "cliffside", "iconic", "cash-only"]
+      "tags": [
+        "seafood",
+        "cliffside",
+        "iconic",
+        "cash-only"
+      ]
     },
     {
       "name": "Es Canyis",
@@ -44,7 +78,11 @@
       "price": null,
       "bookRequired": false,
       "bookHow": null,
-      "tags": ["seafood", "beachfront", "casual"]
+      "tags": [
+        "seafood",
+        "beachfront",
+        "casual"
+      ]
     },
     {
       "name": "Agapanto",
@@ -53,7 +91,11 @@
       "price": null,
       "bookRequired": false,
       "bookHow": null,
-      "tags": ["mediterranean", "cocktails", "sunset"]
+      "tags": [
+        "mediterranean",
+        "cocktails",
+        "sunset"
+      ]
     },
     {
       "name": "Randemar",
@@ -62,7 +104,10 @@
       "price": null,
       "bookRequired": false,
       "bookHow": null,
-      "tags": ["seafood", "waterfront"]
+      "tags": [
+        "seafood",
+        "waterfront"
+      ]
     },
     {
       "name": "Neni",
@@ -71,7 +116,11 @@
       "price": null,
       "bookRequired": true,
       "bookHow": "Recommended",
-      "tags": ["middle-eastern", "rooftop", "views"]
+      "tags": [
+        "middle-eastern",
+        "rooftop",
+        "views"
+      ]
     },
     {
       "name": "Ca'n Pintxo",
@@ -80,7 +129,11 @@
       "price": null,
       "bookRequired": false,
       "bookHow": null,
-      "tags": ["tapas", "casual", "mallorcan"]
+      "tags": [
+        "tapas",
+        "casual",
+        "mallorcan"
+      ]
     },
     {
       "name": "Kraken",
@@ -89,7 +142,11 @@
       "price": null,
       "bookRequired": false,
       "bookHow": null,
-      "tags": ["seafood", "market", "casual"]
+      "tags": [
+        "seafood",
+        "market",
+        "casual"
+      ]
     },
     {
       "name": "Ca Ses Sauerschell's",
@@ -98,7 +155,10 @@
       "price": null,
       "bookRequired": true,
       "bookHow": "Recommended",
-      "tags": ["terrace", "valley-views"]
+      "tags": [
+        "terrace",
+        "valley-views"
+      ]
     },
     {
       "name": "Béns d'Avall",
@@ -107,7 +167,12 @@
       "price": null,
       "bookRequired": true,
       "bookHow": "bensdavall.com (online only)",
-      "tags": ["sunset", "cliffside", "fine-dining", "family-run"]
+      "tags": [
+        "sunset",
+        "cliffside",
+        "fine-dining",
+        "family-run"
+      ]
     },
     {
       "name": "Marc Fosh",
@@ -116,7 +181,11 @@
       "price": null,
       "bookRequired": true,
       "bookHow": "marcfosh.com",
-      "tags": ["fine-dining", "mediterranean", "historic-setting"]
+      "tags": [
+        "fine-dining",
+        "mediterranean",
+        "historic-setting"
+      ]
     },
     {
       "name": "DINS Santi Taura",
@@ -125,39 +194,60 @@
       "price": "~$130/pp",
       "bookRequired": true,
       "bookHow": "TheFork",
-      "tags": ["tasting-menu", "mallorcan", "fine-dining"]
+      "tags": [
+        "tasting-menu",
+        "mallorcan",
+        "fine-dining"
+      ]
     }
   ],
   "bars": [
     {
       "name": "Bar Abaco",
       "location": "Palma old town, La Llotja",
-      "vibe": "17th-century mansion, baroque decor, mountains of fruit, opera music. Theatrical. ~$19-20/cocktail. Open from 8pm.",
-      "tags": ["theatrical", "cocktails", "historic"]
+      "vibe": "17th-century mansion, baroque decor, mountains of fruit, opera music. Theatrical. ~$19-20/cocktail. Open from 8pm. Verify before visiting — conflicting reports about current status. Call +34 971 71 49 39.",
+      "tags": [
+        "theatrical",
+        "cocktails",
+        "historic"
+      ]
     },
     {
       "name": "Brassclub",
       "location": "Palma",
       "vibe": "Award-winning mixologist Rafa Martín. Creative cocktails, sophisticated vibe. One of Palma's best.",
-      "tags": ["cocktails", "award-winning"]
+      "tags": [
+        "cocktails",
+        "award-winning"
+      ]
     },
     {
       "name": "Chapeau 1987",
       "location": "Palma",
       "vibe": "1920s-30s glamour. Classic cocktails, 200+ whiskies.",
-      "tags": ["classic", "whisky"]
+      "tags": [
+        "classic",
+        "whisky"
+      ]
     },
     {
       "name": "Agapanto",
       "location": "Port de Soller harbor",
       "vibe": "Best cocktails at the port. Sunset.",
-      "tags": ["cocktails", "sunset"]
+      "tags": [
+        "cocktails",
+        "sunset"
+      ]
     },
     {
       "name": "Jumeirah Sunset Lounge",
       "location": "Port de Soller (Jumeirah hotel)",
       "vibe": "Clifftop sunset views, Asian-inspired tapas, local cocktails. Best sundowner spot in the port.",
-      "tags": ["sunset", "views", "cocktails"]
+      "tags": [
+        "sunset",
+        "views",
+        "cocktails"
+      ]
     }
   ],
   "coffee": [],
@@ -169,7 +259,7 @@
     },
     {
       "name": "Cala Deià",
-      "driveTime": "20 min",
+      "driveTime": "15 min",
       "vibe": "Dramatic rocky cove. Crystal water. Ca's Patró March right on it. Barrier parking — arrive before 10am in July."
     },
     {
@@ -191,7 +281,7 @@
   "dayTrips": [
     {
       "name": "Deià + Valldemossa",
-      "driveTime": "Deià 20 min, Valldemossa 30 min",
+      "driveTime": "Deià 15 min, Valldemossa 30 min",
       "highlights": "Ma-10 coast road (Europe's most beautiful drives). Deià: artists' village, Cala Deià cove. Valldemossa: La Cartuja monastery (Chopin, closes 2:30pm — go morning), postcard-perfect streets."
     },
     {

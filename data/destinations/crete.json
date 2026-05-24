@@ -59,10 +59,10 @@
     {
       "name": "Dounias",
       "location": "Drakona village (1 hr south via Theriso Gorge)",
-      "vibe": "Mountain taverna. Wood fire, copper pots, no menu — chef serves whatever's ready from his farm. NYT featured. Plan a half-day around this.",
+      "vibe": "Mountain taverna. Wood fire, copper pots, no menu — chef serves whatever's ready from his farm. NYT featured. Plan a half-day around this. Closed Tuesdays.",
       "price": null,
       "bookRequired": true,
-      "bookHow": "Yes — +30 28210 78922",
+      "bookHow": "Yes — +30 28210 65083",
       "tags": [
         "taverna",
         "farm-to-table",
@@ -232,15 +232,6 @@
       ]
     },
     {
-      "name": "Peacock Tail",
-      "location": "Near Old Harbour, Chania",
-      "vibe": "Chania's best dedicated cocktail bar. Signature originals + classics. Open 6pm-5am summer. Verify on arrival — had 2024 closure reports but 2025 listings show active.",
-      "tags": [
-        "cocktails",
-        "specialist"
-      ]
-    },
-    {
       "name": "Pallas Rooftop",
       "location": "Venetian Harbour area",
       "vibe": "Rooftop with harbor views in a Venetian building. Refined sundowners.",
@@ -361,7 +352,7 @@
   "bookingPriorities": [
     {
       "restaurant": "Dounias",
-      "how": "+30 28210 78922",
+      "how": "+30 28210 65083",
       "why": "Small, remote, call ahead"
     },
     {

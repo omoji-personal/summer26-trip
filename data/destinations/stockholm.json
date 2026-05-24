@@ -40,10 +40,6 @@
       "type": "Cultural experience — open all 3 days"
     },
     {
-      "venue": "Fotografiska + bar",
-      "type": "Museum + bar"
-    },
-    {
       "venue": "Archipelago ferries",
       "type": "Day trips — with Midsommar celebrations on islands"
     }
@@ -60,11 +56,10 @@
     },
     {
       "name": "Fotografiska",
-      "description": "World-class photography museum, Södermalm waterfront. Open until 11pm daily, including Midsommar. Top-floor bar has panoramic views. No museum admission required for the bar.",
+      "description": "World-class photography museum, Södermalm waterfront. Open until 11pm daily. CLOSED on Midsommar Eve (Jun 19). Top-floor bar has panoramic views. No museum admission required for the bar.",
       "tags": [
         "museum",
-        "photography",
-        "open-midsommar"
+        "photography"
       ]
     },
     {
@@ -244,7 +239,7 @@
   "bars": [
     {
       "name": "Tjoget",
-      "vibe": "Hornstull, Södermalm. On the World's 50 Best Bars list. Five spaces including a wine bodega and beer cafe. Mediterranean/North African flavor profiles. Open until 3am weekends. The real deal.",
+      "vibe": "Hornstull, Södermalm. On the World's Best Bars extended list (Top 100). Five spaces including a wine bodega and beer cafe. Mediterranean/North African flavor profiles. Open until 3am weekends. The real deal.",
       "tags": [
         "world-50-best",
         "cocktails"
@@ -260,7 +255,7 @@
     },
     {
       "name": "Lucy's Flower Shop",
-      "vibe": "Södermalm. Tiny creative cocktail bar with an on-site lab. Limited seating — reserve.",
+      "vibe": "Östermalm (Birger Jarlsgatan). Tiny creative cocktail bar with an on-site lab. Limited seating — reserve.",
       "tags": [
         "cocktails",
         "creative"
@@ -281,14 +276,6 @@
         "views",
         "wine",
         "open-midsommar"
-      ]
-    },
-    {
-      "name": "Gemma",
-      "vibe": "Ostermalm. Award-winning bartender Johan Evers. Precision cocktails, elegant, quieter.",
-      "tags": [
-        "cocktails",
-        "elegant"
       ]
     },
     {
