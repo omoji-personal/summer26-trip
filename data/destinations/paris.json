@@ -121,7 +121,8 @@
       "bookHow": "+33 1 43 72 24 01 (hard to reach). Walk-in: arrive 7:30pm for patio.",
       "tags": [
         "bistro",
-        "classic"
+        "classic",
+        "locals-favorite"
       ]
     },
     {
@@ -132,7 +133,8 @@
       "bookHow": "Essential. Closed Sundays. Saturday dinner available.",
       "tags": [
         "french-asian",
-        "creative"
+        "creative",
+        "locals-favorite"
       ]
     },
     {
@@ -144,7 +146,8 @@
       "tags": [
         "bistro",
         "locals",
-        "value"
+        "value",
+        "locals-favorite"
       ]
     },
     {
@@ -156,7 +159,8 @@
       "tags": [
         "wine-bar",
         "small-plates",
-        "natural-wine"
+        "natural-wine",
+        "locals-favorite"
       ]
     },
     {
@@ -179,7 +183,8 @@
       "tags": [
         "bistro",
         "marais",
-        "natural-wine"
+        "natural-wine",
+        "locals-favorite"
       ]
     },
     {
@@ -191,7 +196,8 @@
       "tags": [
         "falafel",
         "casual",
-        "cash-only"
+        "cash-only",
+        "locals-favorite"
       ]
     },
     {
@@ -232,38 +238,12 @@
   ],
   "bars": [
     {
-      "name": "La Buvette",
-      "vibe": "67 Rue Saint-Maur, 11th. Iconic tiny natural wine bar in a former crémerie. Candlelit, cult vignerons, charcuterie on a mirror. Arrive early for a seat.",
-      "tags": [
-        "natural-wine",
-        "iconic"
-      ]
-    },
-    {
-      "name": "Clown Bar",
-      "vibe": "114 Rue Amelot, 11th. Next to Cirque d'Hiver. 1920s Art Nouveau tiles (listed historical monument). One of France's largest natural wine selections. Serious food too.",
-      "tags": [
-        "natural-wine",
-        "art-nouveau",
-        "historic"
-      ]
-    },
-    {
       "name": "Candelaria",
       "vibe": "52 Rue de Saintonge, 3rd. Taqueria at front, unmarked door to one of Paris's best cocktail bars in back. World's Best Bars extended list.",
       "tags": [
         "speakeasy",
         "cocktails",
         "world-50-best"
-      ]
-    },
-    {
-      "name": "Aux Deux Amis",
-      "vibe": "45 Rue Oberkampf, 11th. Classic zinc bar, Art Deco, natural small-producer wines. Loud, busy, completely Paris.",
-      "tags": [
-        "wine-bar",
-        "classic",
-        "lively"
       ]
     },
     {
@@ -282,6 +262,32 @@
         "cocktails",
         "historic",
         "classic"
+      ]
+    },
+    {
+      "name": "La Buvette",
+      "vibe": "67 Rue Saint-Maur, 11th. Iconic tiny natural wine bar in a former crémerie. Candlelit, cult vignerons, charcuterie on a mirror. Arrive early for a seat.",
+      "tags": [
+        "natural-wine",
+        "iconic"
+      ]
+    },
+    {
+      "name": "Clown Bar",
+      "vibe": "114 Rue Amelot, 11th. Next to Cirque d'Hiver. 1920s Art Nouveau tiles (listed historical monument). One of France's largest natural wine selections. Serious food too.",
+      "tags": [
+        "natural-wine",
+        "art-nouveau",
+        "historic"
+      ]
+    },
+    {
+      "name": "Aux Deux Amis",
+      "vibe": "45 Rue Oberkampf, 11th. Classic zinc bar, Art Deco, natural small-producer wines. Loud, busy, completely Paris.",
+      "tags": [
+        "wine-bar",
+        "classic",
+        "lively"
       ]
     }
   ],

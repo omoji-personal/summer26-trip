@@ -125,7 +125,8 @@
       "tags": [
         "seafood",
         "classic",
-        "open-midsommar"
+        "open-midsommar",
+        "locals-favorite"
       ]
     },
     {
@@ -137,7 +138,8 @@
       "tags": [
         "traditional",
         "beer-hall",
-        "art-nouveau"
+        "art-nouveau",
+        "locals-favorite"
       ]
     },
     {
@@ -149,7 +151,8 @@
       "tags": [
         "wine-bar",
         "bistro",
-        "natural-wine"
+        "natural-wine",
+        "locals-favorite"
       ]
     },
     {
@@ -196,7 +199,8 @@
       "tags": [
         "casual",
         "meatballs",
-        "swedish"
+        "swedish",
+        "locals-favorite"
       ]
     },
     {
@@ -232,7 +236,8 @@
       "tags": [
         "nordic",
         "bib-gourmand",
-        "value"
+        "value",
+        "locals-favorite"
       ]
     }
   ],
@@ -262,6 +267,15 @@
       ]
     },
     {
+      "name": "Cachette",
+      "vibe": "Norrmalm. Hidden wine + cocktails spot. France/Italy/Lebanon list. The kind of place you find and tell nobody about.",
+      "tags": [
+        "hidden",
+        "cocktails",
+        "wine"
+      ]
+    },
+    {
       "name": "Fooli",
       "vibe": "Eastern Södermalm. Wine bar run by two award-winning sommeliers. Won Best Bar and Drinking Experience of the Year. Strong French focus, serious cellar.",
       "tags": [
@@ -276,15 +290,6 @@
         "views",
         "wine",
         "open-midsommar"
-      ]
-    },
-    {
-      "name": "Cachette",
-      "vibe": "Norrmalm. Hidden wine + cocktails spot. France/Italy/Lebanon list. The kind of place you find and tell nobody about.",
-      "tags": [
-        "hidden",
-        "wine",
-        "cocktails"
       ]
     }
   ],

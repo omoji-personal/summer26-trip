@@ -63,6 +63,13 @@ export default function Header({ trip }: { trip: Trip }) {
             </div>
           ))}
         </div>
+
+        {/* Pacing note */}
+        {trip.pacing && (
+          <p className="text-center text-warm-gray-light/70 text-xs md:text-sm mt-6 md:mt-8 italic max-w-lg mx-auto">
+            {trip.pacing}
+          </p>
+        )}
       </div>
     </header>
   );

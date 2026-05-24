@@ -26,7 +26,12 @@
     "Villa cooking night",
     "Cretan wines"
   ],
-  "specialNotes": [],
+  "specialNotes": [
+    {
+      "title": "Heat Strategy (July in Crete)",
+      "body": "Early July hits 90-95°F. Plan outdoor activities for morning (before 11am) or evening (after 5pm). Midday is for the villa pool, shaded beaches, or indoor restaurants. Carry water everywhere. Samaria Gorge in this heat is brutal — start at dawn or skip it. Balos Lagoon has zero shade — bring a hat, sunscreen, and lots of water."
+    }
+  ],
   "activities": [
     {
       "name": "Chania old town",
@@ -39,7 +44,7 @@
     },
     {
       "name": "Samaria Gorge",
-      "description": "Europe's longest gorge, 16 km, 4-7 hrs. Open May-Oct. Entry ~$11. Exit at Agia Roumeli, ferry to Sfakion. Start by 7:30am, carry 2+ liters water.",
+      "description": "Europe's longest gorge, 16 km, 4-7 hrs. Open May-Oct. Entry ~$11. Exit at Agia Roumeli, ferry to Sfakion. Start by 7:30am (this means sacrificing a sleep-in day), carry 2+ liters water. In July heat (90-95°F) this is brutal — 5-7 hours of full sun hiking. Consider Imbros Gorge (shorter, equally scenic) as an alternative.",
       "tags": [
         "hiking",
         "strenuous",
@@ -47,11 +52,10 @@
       ]
     },
     {
-      "name": "Manousakis Winery",
-      "description": "Western Crete's standout winery. Rhone varieties in Cretan limestone. Terroir Tasting ~$9/pp, Premium ~$17/pp. Taverna on-site. Closed Sundays. Call +30 2821 078787.",
+      "name": "Hammam in Chania",
+      "description": "Several traditional hammams in the old town offer Turkish bath experiences in original Ottoman buildings. A good midday heat escape.",
       "tags": [
-        "wine",
-        "tasting"
+        "wellness"
       ]
     }
   ],
@@ -66,7 +70,8 @@
       "tags": [
         "taverna",
         "farm-to-table",
-        "nyt-featured"
+        "nyt-featured",
+        "locals-favorite"
       ]
     },
     {
@@ -79,7 +84,8 @@
       "tags": [
         "ottoman",
         "traditional",
-        "historic-building"
+        "historic-building",
+        "locals-favorite"
       ]
     },
     {
@@ -105,7 +111,8 @@
       "tags": [
         "seafood",
         "casual",
-        "daily-catch"
+        "daily-catch",
+        "locals-favorite"
       ]
     },
     {
@@ -118,7 +125,8 @@
       "tags": [
         "cretan",
         "garden",
-        "traditional"
+        "traditional",
+        "locals-favorite"
       ]
     },
     {
@@ -131,7 +139,8 @@
       "tags": [
         "octopus",
         "casual",
-        "beach-day"
+        "beach-day",
+        "locals-favorite"
       ]
     },
     {
@@ -144,7 +153,8 @@
       "tags": [
         "wood-fired",
         "traditional",
-        "family-run"
+        "family-run",
+        "locals-favorite"
       ]
     },
     {
@@ -247,7 +257,7 @@
     {
       "name": "Balos Lagoon",
       "driveTime": "1.5 hrs + 20-min hike down",
-      "vibe": "The famous turquoise lagoon. No shade — bring everything. Go early (fills by 10am). Book the Kissamos ferry online if taking the boat (~$45/pp, capacity-controlled in 2026). The Q2 handles the dirt road."
+      "vibe": "The famous turquoise lagoon. No shade — bring everything. Go early (fills by 10am). Best before 10am but fills by then — going late afternoon (after 4pm) is a viable alternative when it clears out. Book the Kissamos ferry online if taking the boat (~$45/pp, capacity-controlled in 2026). The Q2 handles the dirt road."
     },
     {
       "name": "Falassarna",
@@ -257,7 +267,7 @@
     {
       "name": "Elafonissi",
       "driveTime": "1.5-2 hrs",
-      "vibe": "Pink-tinged sand, shallow lagoon. Stunning but arrive before 9am in July or parking is a nightmare."
+      "vibe": "Pink-tinged sand, shallow lagoon. Stunning but arrive before 9am in July or parking is a nightmare. Late afternoon (after 4-5pm) also works as crowds thin and light turns golden."
     },
     {
       "name": "Kedrodasos",
@@ -267,7 +277,7 @@
     {
       "name": "Seitan Limania",
       "driveTime": "30-40 min (Akrotiri)",
-      "vibe": "Dramatic fjord-like inlet between limestone cliffs. Turquoise. Parking fills by 9am. Steep rocky access — not for everyone."
+      "vibe": "Dramatic fjord-like inlet between limestone cliffs. Turquoise. Parking fills by 9am. Steep rocky access — not for everyone. The steep descent is significantly harder in midday heat — go early morning or late afternoon."
     },
     {
       "name": "Stavros",
@@ -310,6 +320,11 @@
       "name": "Imbros Gorge + Sfakion",
       "driveTime": "Full day",
       "highlights": "11 km, 2.5-4 hrs, ~$6 entry. Much easier than Samaria, equally scenic. Exit at Komitades, taxi back to car (~$17). Continue to Sfakion for Loutro ferry."
+    },
+    {
+      "name": "Manousakis Winery",
+      "driveTime": "30 min from Chania",
+      "highlights": "Western Crete's standout winery. Rhone varieties in Cretan limestone. Terroir Tasting ~$9/pp, Premium ~$17/pp. Taverna on-site. Closed Sundays. More of a detour than a destination — casual drinkers might prefer just buying bottles at a Chania wine shop."
     }
   ],
   "cookingNight": {

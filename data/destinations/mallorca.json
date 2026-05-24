@@ -30,7 +30,7 @@
   "specialNotes": [
     {
       "title": "Cap de Formentor 2026 Restriction",
-      "body": "May 15 - Oct 18, the road to the lighthouse is closed to cars 10am-10pm. Strategy: leave by 6:30am and reach lighthouse before 10am, OR take TIB Line 334 shuttle from Port de Pollença. Formentor beach (Zone 1): cars allowed if 300-space lot has room — fills by 9-10am."
+      "body": "May 15 - Oct 18, the road to the lighthouse is closed to cars 10am-10pm. Strategy: leave by 6:30am and reach lighthouse before 10am (this requires an early start — a real sacrifice on vacation). The sleep-in-friendly alternative: take the TIB Line 334 shuttle from Port de Pollença (starts ~9:30am, runs all day). Formentor beach (Zone 1): cars allowed if 300-space lot has room — fills by 9-10am."
     }
   ],
   "weeklyMarkets": [
@@ -55,7 +55,13 @@
       "date": "Jun 29 — one of Mallorca's best"
     }
   ],
-  "activities": [],
+  "activities": [
+    {
+      "name": "Pure Salt Spa",
+      "description": "The hotel spa offers Mediterranean-inspired treatments. Book one afternoon session for a pool-and-spa day. Good rainy-day backup too.",
+      "tags": ["wellness"]
+    }
+  ],
   "restaurants": [
     {
       "name": "Ca's Patró March",
@@ -68,7 +74,8 @@
         "seafood",
         "cliffside",
         "iconic",
-        "cash-only"
+        "cash-only",
+        "locals-favorite"
       ]
     },
     {
@@ -132,7 +139,8 @@
       "tags": [
         "tapas",
         "casual",
-        "mallorcan"
+        "mallorcan",
+        "locals-favorite"
       ]
     },
     {
@@ -145,7 +153,8 @@
       "tags": [
         "seafood",
         "market",
-        "casual"
+        "casual",
+        "locals-favorite"
       ]
     },
     {
@@ -171,7 +180,8 @@
         "sunset",
         "cliffside",
         "fine-dining",
-        "family-run"
+        "family-run",
+        "locals-favorite"
       ]
     },
     {
@@ -287,7 +297,7 @@
     {
       "name": "Cap de Formentor + Pollença",
       "driveTime": "1.5-2 hrs (full day)",
-      "highlights": "Mallorca's dramatic northern tip. 2026 restriction: road to lighthouse closed to cars 10am-10pm. Strategy: leave by 6:30am OR take TIB 334 shuttle. Pine Walk in Puerto Pollença, medieval walled Alcúdia."
+      "highlights": "Mallorca's dramatic northern tip. 2026 restriction: road to lighthouse closed to cars 10am-10pm. Strategy: leave by 6:30am (requires an early start) OR take TIB 334 shuttle from Pollença (~9:30am start, sleep-in-friendly). Pine Walk in Puerto Pollença, medieval walled Alcúdia."
     },
     {
       "name": "Palma",

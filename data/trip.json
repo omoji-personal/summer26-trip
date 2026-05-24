@@ -3,6 +3,7 @@
   "route": ["Atlanta", "Stockholm", "Paris", "Mallorca", "Crete", "Athens", "Atlanta"],
   "dates": { "start": "2026-06-18", "end": "2026-07-07" },
   "totalDays": 19,
+  "pacing": "Pick 1-2 things per day. Leave room for wandering and spontaneity. The lists are a menu, not a checklist.",
   "travelers": [
     { "name": "Omid", "legs": ["stockholm", "paris", "mallorca", "crete"] },
     { "name": "Annika", "legs": ["stockholm", "paris", "mallorca", "crete"] },

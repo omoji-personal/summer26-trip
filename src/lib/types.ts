@@ -9,6 +9,7 @@ export interface Trip {
   route: string[];
   dates: { start: string; end: string };
   totalDays: number;
+  pacing?: string;
   travelers: Traveler[];
 }
 

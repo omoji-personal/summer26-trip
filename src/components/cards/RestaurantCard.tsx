@@ -36,8 +36,15 @@ export default function RestaurantCard({ restaurant }: { restaurant: Restaurant 
       {r.tags.length > 0 && (
         <div className="flex flex-wrap gap-1.5">
           {r.tags.map((tag) => (
-            <span key={tag} className="tag-pill bg-cream-dark/60 text-warm-gray">
-              {tag}
+            <span
+              key={tag}
+              className={
+                tag === "locals-favorite"
+                  ? "tag-pill bg-olive/15 text-olive border border-olive/25"
+                  : "tag-pill bg-cream-dark/60 text-warm-gray"
+              }
+            >
+              {tag === "locals-favorite" ? "locals' favorite" : tag}
             </span>
           ))}
         </div>
