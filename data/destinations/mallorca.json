@@ -205,7 +205,7 @@
         "locals-favorite",
         "special-dinner"
       ],
-      "imageUrl": null
+      "imageUrl": "https://www.bensdavall.com/upload/galeria_img/sin-titulo-2.jpg"
     },
     {
       "name": "Marc Fosh",
@@ -296,31 +296,31 @@
       "name": "Platja d'en Repic",
       "driveTime": "Walk from hotel",
       "vibe": "Sand, calm water, beach restaurants. Easy everyday beach.",
-      "imageUrl": null
+      "imageUrl": "https://images.unsplash.com/photo-1651675190078-2026b54e05ee?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Cala Deià",
       "driveTime": "15 min",
       "vibe": "Dramatic rocky cove. Crystal water. Ca's Patró March right on it. Barrier parking — arrive before 10am in July.",
-      "imageUrl": null
+      "imageUrl": "https://images.unsplash.com/photo-1719760907142-0632087ff90d?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Platja de Formentor",
       "driveTime": "1.5-2 hrs",
       "vibe": "White sand, turquoise, pine shade. Subject to Zone 1 car restrictions (see special notes).",
-      "imageUrl": null
+      "imageUrl": "https://images.unsplash.com/photo-1561369412-68038b8bc7b6?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Cala Tuent",
       "driveTime": "45 min (steep winding road)",
       "vibe": "Quiet pebble cove, mountain walls, one restaurant. Uncrowded even in July.",
-      "imageUrl": null
+      "imageUrl": "https://images.unsplash.com/photo-1734639403228-476663647bcf?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Cala de Sant Vicenç",
       "driveTime": "~1 hr 10 min",
       "vibe": "Four linked coves near Pollença. 30m visibility, great for snorkeling. Pair with Formentor day.",
-      "imageUrl": null
+      "imageUrl": "https://images.unsplash.com/photo-1560243360-0eb6e88f0d08?auto=format&fit=crop&w=800&h=500&q=80"
     }
   ],
   "dayTrips": [
@@ -328,37 +328,37 @@
       "name": "Deià + Valldemossa",
       "driveTime": "Deià 15 min, Valldemossa 30 min",
       "highlights": "Ma-10 coast road (Europe's most beautiful drives). Deià: artists' village, Cala Deià cove. Valldemossa: La Cartuja monastery (Chopin, closes 2:30pm — go morning), postcard-perfect streets.",
-      "imageUrl": null
+      "imageUrl": "https://images.unsplash.com/photo-1749037247119-18c609a337a6?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Cap de Formentor + Pollença",
       "driveTime": "1.5-2 hrs (full day)",
       "highlights": "Mallorca's dramatic northern tip. 2026 restriction: road to lighthouse closed to cars 10am-10pm. Strategy: leave by 6:30am (requires an early start) OR take TIB 334 shuttle from Pollença (~9:30am start, sleep-in-friendly). Pine Walk in Puerto Pollença, medieval walled Alcúdia.",
-      "imageUrl": null
+      "imageUrl": "https://images.unsplash.com/photo-1726065809961-bbfd67737399?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Palma",
       "driveTime": "45-55 min (Sóller tunnel toll ~$7)",
       "highlights": "La Seu cathedral (Gaudí interior, book tickets online), Bellver Castle (circular Gothic, free Sun mornings), old town courtyards, Mercat de l'Olivar (eat at the counters), Santa Catalina neighborhood. Bar Abaco for evening drinks.",
-      "imageUrl": null
+      "imageUrl": "https://images.unsplash.com/photo-1629537744044-04a035cbf675?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Fornalutx",
       "driveTime": "15 min",
       "highlights": "One of Spain's most beautiful villages. Stone streets, citrus groves, mountain backdrop. Coffee and a stroll. Easy half-day.",
-      "imageUrl": null
+      "imageUrl": "https://images.unsplash.com/photo-1568324479031-8a064e26dd52?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Sa Calobra + Cala Tuent",
       "driveTime": "Sa Calobra 50 min, Cala Tuent 45 min",
       "highlights": "\"Road of 1,000 bends\" to Sa Calobra (800m altitude change). Walk to Torrent de Pareis gorge beach. Cala Tuent: quiet mountain cove, one restaurant. Or take the boat from Port de Soller (avoids the road, adds sea drama).",
-      "imageUrl": null
+      "imageUrl": "https://images.unsplash.com/photo-1658783318576-9f288af2e89d?auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       "name": "Sóller town",
       "driveTime": "Vintage tram ride (10 min)",
       "highlights": "Modernista architecture, covered market, Sa Fàbrica de Gelats (island's best ice cream).",
-      "imageUrl": null
+      "imageUrl": "https://images.unsplash.com/photo-1719306191810-a14c8a0e7898?auto=format&fit=crop&w=800&h=500&q=80"
     }
   ],
   "bookingPriorities": [
@@ -383,5 +383,5 @@
       "why": "Popular but more availability"
     }
   ],
-  "heroImage": null
+  "heroImage": "https://images.unsplash.com/photo-1651675190078-2026b54e05ee?auto=format&fit=crop&w=1600&h=900&q=80"
 }
