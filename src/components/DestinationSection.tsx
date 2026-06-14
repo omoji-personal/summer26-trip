@@ -14,6 +14,20 @@ import CookingNight from "./CookingNight";
 import WineSection from "./WineSection";
 import MarketSection from "./MarketSection";
 import MidsommarOpen from "./MidsommarOpen";
+import ParisItinerary from "./ParisItinerary";
+import ReservationsHighlight from "./ReservationsHighlight";
+
+/** Why-this-pick rationale shown under each confirmed Mallorca dinner. */
+const MALLORCA_RATIONALE: Record<string, string> = {
+  "Ca'n Boqueta":
+    "The local bib gourmand inside Sóller itself — walking distance from Pure Salt. Sat 27 was the spot the trip lost when Bens d'Avall closed and Sauerschell's never replied; this is the close-to-home pick that wins the night without a Tramuntana drive at midnight.",
+  "Sebastián":
+    "The Deià village benchmark — same family running it since 1994, lemon-garden setting, à la carte (so the parents stay clear of any 10-course marathon). The dinner the parents will tell their friends about.",
+  "Marc Fosh ⭐":
+    "The trip's destination dinner — 1 Michelin star in the 2026 Guide, inside a 17th-century converted seminary in Palma. Tasting-menus only by design; smart-casual; this is the one we built the Palma evening around.",
+  "Randemar":
+    "The last-night, walk-back-to-your-room dinner. Bay-facing terrace, à la carte, no big drive at the end of a long week. The trip closes here.",
+};
 
 function formatDateRange(arrive: string, depart: string): string {
   const a = new Date(arrive + "T00:00:00");
@@ -254,6 +268,14 @@ export default function DestinationSection({
           </div>
         )}
 
+        {/* PARIS: single-day itinerary REPLACES the restaurant/bar/activity dump. */}
+        {d.itinerary && (
+          <ParisItinerary itinerary={d.itinerary} />
+        )}
+
+        {/* For itinerary destinations (Paris), skip everything below — the day IS the page. */}
+        {!d.itinerary && (
+          <>
         {/* Accommodation */}
         {(d.accommodation.type !== "family" || hotels.length > 0 || airbnbs.length > 0) && (
           <div>
@@ -339,17 +361,59 @@ export default function DestinationSection({
         {/* Wines */}
         {d.wines && d.wines.length > 0 && <WineSection wines={d.wines} />}
 
-        {/* Restaurants */}
-        {d.restaurants.length > 0 && (
-          <div>
-            <SectionHeading emoji="🍽️" title="Restaurants" count={d.restaurants.length} />
-            <div className="space-y-4">
-              {d.restaurants.map((r, i) => (
-                <RestaurantCard key={i} restaurant={r} />
-              ))}
-            </div>
-          </div>
-        )}
+        {/* Restaurants — confirmed reservations always lead, others below */}
+        {d.restaurants.length > 0 && (() => {
+          const confirmed = d.restaurants.filter((r) => r.confirmed);
+          const others = d.restaurants.filter((r) => !r.confirmed);
+          const isMallorca = d.id === "mallorca";
+          return (
+            <>
+              {/* Confirmed: editorial-card highlight on Mallorca, regular cards otherwise */}
+              {confirmed.length > 0 && isMallorca && (
+                <ReservationsHighlight
+                  restaurants={confirmed}
+                  rationale={MALLORCA_RATIONALE}
+                />
+              )}
+              {confirmed.length > 0 && !isMallorca && (
+                <div>
+                  <SectionHeading
+                    emoji="✓"
+                    title="Reservations locked in"
+                    count={confirmed.length}
+                  />
+                  <div className="space-y-4">
+                    {confirmed.map((r, i) => (
+                      <RestaurantCard key={i} restaurant={r} />
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Other restaurants — the menu of options */}
+              {others.length > 0 && (
+                <div>
+                  <SectionHeading
+                    emoji="🍽️"
+                    title={
+                      confirmed.length > 0
+                        ? isMallorca
+                          ? "More to eat — walk-in & flex picks"
+                          : "More restaurants"
+                        : "Restaurants"
+                    }
+                    count={others.length}
+                  />
+                  <div className="space-y-4">
+                    {others.map((r, i) => (
+                      <RestaurantCard key={i} restaurant={r} />
+                    ))}
+                  </div>
+                </div>
+              )}
+            </>
+          );
+        })()}
 
         {/* Bars */}
         {d.bars.length > 0 && (
@@ -378,6 +442,8 @@ export default function DestinationSection({
         {/* Booking Priorities */}
         {d.bookingPriorities.length > 0 && (
           <BookingPriorities priorities={d.bookingPriorities} />
+        )}
+          </>
         )}
       </div>
 

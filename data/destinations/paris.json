@@ -364,5 +364,126 @@
       "why": "Mon-Fri dinner only"
     }
   ],
-  "heroImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1600&h=900&q=80"
+  "heroImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1600&h=900&q=80",
+  "itinerary": {
+    "date": "2026-06-24",
+    "title": "Paris — one day, on foot, no hurry",
+    "tagline": "une journée pour la beauté, sans hâte",
+    "pacingNote": "Depart Saint-Prix by 10:45 Uber · walk + short Ubers in the city · home before midnight",
+    "stops": [
+      {
+        "num": 1,
+        "time": "12:00",
+        "name": "Café Verlet",
+        "location": "256 Rue Saint-Honoré, 1er",
+        "description": "Paris's oldest coffee roaster, in business since 1880. Wood-paneled bar, the smell of beans hitting the drum, jute sacks stacked floor to ceiling. The right prelude — a café crème, a tartine, the rue Saint-Honoré beginning its afternoon outside the window.",
+        "tags": [
+          "coffee",
+          "since 1880"
+        ],
+        "imageUrl": "https://verlet.fr/cdn/shop/files/cafeverletHD-1026.jpg?v=1775549757&width=1600"
+      },
+      {
+        "num": 2,
+        "time": "13:45",
+        "name": "Les Tuileries",
+        "location": "Jardin des Tuileries, 1er",
+        "description": "Walk Le Nôtre's grand allée east to west toward the Orangerie. Linden trees, gravel underfoot, fountains every hundred meters, the Louvre receding behind. The transition from urban Paris into the museum is half the magic of the afternoon.",
+        "tags": [
+          "garden",
+          "promenade"
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Jardin_des_Tuileries_Bassin_octogonal.jpg"
+      },
+      {
+        "num": 3,
+        "time": "14:30",
+        "name": "Musée de l'Orangerie",
+        "location": "Jardin des Tuileries, place de la Concorde",
+        "description": "Arrive by 14:15 for the timed entry, then forty-five quiet minutes inside Monet's last great work — eight oval Water Lilies given to France with one instruction: keep the natural light. Two rooms shaped like the lazy eight of infinity. Stand in the middle and let it dissolve.",
+        "hero": true,
+        "tags": [
+          "museum",
+          "Monet",
+          "timed entry"
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Mus%C3%A9e_de_L%27Orangerie_Water_Lilies_Room.jpg"
+      },
+      {
+        "num": 4,
+        "time": "15:45",
+        "name": "Pont des Arts",
+        "location": "Pont des Arts, between the Louvre and the Institut de France",
+        "description": "Cross Paris's most beloved footbridge. Right: Notre-Dame, lately returned to light after the 2019 fire. Left: the Louvre and Pont Neuf carved into the Seine. Pause halfway — this view is the postcard, and it costs nothing.",
+        "tags": [
+          "bridge",
+          "the postcard"
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/View_from_the_Louvre_of_the_Pont_des_Arts_and_the_Institut_de_France%2C_Paris%2C_France.jpg"
+      },
+      {
+        "num": 5,
+        "time": "16:15",
+        "name": "Saint-Sulpice",
+        "location": "Place Saint-Sulpice, 6e",
+        "description": "Delacroix's \"Jacob Wrestling the Angel\" on the north chapel wall — his last masterwork, painted on plaster in his sixties. The square outside, with Visconti's fountain and four lion-headed cardinals, is a perfect Parisian sitting spot. Free.",
+        "tags": [
+          "church",
+          "Delacroix",
+          "free"
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Fontaine_%26_%C3%89glise_Saint-Sulpice_%2836566279443%29.jpg"
+      },
+      {
+        "num": 6,
+        "time": "17:00",
+        "name": "Luxembourg Gardens",
+        "location": "Jardin du Luxembourg, 6e",
+        "description": "The most loved garden in Paris. Sit by the Medici Fountain, watch wooden sailboats on the octagonal basin, walk the chestnut allées. Parisians come here to do nothing, beautifully. The afternoon's slowest, best half-hour.",
+        "tags": [
+          "garden",
+          "the slow half-hour"
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Medici_Fountain%2C_November_2019.jpg"
+      },
+      {
+        "num": 7,
+        "time": "18:10",
+        "name": "Café de Flore",
+        "location": "172 Boulevard Saint-Germain, 6e",
+        "description": "Sartre's old corner; Beauvoir wrote here. No reservations, so keep it light: a terrace aperitif if it's easy, otherwise a photo and onward. Leave by 19:05 to make Allard with time to spare.",
+        "tags": [
+          "café",
+          "Saint-Germain",
+          "no booking"
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Caf%C3%A9_de_Flore%2C_172_boulevard_Saint-Germain%2C_Paris_6e.jpg"
+      },
+      {
+        "num": 8,
+        "time": "19:30",
+        "name": "Allard",
+        "location": "41 Rue Saint-André des Arts, 6e",
+        "description": "Reservation confirmed for four. A Michelin-listed Saint-Germain bistro opened in 1932, restored by Alain Ducasse in 2013 — zinc bar, ceramic-tile floor, framed etchings on floral wallpaper. À la carte, no tasting marathon; the duck à l'orange is the historical reason. The whole day was built around this table.",
+        "hero": true,
+        "tags": [
+          "bistro",
+          "Ducasse",
+          "reservation confirmed"
+        ],
+        "imageUrl": "https://magazine.bellesdemeures.com/sites/default/files/edito_migrate/restaurant_allard.png"
+      },
+      {
+        "num": 9,
+        "time": "21:30",
+        "name": "Pont Neuf, returning",
+        "location": "Pont Neuf — back across the Seine",
+        "description": "Across the Seine's oldest bridge to the waiting Uber. The bridges in the rear window, Paris dimming behind. Home in Saint-Prix before the day fully ends — and the day itself, somehow, still going.",
+        "tags": [
+          "the close"
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Le_Pont_Neuf_la_nuit%2C_Paris.JPG"
+      }
+    ]
+  }
 }

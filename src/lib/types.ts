@@ -136,6 +136,26 @@ export interface SpecialNote {
   body: string;
 }
 
+// Single-day itinerary stop (used for Paris)
+export interface ItineraryStop {
+  num: number;
+  time: string;
+  name: string;
+  location?: string;
+  description: string;
+  hero?: boolean;
+  imageUrl?: string;
+  tags?: string[];
+}
+
+export interface Itinerary {
+  date: string;            // ISO date e.g. "2026-06-24"
+  title: string;           // "Paris — Wednesday"
+  tagline?: string;        // "une journée pour la beauté, sans hâte"
+  pacingNote?: string;     // logistics: "10:45–11:00 Uber Saint-Prix → Paris..."
+  stops: ItineraryStop[];
+}
+
 export interface Activity {
   name: string;
   description: string;
@@ -250,6 +270,8 @@ export interface Destination {
   wines?: CretanWine[];
   weather?: Weather;
   bookingPriorities: BookingPriority[];
+  /** If present, render the destination as a single-day itinerary page (Paris). */
+  itinerary?: Itinerary;
 }
 
 // Weather data for destination hero
