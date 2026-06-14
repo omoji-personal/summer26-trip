@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 @theme inline {
+  /* Mediterranean / editorial-journal palette */
   --color-cream: #FDF6EC;
   --color-cream-dark: #F5EBDA;
   --color-sand: #E8D5B5;
@@ -18,8 +19,10 @@
   --color-gold: #C9A94E;
   --color-warm-gray: #8C8279;
   --color-warm-gray-light: #B5AEA6;
-  --font-serif: "Playfair Display", Georgia, "Times New Roman", serif;
-  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+
+  /* Typography — Fraunces display, Manrope body */
+  --font-serif: var(--font-serif), "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-sans), system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 
 html {
@@ -31,57 +34,134 @@ body {
   background: var(--color-cream);
   color: var(--color-navy);
   font-family: var(--font-sans);
+  font-feature-settings: "ss01", "ss02", "cv11"; /* Manrope stylistic alts */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Subtle card hover lift */
+/* Fraunces opt-ins — opsz auto for size-based optical adjustments,
+   SOFT axis gives the warmer terminal forms suited to a travel journal. */
+.font-serif,
+[class*="font-serif"] {
+  font-feature-settings: "ss01", "ss03"; /* discretionary swashes + alts */
+  font-variation-settings: "opsz" 144, "SOFT" 50;
+}
+
+/* Optional "softer" italic flourish for editorial accents */
+.font-serif-soft {
+  font-family: var(--font-serif);
+  font-variation-settings: "opsz" 144, "SOFT" 100;
+  font-style: italic;
+}
+
+/* Cards */
 .card-hover {
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
 }
 .card-hover:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(27, 40, 56, 0.08);
+  box-shadow: 0 12px 32px -8px rgba(27, 40, 56, 0.12);
 }
 
-/* Tag pill styles */
+/* Tag pill — refined: hairline border, no caps, weight 500 */
 .tag-pill {
-  display: inline-block;
-  padding: 0.15rem 0.55rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.18rem 0.6rem;
   border-radius: 9999px;
-  font-size: 0.7rem;
+  font-size: 0.68rem;
   font-weight: 500;
-  letter-spacing: 0.03em;
-  text-transform: lowercase;
+  letter-spacing: 0.015em;
+  line-height: 1.4;
+  font-feature-settings: "ss01", "cv11";
 }
 
-/* Section divider */
+/* Folio numeral — for "Nº 01" stamps used on hero + destination heroes */
+.folio {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-variation-settings: "opsz" 144, "SOFT" 100;
+  letter-spacing: 0.02em;
+}
+
+.folio sup {
+  font-style: normal;
+  font-size: 0.55em;
+  vertical-align: 0.55em;
+  margin-right: 0.06em;
+  letter-spacing: 0.1em;
+}
+
+/* Editorial eyebrow — small caps, wide track */
+.eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+/* Fleuron divider — refined ornamental rule */
 .section-divider {
-  height: 1px;
-  background: linear-gradient(to right, transparent, var(--color-sand), transparent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  margin: 1rem 0;
 }
 
-/* Route line connector */
+.section-divider::before,
+.section-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--color-sand) 40%, var(--color-sand) 60%, transparent);
+  max-width: 18rem;
+}
+
+.section-divider::after {
+  background: linear-gradient(to left, transparent, var(--color-sand) 40%, var(--color-sand) 60%, transparent);
+}
+
+.section-divider .fleuron {
+  font-family: var(--font-serif);
+  font-style: italic;
+  color: var(--color-terracotta);
+  font-size: 0.8rem;
+  letter-spacing: 0.6em;
+  padding-left: 0.6em; /* compensate for letter-spacing */
+  opacity: 0.75;
+}
+
+/* Hairline rule used inside cards */
+.hairline {
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--color-sand) 20%, var(--color-sand) 80%, transparent);
+}
+
+/* Route ribbon — typographic, with hairline */
 .route-dot {
-  width: 12px;
-  height: 12px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
-  border: 2px solid var(--color-terracotta);
-  background: var(--color-cream);
-  position: relative;
-  z-index: 2;
+  background: var(--color-terracotta);
   flex-shrink: 0;
+  opacity: 0.5;
 }
 
 .route-dot.active {
+  width: 8px;
+  height: 8px;
   background: var(--color-terracotta);
+  opacity: 1;
+  box-shadow: 0 0 0 3px rgba(196, 96, 60, 0.18);
 }
 
 .route-line {
-  height: 2px;
+  height: 1px;
   background: var(--color-sand);
   flex: 1;
-  min-width: 12px;
+  min-width: 14px;
 }
 
 /* Scrollbar styling */
@@ -118,3 +198,32 @@ body {
   background-color: #DBEAFE;
   color: #1E40AF;
 }
+
+/* Subtle paper-grain backdrop helper */
+.paper-grain {
+  position: relative;
+}
+.paper-grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.04;
+  background-image:
+    radial-gradient(circle at 1px 1px, currentColor 1px, transparent 0);
+  background-size: 28px 28px;
+  mix-blend-mode: multiply;
+}
+
+/* Hero stagger reveal — for the title block on first paint */
+@keyframes hero-rise {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.hero-rise {
+  animation: hero-rise 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.hero-rise-1 { animation-delay: 0.05s; }
+.hero-rise-2 { animation-delay: 0.18s; }
+.hero-rise-3 { animation-delay: 0.32s; }
+.hero-rise-4 { animation-delay: 0.46s; }

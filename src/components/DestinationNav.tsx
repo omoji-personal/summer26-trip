@@ -36,10 +36,10 @@ export default function DestinationNav({
   }, [destinations]);
 
   return (
-    <nav className="sticky top-0 z-50 bg-cream/95 backdrop-blur-sm border-b border-sand/60">
+    <nav className="sticky top-0 z-50 bg-cream/92 backdrop-blur-md border-b border-sand/60">
       <div className="max-w-4xl mx-auto">
         <div className="flex overflow-x-auto gap-0 scrollbar-none">
-          {destinations.map((d) => (
+          {destinations.map((d, i) => (
             <a
               key={d.id}
               href={`#${d.id}`}
@@ -48,18 +48,42 @@ export default function DestinationNav({
                 document.getElementById(d.id)?.scrollIntoView({ behavior: "smooth" });
               }}
               className={`
-                flex items-center gap-1.5 px-4 md:px-6 py-3.5 text-sm font-medium whitespace-nowrap
-                transition-colors duration-200 border-b-2 flex-shrink-0
+                group relative flex items-baseline gap-2.5 px-5 md:px-7 py-3.5 whitespace-nowrap flex-shrink-0
+                transition-colors duration-200
                 focus-visible:outline focus-visible:outline-2 focus-visible:outline-terracotta focus-visible:outline-offset-2 rounded-sm
                 ${
                   active === d.id
-                    ? "border-terracotta text-terracotta"
-                    : "border-transparent text-warm-gray hover:text-navy hover:border-sand"
+                    ? "text-terracotta"
+                    : "text-warm-gray hover:text-navy"
                 }
               `}
             >
-              <span>{d.emoji}</span>
-              <span>{d.name}</span>
+              <span
+                className={`folio text-[11px] tracking-wide ${
+                  active === d.id ? "text-terracotta/85" : "text-warm-gray/55"
+                }`}
+                aria-hidden="true"
+              >
+                0{i + 1}
+              </span>
+              <span
+                className="font-serif text-lg leading-none"
+                style={{ fontVariationSettings: '"opsz" 60, "SOFT" 50' }}
+              >
+                {d.name}
+              </span>
+              <span className="text-[13px] opacity-80" aria-hidden="true">
+                {d.emoji}
+              </span>
+              {/* Underline indicator */}
+              <span
+                className={`pointer-events-none absolute left-5 right-5 md:left-7 md:right-7 bottom-0 h-[2px] transition-transform duration-300 origin-left ${
+                  active === d.id
+                    ? "bg-terracotta scale-x-100"
+                    : "bg-sand scale-x-0 group-hover:scale-x-100"
+                }`}
+                aria-hidden="true"
+              />
             </a>
           ))}
         </div>

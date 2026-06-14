@@ -152,6 +152,10 @@ export interface Restaurant {
   bookHow: string | null;
   tags: string[];
   imageUrl?: string;
+  /** If set, the booking is locked. Display a "confirmed" pill on the card. */
+  confirmed?: boolean;
+  /** One-line confirmation summary, e.g. "Sat Jun 27 · 19:45 · 4 pax · TheFork". */
+  confirmation?: string;
 }
 
 export interface Bar {

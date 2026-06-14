@@ -62,7 +62,7 @@
         "nature",
         "island"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1508738102835-f1fe48178e7b?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/DIMG_5626_%289592441336%29.jpg"
     },
     {
       "name": "Fotografiska",
@@ -71,7 +71,7 @@
         "museum",
         "photography"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Fotografiska%2C_seen_from_Str%C3%B6mmen.jpg"
     },
     {
       "name": "Monteliusvägen at sunset",
@@ -81,7 +81,7 @@
         "views",
         "sunset"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1509356843151-3e7d96241e11?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Stockholm_City_Hall_and_Norra_Tornen.jpg"
     },
     {
       "name": "SoFo neighborhood",
@@ -90,7 +90,7 @@
         "shopping",
         "culture"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1553798081-85009962337f?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Sk%C3%A5negatan_vid_Nytorget%2C_febr_2019.jpg"
     },
     {
       "name": "Moderna Museet",
@@ -100,7 +100,7 @@
         "art",
         "free"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1592202681439-58723118d3d1?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Sweden._Stockholm._Skeppsholmen_010.JPG"
     },
     {
       "name": "Rosendals Trädgård",
@@ -110,7 +110,7 @@
         "cafe",
         "nature"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Greenhouse_in_Rosendals_tr%C3%A4dgard%2C_17.08.2015.jpg"
     },
     {
       "name": "Spritmuseum",
@@ -119,7 +119,7 @@
         "museum",
         "spirits"
       ],
-      "imageUrl": null
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Spritmuseum_November_2024.jpg"
     },
     {
       "name": "Östermalms Saluhall",
@@ -129,30 +129,90 @@
         "market",
         "historic"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/%C3%96stermalms_saluhall_March_2020_03.jpg"
     }
   ],
   "restaurants": [
     {
+      "name": "Hantverket",
+      "location": "Sturegatan 15 (Östermalm / Stureplan)",
+      "vibe": "Modern Swedish bistro + cocktail bar. Polished, food-forward, dinner-focused — chosen as the anniversary dinner over the wine-bistro alternative. Locked the matsalen (dining room) over the kitchen bar for a calmer room.",
+      "price": "~$70-100/pp",
+      "bookRequired": true,
+      "bookHow": "restauranghantverket.se/en/reservations — Waiteraid widget",
+      "confirmed": true,
+      "confirmation": "Mon Jun 22 · 19:45-22:00 · 2 pax · Dining room · ref #66708931 · card on file (325 SEK/guest no-show)",
+      "tags": [
+        "swedish",
+        "bistro",
+        "cocktail-bar",
+        "anniversary",
+        "special-dinner"
+      ],
+      "imageUrl": "https://static.thatsup.website/222/39109/1-22.jpg?v=1720787172"
+    },
+    {
       "name": "Sturehof",
-      "vibe": "Grand seafood brasserie since 1897. Toast Skagen, daily fish, great wine. The place where Stockholm's food world goes for a \"normal\" dinner.",
+      "vibe": "Grand seafood brasserie since 1897. Toast Skagen, daily fish, great wine. The place where Stockholm's food world goes for a \"normal\" dinner. Live-verified wide availability on Sun Jun 21.",
       "price": "~$50-85/pp",
       "bookRequired": true,
-      "bookHow": "Confirmed open every day including Midsommar. Book immediately for Jun 19-20.",
+      "bookHow": "sturehof.com (Waiteraid). Confirmed open every day including Midsommar and Sun Jun 21 (the classic reentry-dinner pick).",
       "tags": [
         "seafood",
         "classic",
         "open-midsommar",
+        "open-sundays",
         "locals-favorite"
       ],
       "imageUrl": "https://sturehof.com/wp-content/uploads/2024/07/sturehof-hero-mob-1.jpg"
     },
     {
+      "name": "Café Nizza",
+      "vibe": "French-Italian wine bar/bistro in Södermalm. Natural wine, neighborhood energy. The runner-up for the anniversary dinner — Mon Jun 22 19:45 was bookable when we picked Hantverket instead.",
+      "price": "~$30-50/pp",
+      "bookRequired": true,
+      "bookHow": "cafenizza.se — Waiteraid widget (hash 8157635663273fe0e81c48dff96542e8). Closed Midsommar weekend.",
+      "tags": [
+        "wine-bar",
+        "bistro",
+        "natural-wine",
+        "locals-favorite"
+      ],
+      "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/4e/15/11/18.jpg"
+    },
+    {
+      "name": "Främmat",
+      "vibe": "Tiny Dalagatan bistro — intimate room, serious cooking. Mon Jun 22 had 17:30 and 20:15 bookable for 2; 19:00 was full/waitlist.",
+      "price": "~$50-75/pp",
+      "bookRequired": true,
+      "bookHow": "frammat.com — Waiteraid widget (hash a25cac633e3f0dee24be09caa9f8c732)",
+      "tags": [
+        "bistro",
+        "intimate",
+        "tiny-room"
+      ],
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5f17183cefe9e007a9a67c95/4823a766-0c79-4f73-807f-8109ec04ebbf/118267687_675814643032914_239508634956305844_n.jpg"
+    },
+    {
+      "name": "Oaxen Slip",
+      "vibe": "Bib Gourmand casual bistro in a converted boatyard on Djurgården. Modern Nordic, seasonal, waterfront. Walk-in only since rebrand.",
+      "price": "~$40-65/pp",
+      "bookRequired": false,
+      "bookHow": "Walk-in only (rebranded as \"Slipen\", +46 8 551 531 05 to verify wait)",
+      "tags": [
+        "nordic",
+        "bib-gourmand",
+        "waterfront",
+        "walk-in"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Oaxen_Krog_%26_Slip%2C_2014_05.JPG"
+    },
+    {
       "name": "Pelikan",
-      "vibe": "Historic beer hall since 1904. Traditional Swedish home cooking in a stunning Art Nouveau interior. Meatballs, herring, Jansson's temptation.",
+      "vibe": "Historic beer hall since 1904. Traditional Swedish home cooking in a stunning Art Nouveau interior. Meatballs, herring, Jansson's temptation. Closed Sun + Mon — only useful Tue Jun 23 daytime.",
       "price": "~$30-55/pp",
       "bookRequired": true,
-      "bookHow": "Recommended. Likely closed Jun 19-20.",
+      "bookHow": "Recommended. Closed Jun 19-20 (Midsommar) and closed all Sun/Mon.",
       "tags": [
         "traditional",
         "beer-hall",
@@ -162,62 +222,8 @@
       "imageUrl": "https://static.thatsup.website/123/4746/FUJI6329.jpg?v=1631139035"
     },
     {
-      "name": "Café Nizza",
-      "vibe": "French-Italian wine bar/bistro in Södermalm. Perfect for long lunch with natural wine and cheese. Locals are possessive about this one.",
-      "price": "~$30-50/pp",
-      "bookRequired": true,
-      "bookHow": "Book ahead for evenings. Likely closed Midsommar weekend.",
-      "tags": [
-        "wine-bar",
-        "bistro",
-        "natural-wine",
-        "locals-favorite"
-      ],
-      "imageUrl": null
-    },
-    {
-      "name": "Oaxen Slip",
-      "vibe": "Bib Gourmand casual bistro in a converted boatyard on Djurgården. Modern Nordic, seasonal, waterfront.",
-      "price": "~$40-65/pp",
-      "bookRequired": true,
-      "bookHow": "oaxen.com",
-      "tags": [
-        "nordic",
-        "bib-gourmand",
-        "waterfront",
-        "special-dinner"
-      ],
-      "imageUrl": null
-    },
-    {
-      "name": "Ekstedt",
-      "vibe": "Everything cooked over open flame, smoke, and ash — no electricity in the kitchen. Totally original, totally Swedish. The concept itself is the reason to go.",
-      "price": "~$75-115/pp",
-      "bookRequired": true,
-      "bookHow": "ekstedt.nu — book well ahead. Likely closed Midsommar.",
-      "tags": [
-        "fine-dining",
-        "fire-cooking",
-        "swedish",
-        "special-dinner"
-      ],
-      "imageUrl": null
-    },
-    {
-      "name": "Dashi",
-      "vibe": "16-seat Japanese-Nordic tavern. Unpretentious room, serious kitchen. One of Stockholm's most interesting newer restaurants.",
-      "price": "~$75-115/pp",
-      "bookRequired": true,
-      "bookHow": "Essential — 16 seats.",
-      "tags": [
-        "japanese-nordic",
-        "intimate"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1579027989536-b7b1f875659b?auto=format&fit=crop&w=800&h=500&q=80"
-    },
-    {
       "name": "Meatballs for the People",
-      "vibe": "Every variety of Swedish meatball — elk, wild boar, classic.",
+      "vibe": "Every variety of Swedish meatball — elk, wild boar, classic. Casual, no booking needed.",
       "price": "~$20-40/pp",
       "bookRequired": false,
       "bookHow": "No — SoFo, Nytorgsgatan 30. Casual.",
@@ -227,7 +233,7 @@
         "swedish",
         "locals-favorite"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://static.thatsup.website/308/23968/DSCF0381.jpg?v=1696949218"
     },
     {
       "name": "Lisa Elmqvist",
@@ -240,11 +246,11 @@
         "market",
         "counter"
       ],
-      "imageUrl": null
+      "imageUrl": "https://ostermalmshallen.se/wp-content/uploads/slider14/Lisa-Elmqvist-galleri-02-1920x1080.jpeg"
     },
     {
       "name": "Rosendals Trädgård",
-      "vibe": "Biodynamic garden cafe on Djurgården. Wood-fired bread and pastries from what's growing around you. Lunch served 11am-3:30pm. Card only.",
+      "vibe": "Biodynamic garden cafe on Djurgården. Wood-fired bread and pastries from what's growing around you. Lunch served 11am-3:30pm. Card only. Closed Jun 19-21 for Midsommar — use Mon Jun 22 daytime.",
       "price": "~$8-20/pp",
       "bookRequired": false,
       "bookHow": null,
@@ -253,21 +259,7 @@
         "garden",
         "organic"
       ],
-      "imageUrl": null
-    },
-    {
-      "name": "Ärla",
-      "vibe": "Bib Gourmand (2025). Nordic cooking that punches well above its price point.",
-      "price": "~$20-40/pp",
-      "bookRequired": true,
-      "bookHow": "Recommended",
-      "tags": [
-        "nordic",
-        "bib-gourmand",
-        "value",
-        "locals-favorite"
-      ],
-      "imageUrl": null
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Rosendals_tr%C3%A4dg%C3%A5rd%2C_april_2019.jpg"
     }
   ],
   "bars": [
@@ -287,7 +279,7 @@
         "cocktails",
         "historic"
       ],
-      "imageUrl": null
+      "imageUrl": "https://pharmarium.se/wp-content/uploads/2025/10/pharmarium-footer-start.jpg"
     },
     {
       "name": "Lucy's Flower Shop",
@@ -296,7 +288,7 @@
         "cocktails",
         "creative"
       ],
-      "imageUrl": null
+      "imageUrl": "https://www.theworlds50best.com/discovery/filestore/jpg/Lucy_s%20Flower%20Shop-Stockholm-Sweden-1.jpg"
     },
     {
       "name": "Cachette",
@@ -306,7 +298,7 @@
         "cocktails",
         "wine"
       ],
-      "imageUrl": null
+      "imageUrl": "https://cdn.prod.website-files.com/686a33f636db05eba371603a/69135e04df98e00a06866044_IMG_9197.JPG"
     },
     {
       "name": "Fooli",
@@ -315,7 +307,7 @@
         "wine-bar",
         "award-winning"
       ],
-      "imageUrl": null
+      "imageUrl": "https://s3-eu-central-1.amazonaws.com/admin.whiteguide.com/content/media/attachments/images/000/032/218/medium/folii_wg.jpg?1573739298"
     },
     {
       "name": "Fotografiska bar",
@@ -325,38 +317,43 @@
         "wine",
         "open-midsommar"
       ],
-      "imageUrl": null
+      "imageUrl": "https://cdn.sanity.io/images/2xi539qp/production/8c93282aff7a7ec7eab54cc21af426046261c0cf-1500x2000.jpg?w=1920&q=75&auto=format"
     }
   ],
   "coffee": [
     {
       "name": "Drop Coffee",
       "vibe": "Stockholm's most decorated specialty roaster. Light roasts, SoFo. The standard.",
-      "imageUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0235/7459/files/Drop_Inredning_DSF9464_skiss.jpg"
     },
     {
       "name": "Café Pascal",
       "vibe": "Multiple locations. Won Stockholm's best cafe (Gulddraken). Own roasts, own pastries. The kouign-amann and cardamom buns are exceptional. Your fika spot. Great for a breakfast-out morning — kouign-amann + coffee is a meal.",
-      "imageUrl": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://thecoffeevine.com/wp-content/uploads/2025/02/IMG_4199.jpg"
     },
     {
       "name": "Vete-Katten",
       "vibe": "City center, since 1928. Traditional Swedish konditori — princess cake, cinnamon rolls. Old Stockholm in the best way. Open early — a proper Swedish breakfast of cardamom buns, open-face sandwiches, and strong coffee.",
-      "imageUrl": "https://images.unsplash.com/photo-1483695028939-5bb13f8648b0?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Interior_of_Vete-Katten_on_Kungsgatan%2C_Stockholm%2C_2022.jpg"
     }
   ],
   "beaches": [],
   "dayTrips": [],
   "bookingPriorities": [
     {
-      "restaurant": "Sturehof",
-      "how": "Call or walk in. Confirmed open every day including Midsommar — book immediately for Jun 19-20.",
-      "why": "Book now for Midsommar weekend"
+      "restaurant": "Sturehof — Sun Jun 21 ~19:30 (optional)",
+      "how": "sturehof.com → BOKA BORD (Waiteraid). Wide availability live-verified.",
+      "why": "Classic reentry dinner after the Midsommar weekend — the city institution."
     },
     {
-      "restaurant": "Ekstedt",
-      "how": "ekstedt.nu",
-      "why": "Confirm Midsommar availability"
+      "restaurant": "Röda Huset (or Lucy's Flower Shop)",
+      "how": "rodahuset.nu / lucysstockholm.se (Lucy's closed Jun 19-21)",
+      "why": "Pick one planned cocktail night before/after a dinner. Tjoget + Folii stay flexible walk-ins."
+    },
+    {
+      "restaurant": "Sauna float — Hellasgården or B7 Bath",
+      "how": "Hellasgården: drop-in. B7 Bath: book slot via their site.",
+      "why": "Sun Jun 21 late afternoon + Sturehof dinner is the Swedish-summer-Sunday move."
     }
   ],
   "heroImage": "https://images.unsplash.com/photo-1509356843151-3e7d96241e11?auto=format&fit=crop&w=1600&h=900&q=80"

@@ -71,87 +71,133 @@
       "tags": [
         "wellness"
       ],
-      "imageUrl": null
+      "imageUrl": "https://static-resources-elementor.mirai.com/wp-content/uploads/sites/1544/spa.webp"
     }
   ],
   "restaurants": [
     {
-      "name": "Ca's Patró March",
-      "location": "Deià cove",
-      "vibe": "Iconic cliffside seafood on the rocks. Fresh fish, lemon, olive oil. Cash only, no mobile signal. Simple and perfect.",
-      "price": null,
+      "name": "Ca'n Boqueta",
+      "location": "Sóller town centre (Gran Via 43) — walking distance from Pure Salt",
+      "vibe": "2026 Michelin Bib Gourmand from chef Kiko Martorell in a 19th-c. townhouse with a rear patio over the orange-grove valley and Tramuntana. Seasonal local cooking, tight wine list, two tasting menus (5 or 9 courses) plus à la carte.",
+      "price": "€35-55/pp",
       "bookRequired": true,
-      "bookHow": "Slots open midnight online: caspatromarch.myrestoo.net — set an alarm, tables go instantly.",
+      "bookHow": "TheFork (thefork.com/restaurant/ca-n-boqueta-r836539) or +34 971 638 398",
+      "confirmed": true,
+      "confirmation": "Sat Jun 27 · 7:45 PM · 4 pax · Interior · TheFork",
       "tags": [
-        "seafood",
-        "cliffside",
-        "iconic",
-        "cash-only",
+        "bib-gourmand",
+        "destination",
+        "mallorcan",
         "locals-favorite",
         "special-dinner"
       ],
-      "imageUrl": null
+      "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/5f/42/0b/interior-restaurante.jpg"
+    },
+    {
+      "name": "Sebastián",
+      "location": "Deià village (Carrer Felip Bauzà 2)",
+      "vibe": "Chef Sebastian Pasch + Patricia Sheridan since 1994. Lemon-garden village setting, seasonal Mediterranean with subtle Asian accents. #1 of 31 Deià restaurants on TripAdvisor (4.6/5, 664+ reviews).",
+      "price": "€70-100/pp",
+      "bookRequired": true,
+      "bookHow": "restaurantesebastian.myrestoo.net or +34 971 63 94 17",
+      "confirmed": true,
+      "confirmation": "Sun Jun 28 · 7:30 PM · 4 pax · €200 deposit · 15-min courtesy wait",
+      "tags": [
+        "mediterranean",
+        "village",
+        "locals-favorite",
+        "special-dinner"
+      ],
+      "imageUrl": "https://www.restaurantesebastian.com/assets/hero-terrace-1280.webp"
+    },
+    {
+      "name": "Marc Fosh ⭐",
+      "location": "Palma (Convent de la Missió, Carrer de la Missió 7A)",
+      "vibe": "Confirmed 1 Michelin star in the 2026 Guide. Tasting-menus only (no à la carte) — chef Marc Fosh's contemporary Mediterranean in a 17th-c. converted seminary. Pick Marc Menu €139 or Aromas del Mediterráneo €159 (dinner only).",
+      "price": "€139-159/pp + wine",
+      "bookRequired": true,
+      "bookHow": "marcfosh.com/reservas/ — credit-card guarantee",
+      "confirmed": true,
+      "confirmation": "Tue Jun 30 · 8:00 PM · 4 pax · smart casual · 16+",
+      "tags": [
+        "michelin-star",
+        "tasting-menu",
+        "fine-dining",
+        "historic-setting",
+        "special-dinner"
+      ],
+      "imageUrl": "https://www.marcfosh.com/wp-content/uploads/2024/02/marc-fosh-dining-room-restaurant-2.jpg"
+    },
+    {
+      "name": "Randemar",
+      "location": "Port de Sóller waterfront (Passeig Es Través 16) — walkable",
+      "vibe": "Bay-facing terrace, Mediterranean à la carte, recently relaunched. The easy last-night walk-back-to-Pure-Salt pick.",
+      "price": "€35-55/pp",
+      "bookRequired": true,
+      "bookHow": "randemar.myrestoo.net or +34 971 634 578",
+      "confirmed": true,
+      "confirmation": "Wed Jul 1 · 8:30 PM · 4 pax · €40 deposit · table held to 22:30",
+      "tags": [
+        "seafood",
+        "waterfront",
+        "walkable",
+        "sunset"
+      ],
+      "imageUrl": "https://static.wixstatic.com/media/3912d9_ec9804b164c445dc9c76454e05bf4da5f000.jpg"
     },
     {
       "name": "Es Canyis",
-      "location": "Port de Soller beach",
-      "vibe": "Seafood right on the sand. Walk from Pure Salt. Easy first/last night.",
-      "price": null,
+      "location": "Platja d'en Repic — 2 min walk from Pure Salt",
+      "vibe": "Seafood right on the sand. The easy arrival-night and bad-weather backup. Walk-in only.",
+      "price": "€25-40/pp",
       "bookRequired": false,
       "bookHow": null,
       "tags": [
         "seafood",
         "beachfront",
+        "walkable",
         "casual"
       ],
-      "imageUrl": null
+      "imageUrl": "https://escanyis.es/wp-content/uploads/2019/09/sd-terrazaescanyis.jpg"
+    },
+    {
+      "name": "Ca's Patró March",
+      "location": "Cala Deià — accessed via the path down from Deià",
+      "vibe": "Iconic cliffside seafood on the rocks. Fresh fish, lemon, olive oil. Cash only, no mobile signal. The bucket-list LUNCH (only) — target Mon Jun 29 to use the recovery day. Sells out instantly.",
+      "price": "€40-60/pp",
+      "bookRequired": true,
+      "bookHow": "caspatromarch.myrestoo.net — slots open midnight Mallorca time, 2-3 weeks out. Set an alarm from Jun 8 onward.",
+      "tags": [
+        "lunch-only",
+        "seafood",
+        "cliffside",
+        "iconic",
+        "cash-only",
+        "locals-favorite"
+      ],
+      "imageUrl": "https://welltraveledclub.sfo3.digitaloceanspaces.com/wt/media/63042/cas-patro-march2.jpg"
     },
     {
       "name": "Agapanto",
-      "location": "Port de Soller harbor",
-      "vibe": "Good cocktails, Mediterranean food, sunset views.",
-      "price": null,
+      "location": "Port de Sóller harbor — walkable",
+      "vibe": "Casual Mediterranean with cocktails on the harbor. Good for a low-key recovery night or pre-dinner sundowner.",
+      "price": "€25-40/pp",
       "bookRequired": false,
       "bookHow": null,
       "tags": [
         "mediterranean",
         "cocktails",
-        "sunset"
+        "sunset",
+        "walkable",
+        "casual"
       ],
-      "imageUrl": null
-    },
-    {
-      "name": "Randemar",
-      "location": "Port de Soller waterfront",
-      "vibe": "Great fish, solid wine list.",
-      "price": null,
-      "bookRequired": false,
-      "bookHow": null,
-      "tags": [
-        "seafood",
-        "waterfront"
-      ],
-      "imageUrl": null
-    },
-    {
-      "name": "Neni",
-      "location": "Bikini Island hotel, above Port de Soller",
-      "vibe": "Israeli/Middle Eastern rooftop with Tramuntana views. Refreshing departure from Mallorcan staples.",
-      "price": null,
-      "bookRequired": true,
-      "bookHow": "Recommended",
-      "tags": [
-        "middle-eastern",
-        "rooftop",
-        "views"
-      ],
-      "imageUrl": null
+      "imageUrl": "https://www.agapanto.com/images/eventos-home.jpg"
     },
     {
       "name": "Ca'n Pintxo",
       "location": "Sóller town square",
-      "vibe": "Excellent tapas and Mallorcan dishes. Casual, lively.",
-      "price": null,
+      "vibe": "Excellent tapas and Mallorcan dishes. Casual, lively. Good fallback if a quick Sóller lunch is needed before the Sóller Saturday market.",
+      "price": "€20-30/pp",
       "bookRequired": false,
       "bookHow": null,
       "tags": [
@@ -160,13 +206,13 @@
         "mallorcan",
         "locals-favorite"
       ],
-      "imageUrl": null
+      "imageUrl": "https://i0.wp.com/www.canpintxo.com/wp-content/uploads/2026/03/slider-home-0.jpg?fit=1500%2C1000&ssl=1"
     },
     {
       "name": "Kraken",
       "location": "Palma (inside Mercat de l'Olivar)",
-      "vibe": "Sources fish from the market stalls that morning. Best casual seafood lunch in Palma.",
-      "price": null,
+      "vibe": "Sources fish from the market stalls that morning. Best casual seafood lunch in Palma — pair with a Palma exploration day.",
+      "price": "€20-35/pp",
       "bookRequired": false,
       "bookHow": null,
       "tags": [
@@ -175,65 +221,7 @@
         "casual",
         "locals-favorite"
       ],
-      "imageUrl": null
-    },
-    {
-      "name": "Ca Ses Sauerschell's",
-      "location": "Deià",
-      "vibe": "Replaced Es Racó d'Es Teix (closed Jul 2023). Same stunning terrace overlooking the valley, more relaxed concept.",
-      "price": null,
-      "bookRequired": true,
-      "bookHow": "Recommended",
-      "tags": [
-        "terrace",
-        "valley-views"
-      ],
-      "imageUrl": null
-    },
-    {
-      "name": "Béns d'Avall",
-      "location": "Cliff road between Sóller & Deià",
-      "vibe": "Family-run since 1971. Best sunset dining on the island — cliff terrace above the sea. Summer: dinner only, Tue-Sat.",
-      "price": null,
-      "bookRequired": true,
-      "bookHow": "bensdavall.com (online only)",
-      "tags": [
-        "sunset",
-        "cliffside",
-        "fine-dining",
-        "family-run",
-        "locals-favorite",
-        "special-dinner"
-      ],
-      "imageUrl": "https://www.bensdavall.com/upload/galeria_img/sin-titulo-2.jpg"
-    },
-    {
-      "name": "Marc Fosh",
-      "location": "Palma (Convent de la Missió)",
-      "vibe": "Farm-sourced Mediterranean in a 17th-century converted seminary. Worth it for the setting as much as the food.",
-      "price": null,
-      "bookRequired": true,
-      "bookHow": "marcfosh.com",
-      "tags": [
-        "fine-dining",
-        "mediterranean",
-        "historic-setting"
-      ],
-      "imageUrl": null
-    },
-    {
-      "name": "DINS Santi Taura",
-      "location": "Palma (Hotel El Llorenç)",
-      "vibe": "11-course \"Menú Origens\" reinterpreting traditional Mallorcan recipes. ~$130/pp.",
-      "price": "~$130/pp",
-      "bookRequired": true,
-      "bookHow": "TheFork",
-      "tags": [
-        "tasting-menu",
-        "mallorcan",
-        "fine-dining"
-      ],
-      "imageUrl": null
+      "imageUrl": "https://www.mercatolivar.com/wp-content/uploads/2023/10/POB02365-Mejorado-NR.jpg"
     }
   ],
   "bars": [
@@ -246,7 +234,7 @@
         "cocktails",
         "historic"
       ],
-      "imageUrl": null
+      "imageUrl": "https://bar-abaco.es/wp-content/uploads/2015/11/abaco23.jpg"
     },
     {
       "name": "Brassclub",
@@ -256,7 +244,7 @@
         "cocktails",
         "award-winning"
       ],
-      "imageUrl": null
+      "imageUrl": "https://brassclub.com/en/wp-content/uploads/sites/2/2024/02/theclub.jpeg"
     },
     {
       "name": "Chapeau 1987",
@@ -266,7 +254,7 @@
         "classic",
         "whisky"
       ],
-      "imageUrl": null
+      "imageUrl": "https://barstalker.de/wp-content/uploads/2018/02/Chapeau-1987.jpg"
     },
     {
       "name": "Agapanto",
@@ -276,7 +264,7 @@
         "cocktails",
         "sunset"
       ],
-      "imageUrl": null
+      "imageUrl": "https://www.agapanto.com/images/shadow-agapanto.jpg"
     },
     {
       "name": "Jumeirah Sunset Lounge",
@@ -287,7 +275,7 @@
         "views",
         "cocktails"
       ],
-      "imageUrl": null
+      "imageUrl": "https://cdn.jumeirah.com/api/public/content/9a27a61966ac489a8dd183c67be8de07"
     }
   ],
   "coffee": [],
@@ -296,31 +284,31 @@
       "name": "Platja d'en Repic",
       "driveTime": "Walk from hotel",
       "vibe": "Sand, calm water, beach restaurants. Easy everyday beach.",
-      "imageUrl": "https://images.unsplash.com/photo-1651675190078-2026b54e05ee?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Platja_d%27en_Repic.jpg"
     },
     {
       "name": "Cala Deià",
       "driveTime": "15 min",
       "vibe": "Dramatic rocky cove. Crystal water. Ca's Patró March right on it. Barrier parking — arrive before 10am in July.",
-      "imageUrl": "https://images.unsplash.com/photo-1719760907142-0632087ff90d?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Cala_de_Deya%2C_Mallorca_%2813333783785%29.jpg"
     },
     {
       "name": "Platja de Formentor",
       "driveTime": "1.5-2 hrs",
       "vibe": "White sand, turquoise, pine shade. Subject to Zone 1 car restrictions (see special notes).",
-      "imageUrl": "https://images.unsplash.com/photo-1561369412-68038b8bc7b6?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Platja_de_Formentor.JPG"
     },
     {
       "name": "Cala Tuent",
       "driveTime": "45 min (steep winding road)",
       "vibe": "Quiet pebble cove, mountain walls, one restaurant. Uncrowded even in July.",
-      "imageUrl": "https://images.unsplash.com/photo-1734639403228-476663647bcf?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Cala_Tuent%2C_Escorca%2C_Mallorca%2C_Espa%C3%B1a.JPG"
     },
     {
       "name": "Cala de Sant Vicenç",
       "driveTime": "~1 hr 10 min",
       "vibe": "Four linked coves near Pollença. 30m visibility, great for snorkeling. Pair with Formentor day.",
-      "imageUrl": "https://images.unsplash.com/photo-1560243360-0eb6e88f0d08?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Cala_Sant_Vicenc.jpg"
     }
   ],
   "dayTrips": [
@@ -328,59 +316,44 @@
       "name": "Deià + Valldemossa",
       "driveTime": "Deià 15 min, Valldemossa 30 min",
       "highlights": "Ma-10 coast road (Europe's most beautiful drives). Deià: artists' village, Cala Deià cove. Valldemossa: La Cartuja monastery (Chopin, closes 2:30pm — go morning), postcard-perfect streets.",
-      "imageUrl": "https://images.unsplash.com/photo-1749037247119-18c609a337a6?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Dey%C3%A1%2C_en_Baleares_%28Espa%C3%B1a%29.jpg"
     },
     {
       "name": "Cap de Formentor + Pollença",
       "driveTime": "1.5-2 hrs (full day)",
       "highlights": "Mallorca's dramatic northern tip. 2026 restriction: road to lighthouse closed to cars 10am-10pm. Strategy: leave by 6:30am (requires an early start) OR take TIB 334 shuttle from Pollença (~9:30am start, sleep-in-friendly). Pine Walk in Puerto Pollença, medieval walled Alcúdia.",
-      "imageUrl": "https://images.unsplash.com/photo-1726065809961-bbfd67737399?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Far_de_Formentor_-_Majorca_-_01.jpg"
     },
     {
       "name": "Palma",
       "driveTime": "45-55 min (Sóller tunnel toll ~$7)",
       "highlights": "La Seu cathedral (Gaudí interior, book tickets online), Bellver Castle (circular Gothic, free Sun mornings), old town courtyards, Mercat de l'Olivar (eat at the counters), Santa Catalina neighborhood. Bar Abaco for evening drinks.",
-      "imageUrl": "https://images.unsplash.com/photo-1629537744044-04a035cbf675?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Palma_de_Mallorca%2C_Kathedrale_La_Seu_--_2009_--_5.jpg"
     },
     {
       "name": "Fornalutx",
       "driveTime": "15 min",
       "highlights": "One of Spain's most beautiful villages. Stone streets, citrus groves, mountain backdrop. Coffee and a stroll. Easy half-day.",
-      "imageUrl": "https://images.unsplash.com/photo-1568324479031-8a064e26dd52?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Fornalutx_2022_07.jpg"
     },
     {
       "name": "Sa Calobra + Cala Tuent",
       "driveTime": "Sa Calobra 50 min, Cala Tuent 45 min",
       "highlights": "\"Road of 1,000 bends\" to Sa Calobra (800m altitude change). Walk to Torrent de Pareis gorge beach. Cala Tuent: quiet mountain cove, one restaurant. Or take the boat from Port de Soller (avoids the road, adds sea drama).",
-      "imageUrl": "https://images.unsplash.com/photo-1658783318576-9f288af2e89d?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Mallorca_Serpentine_Sa_Calobra2.jpg"
     },
     {
       "name": "Sóller town",
       "driveTime": "Vintage tram ride (10 min)",
       "highlights": "Modernista architecture, covered market, Sa Fàbrica de Gelats (island's best ice cream).",
-      "imageUrl": "https://images.unsplash.com/photo-1719306191810-a14c8a0e7898?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/S%C3%B3ller_Pla%C3%A7a_de_la_Constitucion-4308.jpg"
     }
   ],
   "bookingPriorities": [
     {
-      "restaurant": "Ca's Patró March",
-      "how": "caspatromarch.myrestoo.net — new slots at midnight, 2-3 weeks ahead",
-      "why": "Sells out instantly"
-    },
-    {
-      "restaurant": "Béns d'Avall",
-      "how": "bensdavall.com (online only)",
-      "why": "Summer evenings fill fast"
-    },
-    {
-      "restaurant": "DINS Santi Taura",
-      "how": "TheFork",
-      "why": "Popular in summer"
-    },
-    {
-      "restaurant": "Marc Fosh",
-      "how": "marcfosh.com",
-      "why": "Popular but more availability"
+      "restaurant": "Ca's Patró March (LUNCH only)",
+      "how": "caspatromarch.myrestoo.net — slots open midnight Mallorca time, 2-3 weeks out",
+      "why": "Target Mon Jun 29 lunch for the bucket-list cliffside seafood. Set an alarm from Jun 8 onward — tables go in seconds."
     }
   ],
   "heroImage": "https://images.unsplash.com/photo-1651675190078-2026b54e05ee?auto=format&fit=crop&w=1600&h=900&q=80"

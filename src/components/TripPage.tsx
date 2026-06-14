@@ -99,7 +99,7 @@ export default function TripPage({ config }: { config: PageConfig }) {
       <Header trip={tripOverride} subtitle={config.subtitle} />
       <DestinationNav destinations={destinations} />
 
-      {destinations.map((dest) => {
+      {destinations.map((dest, idx) => {
         let flights = config.showFlights ? getFlightsForDest(dest.id) : [];
         if (config.flightFilter) {
           flights = flights.filter((f) => config.flightFilter!(f.leg));
@@ -134,6 +134,7 @@ export default function TripPage({ config }: { config: PageConfig }) {
             hotels={hotels}
             airbnbs={airbnbs}
             carRentals={carRentals}
+            index={idx + 1}
           />
         );
       })}
@@ -207,19 +208,47 @@ export default function TripPage({ config }: { config: PageConfig }) {
         </section>
       )}
 
-      <div className="section-divider mx-4" />
+      <div className="section-divider mx-4 my-6">
+        <span className="fleuron" aria-hidden="true">
+          ✦ ✦ ✦
+        </span>
+      </div>
 
       {openItems.length > 0 && <OpenItems items={openItems} />}
 
-      {/* Footer */}
-      <footer className="bg-navy text-warm-gray-light py-8 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <p className="font-serif text-lg text-white/90 mb-1">
+      {/* Footer — refined editorial signature */}
+      <footer className="bg-navy text-warm-gray-light py-12 px-4 relative overflow-hidden">
+        <div
+          className="absolute inset-0 opacity-[0.05] pointer-events-none"
+          style={{
+            backgroundImage:
+              "radial-gradient(circle at 1px 1px, white 1px, transparent 0)",
+            backgroundSize: "44px 44px",
+          }}
+        />
+        <div className="relative max-w-4xl mx-auto text-center">
+          <p
+            className="font-serif italic text-terracotta-light/85 text-sm tracking-wide mb-2"
+            style={{ fontVariationSettings: '"opsz" 60, "SOFT" 100' }}
+          >
+            fin
+          </p>
+          <p
+            className="font-serif text-xl md:text-2xl text-white/90 mb-1 leading-tight"
+            style={{ fontVariationSettings: '"opsz" 144, "SOFT" 50' }}
+          >
             {config.title}
           </p>
-          <p className="text-xs text-warm-gray">{config.subtitle}</p>
-          <p className="text-xs text-warm-gray/50 mt-4">
-            Last updated{" "}
+          <p className="eyebrow text-[0.65rem] text-warm-gray/75 mt-2">
+            {config.subtitle}
+          </p>
+          <div className="section-divider mt-6 mb-4 max-w-sm mx-auto opacity-50">
+            <span className="fleuron" aria-hidden="true">
+              ✦
+            </span>
+          </div>
+          <p className="text-[10px] text-warm-gray/50 tracking-[0.2em] uppercase">
+            Last revised{" "}
             {new Date().toLocaleDateString("en-US", {
               month: "long",
               year: "numeric",

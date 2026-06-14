@@ -50,7 +50,7 @@
         "culture",
         "market"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1635575891166-87881d3473eb?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Chania%2C_old_harbour_with_lighthouse_2019.jpg"
     },
     {
       "name": "Samaria Gorge",
@@ -60,7 +60,7 @@
         "strenuous",
         "full-day"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1634678367697-aa921508357e?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Samaria_Gorge_09.jpg"
     },
     {
       "name": "Hammam in Chania",
@@ -68,7 +68,7 @@
       "tags": [
         "wellness"
       ],
-      "imageUrl": null
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/%CE%A7%CE%B1%CE%BC%CE%AC%CE%BC_%CE%BF%CE%B4%CE%BF%CF%8D_%CE%9A%CE%B1%CF%84%CF%81%CE%AD%2C_%CE%A7%CE%B1%CE%BD%CE%B9%CE%AC_7712.jpg"
     }
   ],
   "restaurants": [
@@ -100,7 +100,7 @@
         "historic-building",
         "locals-favorite"
       ],
-      "imageUrl": null
+      "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-o/07/fb/f2/94/tamam-chania-inside-downstairs.jpg"
     },
     {
       "name": "Thalassino Ageri",
@@ -115,7 +115,7 @@
         "romantic",
         "special-dinner"
       ],
-      "imageUrl": null
+      "imageUrl": "https://www.halepavillas.gr/wp-content/uploads/2023/12/Thalassino2_0008.jpg"
     },
     {
       "name": "To Maridaki",
@@ -130,7 +130,7 @@
         "daily-catch",
         "locals-favorite"
       ],
-      "imageUrl": null
+      "imageUrl": "https://discoverchania.gr/wp-content/uploads/2025/04/interior-1200x801.jpg"
     },
     {
       "name": "Glossitses",
@@ -145,7 +145,7 @@
         "traditional",
         "locals-favorite"
       ],
-      "imageUrl": null
+      "imageUrl": "https://www.e-restaurants.gr/image/15185-glossitses-chania-kriti.jpg"
     },
     {
       "name": "Papadakis",
@@ -175,7 +175,7 @@
         "family-run",
         "locals-favorite"
       ],
-      "imageUrl": null
+      "imageUrl": "https://www.cretetravel.com/modules/hotels/fotografies/gastronomies/West_Crete/1/R_ChrisostomosTavern15.jpg"
     },
     {
       "name": "Salis",
@@ -189,7 +189,7 @@
         "creative",
         "waterfront"
       ],
-      "imageUrl": null
+      "imageUrl": "https://static.wixstatic.com/media/440267_9381c4fd1fc94ea89999398b3f31bb08~mv2.jpg"
     },
     {
       "name": "Steria",
@@ -203,7 +203,7 @@
         "zero-waste",
         "live-fire"
       ],
-      "imageUrl": null
+      "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/0c/84/f7/caption.jpg"
     },
     {
       "name": "Avli",
@@ -218,7 +218,7 @@
         "wine",
         "special-dinner"
       ],
-      "imageUrl": null
+      "imageUrl": "https://www.avli.gr/media/avli-reastaurant-img-gallery9.jpg"
     },
     {
       "name": "Avli Raw Materials",
@@ -232,7 +232,7 @@
         "deli",
         "casual"
       ],
-      "imageUrl": null
+      "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/da/d2/85/exterior.jpg"
     }
   ],
   "bars": [
@@ -245,7 +245,7 @@
         "ruins",
         "views"
       ],
-      "imageUrl": null
+      "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/c1/04/a6/photo1jpg.jpg"
     },
     {
       "name": "Fagotto Jazz Bar",
@@ -256,7 +256,7 @@
         "live-music",
         "historic"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1511192336575-5a79af67a629?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://itin-dev.wanderlogstatic.com/freeImage/8t58k1eriIFrAnhF1GAQaNiqGZ4jKj4B"
     },
     {
       "name": "Sinagogi",
@@ -267,7 +267,7 @@
         "cocktails",
         "atmospheric"
       ],
-      "imageUrl": null
+      "imageUrl": "https://sinagogibar.gr/wp-content/uploads/2025/05/DSC7392.jpg"
     },
     {
       "name": "Pallas Rooftop",
@@ -278,7 +278,7 @@
         "views",
         "sundowner"
       ],
-      "imageUrl": null
+      "imageUrl": "https://static.wixstatic.com/media/ae8ae2_b7cdd5d626614e619ed2b0c544280124~mv2.jpg"
     }
   ],
   "coffee": [],
@@ -287,49 +287,49 @@
       "name": "Balos Lagoon",
       "driveTime": "1.5 hrs + 20-min hike down",
       "vibe": "The famous turquoise lagoon. No shade — bring everything. Go early (fills by 10am). Best before 10am but fills by then — going late afternoon (after 4pm) is a viable alternative when it clears out. Book the Kissamos ferry online if taking the boat (~$45/pp, capacity-controlled in 2026). The Q2 handles the dirt road.",
-      "imageUrl": "https://images.unsplash.com/photo-1531169356216-34b7e403a91c?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Aerial_view_of_Balos_Lagoon_on_the_island_of_Crete%2C_Greece.jpg"
     },
     {
       "name": "Falassarna",
       "driveTime": "1 hr 15 min",
       "vibe": "Wide golden sand, swimmable, beach tavernas. Best combined with Balos (20 min apart). Wilder north end (Pacheia Ammos) has dunes, no sunbeds, ancient harbor ruins.",
-      "imageUrl": "https://images.unsplash.com/photo-1724190119251-bb3d5092c84f?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Greece_Crete_Chania_FalasarnaBeach_Aerial_Summer_ISymeonidis-1-S.jpg"
     },
     {
       "name": "Elafonissi",
       "driveTime": "1.5-2 hrs",
       "vibe": "Pink-tinged sand, shallow lagoon. Stunning but arrive before 9am in July or parking is a nightmare. Late afternoon (after 4-5pm) also works as crowds thin and light turns golden.",
-      "imageUrl": "https://images.unsplash.com/photo-1654163170293-aa3b529f669f?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Beach_at_Elafonisi_on_Crete_in_Greece%2CEurope.jpg"
     },
     {
       "name": "Kedrodasos",
       "driveTime": "Same drive as Elafonissi + 20-min coastal walk",
       "vibe": "Hidden beach with ancient cedar trees growing to the waterline. Natural shade, minimal crowds. No facilities. Bring water and food.",
-      "imageUrl": "https://images.unsplash.com/photo-1627241655363-ef0fa465ec55?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Sandy_beach_Kedrodasos_beach_on_Crete%2C_Greece.jpg"
     },
     {
       "name": "Seitan Limania",
       "driveTime": "30-40 min (Akrotiri)",
       "vibe": "Dramatic fjord-like inlet between limestone cliffs. Turquoise. Parking fills by 9am. Steep rocky access — not for everyone. The steep descent is significantly harder in midday heat — go early morning or late afternoon.",
-      "imageUrl": "https://images.unsplash.com/photo-1750590083153-33ff594ac0b0?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/%CE%A3%CE%B5%CE%AA%CF%84%CE%AC%CE%BD_%CE%9B%CE%B9%CE%BC%CE%AD%CE%BD%CE%B5%CF%82_%287%29.jpg"
     },
     {
       "name": "Stavros",
       "driveTime": "25-30 min (Akrotiri)",
       "vibe": "Where they filmed Zorba the Greek. Sheltered bay, dramatic cliff backdrop. Village tavernas. Zero tourist-trap energy. Easy morning beach.",
-      "imageUrl": "https://images.unsplash.com/photo-1503517822897-11f8fe090cc6?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Crystal_water_of_Stavros_beach_-_Crete%2C_Greece_-_panoramio.jpg"
     },
     {
       "name": "Marathi",
       "driveTime": "15 min",
       "vibe": "Sheltered double cove, tavernas on the sand. Easy, swimmable, low-key.",
-      "imageUrl": null
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Kato_Marathi_-_panoramio_%284%29.jpg"
     },
     {
       "name": "Loutro",
       "driveTime": "1.5-hr drive to Sfakion + 15-min ferry",
       "vibe": "Roadless fishing village — only accessible by boat or foot. White buildings, turquoise bay. Swim off rocks, eat at waterfront tavernas. ANENDYK ferry from Sfakion: ~$11, hourly in summer, first ~9:30am, last ~6:45pm.",
-      "imageUrl": "https://images.unsplash.com/photo-1727905503127-b45b37824761?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Loutro_before_sunset%2C_076442.jpg"
     }
   ],
   "dayTrips": [
@@ -337,37 +337,37 @@
       "name": "Balos + Falassarna",
       "driveTime": "Full day",
       "highlights": "Lagoon morning, beach afternoon. Pack water/sunscreen.",
-      "imageUrl": "https://images.unsplash.com/photo-1531169356216-34b7e403a91c?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Aerial_view_of_Balos_Lagoon_on_the_island_of_Crete%2C_Greece.jpg"
     },
     {
       "name": "South coast: Sfakion + Loutro",
       "driveTime": "Full day",
       "highlights": "Drive 1.5 hrs south through White Mountains (the descent from Imbros is Crete's most dramatic road). Ferry to roadless Loutro. Swim, eat, do nothing.",
-      "imageUrl": "https://images.unsplash.com/photo-1727905503127-b45b37824761?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Loutro_before_sunset%2C_076450.jpg"
     },
     {
       "name": "Dounias + Theriso Gorge",
       "driveTime": "Half day",
       "highlights": "Drive south through the stunning Theriso Gorge to Drakona village (~1 hr). Lunch at Dounias. The gorge road itself is spectacular.",
-      "imageUrl": "https://images.unsplash.com/photo-1634678367697-aa921508357e?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/TherisoGorge.JPG"
     },
     {
       "name": "Rethymno",
       "driveTime": "1 hr east",
       "highlights": "Most intact Venetian old town in Crete. 16th-century Fortezza fortress. Avli for dinner.",
-      "imageUrl": "https://images.unsplash.com/photo-1625231432020-208fbfe585ed?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Phare_v%C3%A9nitien_de_R%C3%A9thymnon.JPG"
     },
     {
       "name": "Imbros Gorge + Sfakion",
       "driveTime": "Full day",
       "highlights": "11 km, 2.5-4 hrs, ~$6 entry. Much easier than Samaria, equally scenic. Exit at Komitades, taxi back to car (~$17). Continue to Sfakion for Loutro ferry.",
-      "imageUrl": "https://images.unsplash.com/photo-1634678367697-aa921508357e?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Imbros-Gorge.jpg"
     },
     {
       "name": "Manousakis Winery",
       "driveTime": "30 min from Chania",
       "highlights": "Western Crete's standout winery. Rhone varieties in Cretan limestone. Terroir Tasting ~$9/pp, Premium ~$17/pp. Taverna on-site. Closed Sundays. More of a detour than a destination — casual drinkers might prefer just buying bottles at a Chania wine shop.",
-      "imageUrl": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://static.wixstatic.com/media/57f3d4_8fa3e2a334a447399cf0d7c00aeb9a03~mv2_d_1482_2000_s_2.jpg"
     }
   ],
   "cookingNight": {
@@ -389,22 +389,26 @@
     {
       "winery": "Lyrarakis",
       "signature": "Dafni (herbal white), Plyto (mineral white)",
-      "notes": "Founded 1966. Rescued nearly extinct indigenous grapes. Fully organic since 2020. Buy at Chania wine shops."
+      "notes": "Founded 1966. Rescued nearly extinct indigenous grapes. Fully organic since 2020. Buy at Chania wine shops.",
+      "imageUrl": "https://www.winesofcrete.gr/wp-content/uploads/2021/06/Lyrarakis-Gallery-04.jpg"
     },
     {
       "winery": "Douloufakis",
       "signature": "Vidiano (elegant white), Liatiko (indigenous red)",
-      "notes": "Founded 1930. Clay amphora aging since 2015. Third generation."
+      "notes": "Founded 1930. Clay amphora aging since 2015. Third generation.",
+      "imageUrl": "https://media.douloufakis.wine/uploads/2026/03/Douloufakis-Winery-_Aerial-view-of-the-Dafnes-wine-region-Crete.jpg"
     },
     {
       "winery": "Manousakis",
       "signature": "Roussanne (one of Greece's best), Nostos blend",
-      "notes": "Rhone varieties in Cretan soil. Visitable, 30 min from Chania."
+      "notes": "Rhone varieties in Cretan soil. Visitable, 30 min from Chania.",
+      "imageUrl": "https://static.wixstatic.com/media/57f3d4_eb8bc87456eb4811a114775da2595720~mv2_d_2500_1667_s_2.jpg"
     },
     {
       "winery": "Dourakis",
       "signature": "Vidiano, Muscat of Spinas",
-      "notes": "Visitable, 30 min from Chania. Organic, solar-powered. Farm-to-table restaurant on-site. Tours at 12/14/17."
+      "notes": "Visitable, 30 min from Chania. Organic, solar-powered. Farm-to-table restaurant on-site. Tours at 12/14/17.",
+      "imageUrl": "https://dourakiswinery.gr/newsite/wp-content/uploads/2021/11/central_barrels.jpg"
     }
   ],
   "bookingPriorities": [

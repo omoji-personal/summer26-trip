@@ -1,18 +1,23 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Inter } from "next/font/google";
+import { Fraunces, Manrope } from "next/font/google";
 import "./globals.css";
 
-const playfair = Playfair_Display({
+// Fraunces — variable display serif with optical sizing, italic & "soft" axis.
+// For variable fonts: weight is implicit ("variable"), declared via font-variation-settings.
+const fraunces = Fraunces({
   variable: "--font-serif",
   subsets: ["latin"],
   display: "swap",
-  weight: ["400", "500", "600", "700", "800"],
+  axes: ["opsz", "SOFT"],
+  style: ["normal", "italic"],
 });
 
-const inter = Inter({
+// Manrope — grotesque sans with humanist warmth, distinct from Inter.
+const manrope = Manrope({
   variable: "--font-sans",
   subsets: ["latin"],
   display: "swap",
+  weight: ["300", "400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -29,7 +34,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${playfair.variable} ${inter.variable} h-full antialiased`}
+      className={`${fraunces.variable} ${manrope.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>

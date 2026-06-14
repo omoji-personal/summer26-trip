@@ -29,32 +29,67 @@ interface Props {
   hotels: Hotel[];
   airbnbs: Airbnb[];
   carRentals: CarRental[];
+  /** 1-indexed folio number for the destination (No. 01, 02, ...). */
+  index: number;
 }
 
 function SectionHeading({ emoji, title, count }: { emoji: string; title: string; count?: number }) {
   return (
     <>
-      <div className="flex items-center gap-2 mb-1">
-        <span className="text-xl">{emoji}</span>
-        <h3 className="font-serif text-xl md:text-2xl font-semibold text-navy">
-          {title}
-        </h3>
+      <div className="flex items-baseline justify-between gap-4 mb-3">
+        <div className="flex items-baseline gap-3 min-w-0">
+          <span
+            className="inline-flex items-center justify-center w-7 h-7 rounded-full bg-cream-dark text-base shrink-0 self-center"
+            aria-hidden="true"
+          >
+            {emoji}
+          </span>
+          <h3
+            className="font-serif text-2xl md:text-3xl font-medium text-navy leading-none truncate"
+            style={{ fontVariationSettings: '"opsz" 144, "SOFT" 50' }}
+          >
+            {title}
+          </h3>
+        </div>
         {count !== undefined && count > 0 && (
-          <span className="text-xs text-warm-gray bg-sand/40 rounded-full px-2 py-0.5 font-medium">
+          <span
+            className="font-serif italic text-warm-gray/85 text-base shrink-0"
+            style={{ fontVariationSettings: '"opsz" 60, "SOFT" 100' }}
+          >
             {count}
           </span>
         )}
       </div>
-      <div className="mt-2 mb-6 h-px bg-gradient-to-r from-sand/80 to-transparent" />
+      <div className="mb-7 h-px bg-gradient-to-r from-sand via-sand/50 to-transparent" />
     </>
   );
 }
 
-const heroTopBorder: Record<string, string> = {
-  stockholm: "border-t-4 border-t-sea",
-  paris: "border-t-4 border-t-terracotta",
-  mallorca: "border-t-4 border-t-olive",
-  crete: "border-t-4 border-t-wine",
+/* Per-destination color anchoring: top border + dot accent */
+const destinationAccent: Record<
+  string,
+  { border: string; eyebrow: string; folio: string }
+> = {
+  stockholm: {
+    border: "border-t-4 border-t-sea",
+    eyebrow: "text-sea-light",
+    folio: "text-sea-light/85",
+  },
+  paris: {
+    border: "border-t-4 border-t-terracotta",
+    eyebrow: "text-terracotta-light",
+    folio: "text-terracotta-light/85",
+  },
+  mallorca: {
+    border: "border-t-4 border-t-olive",
+    eyebrow: "text-olive-light",
+    folio: "text-olive-light/85",
+  },
+  crete: {
+    border: "border-t-4 border-t-wine",
+    eyebrow: "text-terracotta-light",
+    folio: "text-terracotta-light/85",
+  },
 };
 
 export default function DestinationSection({
@@ -63,20 +98,32 @@ export default function DestinationSection({
   hotels,
   airbnbs,
   carRentals,
+  index,
 }: Props) {
   const d = destination;
+  const accent = destinationAccent[d.id] || destinationAccent.paris;
+  const folioNum = String(index).padStart(2, "0");
 
   return (
     <section id={d.id} className="scroll-mt-20">
       {/* Hero */}
-      <div className={`relative text-white py-10 md:py-14 px-4 overflow-hidden ${heroTopBorder[d.id] || ""} ${d.heroImage ? 'min-h-[280px] md:min-h-[360px]' : 'bg-navy'}`}>
+      <div
+        className={`relative text-white py-12 md:py-16 px-4 overflow-hidden ${accent.border} ${
+          d.heroImage ? "min-h-[340px] md:min-h-[420px]" : "bg-navy"
+        }`}
+      >
         {d.heroImage ? (
           <>
-            <img src={d.heroImage} alt={d.name} className="absolute inset-0 w-full h-full object-cover" loading="lazy" />
-            <div className="absolute inset-0 bg-gradient-to-b from-navy/70 via-navy/50 to-navy/70" />
+            <img
+              src={d.heroImage}
+              alt={d.name}
+              className="absolute inset-0 w-full h-full object-cover"
+              loading="lazy"
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-navy/75 via-navy/45 to-navy/80" />
           </>
         ) : (
-          <div className="absolute inset-0 opacity-[0.03]">
+          <div className="absolute inset-0 opacity-[0.04]">
             <div
               className="absolute inset-0"
               style={{
@@ -87,58 +134,92 @@ export default function DestinationSection({
             />
           </div>
         )}
-        <div className="relative max-w-4xl mx-auto">
-          <div className="flex items-start justify-between flex-wrap gap-3">
-            <div>
-              <p className="text-terracotta-light text-sm font-medium tracking-[0.15em] uppercase mb-2">
-                {d.country} {d.emoji} &middot; {d.nights} nights
-              </p>
-              <h2 className="font-serif text-3xl md:text-5xl font-bold tracking-tight mb-3">
-                {d.name}
-                {d.region && (
-                  <span className="text-warm-gray-light text-lg md:text-2xl font-normal ml-3">
-                    {d.region}
-                  </span>
-                )}
-              </h2>
-              <p className="text-warm-gray-light text-sm md:text-base">
-                {formatDateRange(d.dates.arrive, d.dates.depart)}
-              </p>
-              {d.weather && (
-                <div className="mt-2 space-y-1">
-                  <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-warm-gray-light/80 text-xs md:text-sm">
-                    <span>
-                      ☀️ {d.weather.highF}°F / {d.weather.highC}°C highs
-                    </span>
-                    <span className="text-warm-gray-light/40">·</span>
-                    <span>
-                      {d.weather.lowF}°F / {d.weather.lowC}°C lows
-                    </span>
-                    <span className="text-warm-gray-light/40">·</span>
-                    <span>Sunset {d.weather.sunset}</span>
-                  </div>
-                  <p className="text-warm-gray-light/60 text-xs">
-                    {d.weather.conditions}
-                    {d.weather.note && (
-                      <span className="ml-1">— {d.weather.note}</span>
-                    )}
-                  </p>
-                </div>
-              )}
-            </div>
-            <div className="flex items-center gap-2 mt-1">
+
+        {/* Hairline frame */}
+        <div className="pointer-events-none absolute inset-3 md:inset-5 border border-cream/10" />
+
+        <div className="relative max-w-5xl mx-auto">
+          {/* Folio strip — Nº + country + nights, top-aligned */}
+          <div className="flex items-baseline justify-between gap-3 flex-wrap mb-6 md:mb-10">
+            <p className={`folio text-base md:text-lg ${accent.folio}`}>
+              <sup>Nº</sup>
+              {folioNum}
+              <span className="mx-2 text-cream/45 not-italic" aria-hidden="true">
+                /
+              </span>
+              <span className="not-italic eyebrow text-cream/90">
+                {d.country} {d.emoji}
+              </span>
+              <span className="mx-2 text-cream/45 not-italic" aria-hidden="true">
+                ·
+              </span>
+              <span className="not-italic eyebrow text-cream/80">
+                {d.nights} {d.nights === 1 ? "night" : "nights"}
+              </span>
+            </p>
+            <div className="flex items-center gap-1.5">
               {d.travelers.map((name) => (
                 <span
                   key={name}
-                  className="bg-white/10 text-white/90 text-xs px-2.5 py-1 rounded-full"
+                  className="bg-white/15 text-white text-[11px] tracking-wide px-2.5 py-1 rounded-full backdrop-blur-sm"
                 >
                   {name}
                 </span>
               ))}
             </div>
           </div>
+
+          {/* Title + region — asymmetric, italic flourish on region */}
+          <div className="flex items-baseline gap-4 flex-wrap leading-none">
+            <h2
+              className="font-serif text-5xl md:text-7xl lg:text-8xl font-medium tracking-tight"
+              style={{ fontVariationSettings: '"opsz" 144, "SOFT" 50' }}
+            >
+              {d.name}
+            </h2>
+            {d.region && (
+              <span
+                className="font-serif italic text-warm-gray-light text-xl md:text-3xl font-normal"
+                style={{ fontVariationSettings: '"opsz" 144, "SOFT" 100' }}
+              >
+                {d.region}
+              </span>
+            )}
+          </div>
+
+          {/* Date + weather meta row */}
+          <div className="mt-5 flex flex-wrap items-center gap-x-4 gap-y-1 text-warm-gray-light text-sm">
+            <span className="eyebrow text-[0.65rem] text-cream/90">
+              {formatDateRange(d.dates.arrive, d.dates.depart)}
+            </span>
+            {d.weather && (
+              <>
+                <span className="text-cream/40" aria-hidden="true">·</span>
+                <span className="text-xs md:text-sm">
+                  ☀ {d.weather.highF}°F / {d.weather.highC}°C
+                </span>
+                <span className="text-cream/40" aria-hidden="true">·</span>
+                <span className="text-xs md:text-sm">
+                  Sunset {d.weather.sunset}
+                </span>
+              </>
+            )}
+          </div>
+          {d.weather && (
+            <p className="mt-2 text-warm-gray-light/80 text-xs">
+              {d.weather.conditions}
+              {d.weather.note && (
+                <span className="ml-1.5 italic">— {d.weather.note}</span>
+              )}
+            </p>
+          )}
+
+          {/* Vibe — italic serif pullquote */}
           {d.vibe && (
-            <p className="mt-5 text-warm-gray-light/80 text-sm md:text-base leading-relaxed max-w-2xl italic">
+            <p
+              className="mt-7 md:mt-9 text-warm-gray-light text-base md:text-lg leading-relaxed max-w-2xl font-serif italic"
+              style={{ fontVariationSettings: '"opsz" 60, "SOFT" 100' }}
+            >
               {d.vibe}
             </p>
           )}
@@ -300,8 +381,12 @@ export default function DestinationSection({
         )}
       </div>
 
-      {/* Destination divider */}
-      <div className="section-divider mx-4" />
+      {/* Destination divider — fleuron ornament */}
+      <div className="section-divider mx-4 my-6">
+        <span className="fleuron" aria-hidden="true">
+          ✦ ✦ ✦
+        </span>
+      </div>
     </section>
   );
 }

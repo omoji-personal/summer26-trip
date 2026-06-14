@@ -6,28 +6,45 @@ export default function BookingPriorities({
   priorities: BookingPriority[];
 }) {
   return (
-    <div className="bg-terracotta/5 border border-terracotta/20 rounded-xl p-5 md:p-6">
-      <div className="flex items-center gap-2 mb-4">
-        <span className="text-xl">📞</span>
-        <h3 className="font-serif text-lg font-semibold text-terracotta-dark">
-          Book Now
+    <div className="bg-terracotta/5 border border-terracotta/25 rounded-xl p-5 md:p-7">
+      <div className="flex items-baseline gap-3 mb-5">
+        <span
+          aria-hidden="true"
+          className="font-serif italic text-terracotta text-base shrink-0"
+          style={{ fontVariationSettings: '"opsz" 60, "SOFT" 100' }}
+        >
+          ✎
+        </span>
+        <h3
+          className="font-serif text-lg md:text-xl font-medium text-terracotta-dark leading-tight"
+          style={{ fontVariationSettings: '"opsz" 60, "SOFT" 50' }}
+        >
+          Still to book
         </h3>
       </div>
-      <div className="space-y-3">
+      <ol className="space-y-4">
         {priorities.map((p, i) => (
-          <div key={i} className="flex items-start gap-3 text-sm">
-            <span className="w-5 h-5 rounded-full bg-terracotta text-white text-xs flex items-center justify-center flex-shrink-0 mt-0.5 font-medium">
-              {i + 1}
+          <li key={i} className="flex items-start gap-3.5">
+            <span
+              aria-hidden="true"
+              className="folio text-terracotta/85 text-sm leading-none mt-1 shrink-0 w-6"
+            >
+              {String(i + 1).padStart(2, "0")}
             </span>
-            <div>
-              <span className="font-semibold text-navy">{p.restaurant}</span>
-              <span className="text-warm-gray mx-1.5">&mdash;</span>
-              <span className="text-warm-gray">{p.how}</span>
-              <p className="text-xs text-terracotta/80 mt-0.5">{p.why}</p>
+            <div className="flex-1 min-w-0">
+              <p className="font-serif text-base text-navy font-medium leading-snug">
+                {p.restaurant}
+              </p>
+              <p className="text-sm text-navy/85 mt-0.5">
+                <span className="text-warm-gray">{p.how}</span>
+              </p>
+              <p className="text-xs text-terracotta-dark/85 mt-1 italic">
+                {p.why}
+              </p>
             </div>
-          </div>
+          </li>
         ))}
-      </div>
+      </ol>
     </div>
   );
 }

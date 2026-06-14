@@ -59,7 +59,7 @@
         "art",
         "monet"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1756239502396-5d30e935cf2d?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Mus%C3%A9e_de_L%27Orangerie_Water_Lilies_Room.jpg"
     },
     {
       "name": "Musee de la Chasse et de la Nature",
@@ -68,7 +68,7 @@
         "museum",
         "hidden-gem"
       ],
-      "imageUrl": null
+      "imageUrl": "https://www.chassenature.org/storage/407/L1970035_email.jpg"
     },
     {
       "name": "Palais Royal garden",
@@ -78,7 +78,7 @@
         "architecture",
         "free"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1657431135952-54321c96fc8c?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Palais_Royal_Les_Deux_Plateaux.jpg"
     },
     {
       "name": "Marché d'Aligre",
@@ -88,7 +88,7 @@
         "food",
         "authentic"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/March%C3%A9_Beauvau_int%C3%A9rieur.jpg"
     },
     {
       "name": "Coulée Verte / Promenade Plantée",
@@ -98,7 +98,7 @@
         "park",
         "architecture"
       ],
-      "imageUrl": null
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Promenade_plant%C3%A9e%2C_Paris_August_2009_%2810%29.jpg"
     },
     {
       "name": "Marché des Enfants Rouges",
@@ -108,7 +108,7 @@
         "food",
         "historic"
       ],
-      "imageUrl": null
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/March%C3%A9_des_Enfants-Rouges%2C_Paris_July_2014.jpg"
     },
     {
       "name": "Canal Saint-Martin to Belleville",
@@ -118,10 +118,28 @@
         "street-art",
         "culture"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=800&h=500&q=80"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Canal_Saint-Martin_Passerelle_de_la_Grange-aux-Belles_001.JPG"
     }
   ],
   "restaurants": [
+    {
+      "name": "Allard",
+      "location": "Saint-Germain (41 Rue Saint-André des Arts)",
+      "vibe": "Michelin-listed Saint-Germain bistro opened in 1932, restored by Alain Ducasse in 2013. Zinc bar, ceramic-tile floor. À la carte, no tasting marathon — duck à l'orange is the historical reason. The Wednesday dinner stop on the one-day Paris itinerary.",
+      "price": "~€60-90/pp",
+      "bookRequired": true,
+      "bookHow": "restaurant-allard.fr — book 4-6 weeks ahead",
+      "confirmed": true,
+      "confirmation": "Wed Jun 24 · 7:30 PM · 4 pax · à la carte",
+      "tags": [
+        "bistro",
+        "classic-french",
+        "ducasse",
+        "historic",
+        "special-dinner"
+      ],
+      "imageUrl": "https://magazine.bellesdemeures.com/sites/default/files/edito_migrate/restaurant_allard.png"
+    },
     {
       "name": "Bouillon Julien",
       "vibe": "1906 Art Nouveau room — ornate mirrors, stained glass, plasterwork. Classic French comfort food at honest prices. Parents will gasp at the room.",
@@ -146,7 +164,7 @@
         "classic",
         "locals-favorite"
       ],
-      "imageUrl": null
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Bistrot_Paul_Bert%2C_6_May_2008%2C_11th_Arrondissement%2C_Paris.jpg"
     },
     {
       "name": "Le Servan",
@@ -160,7 +178,7 @@
         "locals-favorite",
         "special-dinner"
       ],
-      "imageUrl": null
+      "imageUrl": "https://www.theworlds50best.com/discovery/filestore/jpg/4U3B0172.jpg"
     },
     {
       "name": "Le Café de l'Usine",
@@ -174,7 +192,7 @@
         "value",
         "locals-favorite"
       ],
-      "imageUrl": null
+      "imageUrl": "https://media.timeout.com/images/106188226/1920/1080/image.jpg"
     },
     {
       "name": "Frenchie Bar à Vins",
@@ -188,7 +206,7 @@
         "natural-wine",
         "locals-favorite"
       ],
-      "imageUrl": null
+      "imageUrl": "https://www.doitinparis.com/files/2018/bars-restos/04/frenchie/frenchie-bar-vin.jpg"
     },
     {
       "name": "Verjus Wine Bar",
@@ -200,7 +218,7 @@
         "wine-bar",
         "farm-to-table"
       ],
-      "imageUrl": null
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/59d4c7672278e78c2beb5c7b/1507197331622-95LRJ0XJ4RR90G0LY3NY/verjuswinebar.jpg?format=2500w"
     },
     {
       "name": "Bistrot des Tournelles",
@@ -214,7 +232,7 @@
         "natural-wine",
         "locals-favorite"
       ],
-      "imageUrl": null
+      "imageUrl": "https://cdn.lefooding.com/medias/2025/09/75004-Bistrot-des-Tournelles.jpeg"
     },
     {
       "name": "L'As du Fallafel",
@@ -228,7 +246,7 @@
         "cash-only",
         "locals-favorite"
       ],
-      "imageUrl": null
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/L%27As_du_Fallafel%2C_Jewish_Quarter%2C_Paris_2015.jpg"
     },
     {
       "name": "Marché des Enfants Rouges",
@@ -241,7 +259,7 @@
         "multicultural",
         "lunch"
       ],
-      "imageUrl": null
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Paris_III-March%C3%A9_des_Enfants-Rouges.jpg"
     },
     {
       "name": "Septime",
@@ -255,7 +273,7 @@
         "fine-dining",
         "special-dinner"
       ],
-      "imageUrl": null
+      "imageUrl": "https://www.theworlds50best.com/discovery/filestore/jpg/Septime-Paris-France-03.jpg"
     },
     {
       "name": "Frenchie",
@@ -267,7 +285,7 @@
         "fine-dining",
         "prix-fixe"
       ],
-      "imageUrl": null
+      "imageUrl": "https://www.frenchie-restaurant.com/wp-content/uploads/2026/01/Frenchie-%40-RUE-DU-NIL-%C2%A9-Offside_Agathe-Ingrand-172-scaled.jpg"
     }
   ],
   "bars": [
@@ -289,7 +307,7 @@
         "historic",
         "luxury"
       ],
-      "imageUrl": null
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Bar_Hemingway_Ritz.jpg"
     },
     {
       "name": "Harry's New York Bar",
@@ -299,7 +317,7 @@
         "historic",
         "classic"
       ],
-      "imageUrl": null
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/HarrysNewYorkBar_Neon.JPG"
     },
     {
       "name": "La Buvette",
@@ -308,7 +326,7 @@
         "natural-wine",
         "iconic"
       ],
-      "imageUrl": null
+      "imageUrl": "https://parisbymouth.com/wp-content/uploads/2018/07/la-buvette-camille-fourmont-bar-paris-75011-travis-montague.jpg"
     },
     {
       "name": "Clown Bar",
@@ -318,7 +336,7 @@
         "art-nouveau",
         "historic"
       ],
-      "imageUrl": null
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Le_Clown-Bar_%28int%C3%A9rieur%29.jpg"
     },
     {
       "name": "Aux Deux Amis",
@@ -328,7 +346,7 @@
         "classic",
         "lively"
       ],
-      "imageUrl": null
+      "imageUrl": "https://parisbymouth.com/wp-content/uploads/2017/07/DSC05275.jpg"
     }
   ],
   "coffee": [],
